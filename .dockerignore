@@ -1,0 +1,8 @@
+.git
+.env
+.env.*
+work
+outputs
+__pycache__
+*.pyc
+README.md
