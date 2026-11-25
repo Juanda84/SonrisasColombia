@@ -13,13 +13,15 @@ class Page(HTMLParser):
         self.refs = []
         self.h1 = 0
         self.inputs = 0
+        self.sliders = 0
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if 'id' in attrs:
             assert attrs['id'] not in self.ids, 'Duplicate ID: '+attrs['id']
             self.ids.add(attrs['id'])
         self.h1 += tag == 'h1'
-        self.inputs += tag == 'input'
+        self.inputs += tag == 'input' and attrs.get('type') == 'number'
+        self.sliders += tag == 'input' and attrs.get('type') == 'range'
         if tag == 'img':
             assert 'alt' in attrs and 'width' in attrs and 'height' in attrs
         for key in ['src','href']:
@@ -28,14 +30,16 @@ class Page(HTMLParser):
         for item in attrs.get('srcset','').split(','):
             if item.strip(): self.refs.append(item.strip().split()[0])
 
-data = json.loads((ROOT/'src/content.json').read_text(encoding='utf-8'))
-assert set(data['en']) == set(data['es']), 'Missing translation keys'
+for source in ['content.json', 'editorial.json']:
+    data = json.loads((ROOT/'src'/source).read_text(encoding='utf-8'))
+    assert set(data['en']) == set(data['es']), 'Missing translation keys: '+source
 for route in ['index.html','es/index.html']:
     page = Page()
     html = (SITE/route).read_text(encoding='utf-8')
     page.feed(html)
     assert page.h1 == 1
     assert page.inputs == 5
+    assert page.sliders == 2
     for ref in page.refs:
         if ref.startswith('#'): assert ref[1:] in page.ids, ref
         elif ref.startswith('/'): assert (SITE/ref.lstrip('/')).exists(), ref

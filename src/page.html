@@ -3,23 +3,68 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>$title</title><meta name="description" content="$description"><meta name="robots" content="$robots"><meta name="theme-color" content="#080808"><meta property="og:type" content="website"><meta property="og:title" content="$title"><meta property="og:description" content="$description"><meta property="og:site_name" content="Sonrisas Colombia"><meta name="twitter:card" content="summary_large_image">$seo
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="preload" href="/assets/fonts/bodoni-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/assets/style.css"><script defer src="/assets/config.js"></script><script defer src="/assets/app.js"></script>
+<link rel="stylesheet" href="/assets/experience.css">
+<link rel="stylesheet" href="/assets/sonrisas-comparison.css">
+<link rel="stylesheet" href="/assets/signature.css">
+<script defer src="/assets/sonrisas-comparison.js"></script>
 </head><body>
 <a class="skip-link" href="#main">$skip</a><div class="scroll-progress" aria-hidden="true"></div>
-<header class="header"><div class="header-inner"><a class="brand" href="$home" aria-label="Sonrisas Colombia"><img src="/assets/logo-onix.webp" width="180" height="120" alt="Sonrisas Colombia"></a><nav id="navigation" aria-label="$menu">$nav</nav><div class="header-actions"><a class="language" data-language href="$otherUrl" aria-label="$other">$other</a>$shortButton<button class="menu-toggle" id="menu-toggle" aria-controls="navigation" aria-expanded="false"><span></span><span></span><span class="sr-only">$menu</span></button></div></div></header>
+<header class="header"><div class="header-inner"><a class="brand" href="$home" aria-label="Sonrisas Colombia"><img src="/assets/logo-onix.webp" width="180" height="120" alt="Sonrisas Colombia"></a><nav id="navigation" aria-label="$menu">$nav</nav><div class="header-actions"><a class="language" data-language href="$otherUrl" lang="$otherLocale" hreflang="$otherLocale">$other</a>$shortButton<button class="menu-toggle" id="menu-toggle" aria-controls="navigation" aria-expanded="false"><span></span><span></span><span class="sr-only">$menu</span></button></div></div></header>
 <main id="main">
-<section class="hero" aria-labelledby="hero-title"><div class="hero-photo"><picture><source type="image/avif" srcset="/assets/editorial-smile-800.avif 800w, /assets/editorial-smile.avif 1536w"><img src="/assets/editorial-smile.webp" srcset="/assets/editorial-smile-800.webp 800w, /assets/editorial-smile.webp 1536w" sizes="(max-width: 760px) 100vw, 75vw" width="1536" height="1024" alt="$imageAlt" fetchpriority="high"></picture></div><div class="hero-shade"></div><div class="wrap hero-content"><p class="eyebrow">$eyebrow</p><h1 id="hero-title">$hero<br><em>$heroEm</em></h1><p class="hero-intro">$intro</p><div class="hero-actions">$ctaButton<a class="quiet-link" href="#philosophy">$secondary</a></div></div><div class="hero-bottom wrap"><span>$heroNote</span><span class="hero-location">COLOMBIA</span></div></section>
-<div class="promise-strip">$strip</div>
-<section class="section philosophy paper" id="philosophy"><div class="wrap"><p class="eyebrow">$philosophyLabel</p><div class="philosophy-grid"><h2>$philosophy<br><em>$philosophyEm</em></h2><div><p>$philosophyCopy</p><a class="text-button" href="#treatments">$navTitle</a></div></div></div></section>
-<section class="section treatments paper" id="treatments"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">$treatmentLabel</p><h2>$treatmentTitle</h2></div><p>$treatmentIntro</p></div><div class="treatment-list">$treatments</div><details class="material-comparison"><summary><span>$compareTitle</span><span aria-hidden="true">+</span></summary><p>$compareCopy</p><div class="table-scroll" role="region" aria-label="$compareTitle" tabindex="0"><table><thead><tr>$compareHead</tr></thead><tbody>$compareBody</tbody></table></div></details></div></section>
-<section class="editorial"><div class="editorial-photo"><img src="/assets/editorial-smile-800.webp" alt="$imageAlt" width="800" height="533" loading="lazy"></div><div class="editorial-copy"><p class="eyebrow">SONRISAS COLOMBIA</p><h2>$galleryTitle</h2><p>$galleryText</p>$ctaButton</div></section>
-<section class="section investment" id="investment"><div class="wrap investment-grid"><div class="investment-copy"><p class="eyebrow">$savingsLabel</p><h2>$savingsTitle</h2><p>$savingsCopy</p><div class="investment-line" aria-hidden="true"></div><p class="small-copy">$calcNote</p></div><div class="calculator"><div class="calculator-top"><h3>$calculatorTitle</h3><span id="currency">USD</span></div><p>$calculatorIntro</p><form id="calculator" novalidate><div class="cost-fields">$fields</div><div class="result" aria-live="polite" aria-atomic="true"><p id="result-label">$savings</p><strong id="result-value">—</strong><p id="result-note">$neutral</p></div><div class="chart" id="cost-chart" hidden><div class="chart-row"><span>$homeLabel</span><strong id="home-total"></strong><div class="chart-track"><div id="home-bar"></div></div></div><div class="chart-row gold"><span>$total</span><strong id="colombia-total"></strong><div class="chart-track"><div id="colombia-bar"></div></div></div></div><button class="text-button reset" type="reset">$reset</button></form><div class="calc-cta">$ctaButton</div></div></div></section>
-<section class="section team paper" id="team"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">$teamLabel</p><h2>$teamTitle</h2></div><p>$teamCopy</p></div><div class="doctors">$doctors</div></div></section>
-<section class="section journey paper" id="journey"><div class="wrap journey-grid"><div class="journey-intro"><p class="eyebrow">$journeyLabel</p><h2>$journeyTitle</h2><p>$journeyCopy</p>$ctaButton</div><ol class="journey-steps">$steps</ol></div></section>
-<section class="destination"><picture><source type="image/avif" srcset="/assets/colombia-800.avif 800w, /assets/colombia.avif 1536w"><img src="/assets/colombia.webp" srcset="/assets/colombia-800.webp 800w, /assets/colombia.webp 1536w" sizes="100vw" width="1536" height="1024" alt="$travelAlt" loading="lazy"></picture><div class="destination-shade"></div><div class="wrap destination-copy"><p class="eyebrow">$colombiaLabel</p><h2>$colombiaTitle</h2><p>$colombiaCopy</p><p class="small-copy">$travelNote</p></div></section>
+<section class="signature-hero" aria-labelledby="hero-title">
+  <div class="wrap signature-layout">
+    <div class="signature-copy">
+      <p class="eyebrow">$eyebrow</p>
+      <h1 id="hero-title">$hero<br><em>$heroEm</em></h1>
+      <p class="signature-intro">$intro</p>
+      <div class="signature-actions">$ctaButton<a class="quiet-link" href="#investment">$heroSecondary</a></div>
+    </div>
+    <div class="signature-visual">
+      <div class="signature-visual-head"><span>$heroVisualTitle</span><span>$heroVisualHint</span></div>
+      $heroComparison
+    </div>
+  </div>
+  <nav class="wrap signature-flow" aria-label="$menu">$flowLinks</nav>
+</section>
+<section class="section paper smile-results" id="results" aria-labelledby="results-title">
+  <div class="wrap results-layout">
+    <div class="results-copy">
+      <p class="eyebrow">$resultsLabel</p><h2 id="results-title">$resultsTitle</h2>
+      <p>$resultsCopy</p><a class="text-button" href="#treatments">$secondary</a>
+    </div>
+    <div class="results-visual"><p>$resultsExample</p>$galleryComparison</div>
+  </div>
+</section>
+<section class="section treatments paper" id="treatments" aria-labelledby="treatments-title">
+  <div class="wrap">
+    <div class="section-heading"><div><p class="eyebrow">$treatmentLabel</p><h2 id="treatments-title">$treatmentTitle</h2></div><p>$treatmentIntro</p></div>
+    <div class="treatment-studio">
+      <div class="studio-tabs" id="studio-tabs" aria-labelledby="treatments-title" hidden>$studioTabs</div>
+      <div class="studio-panels">$treatments</div>
+    </div>
+    <details class="material-comparison"><summary><span>$compareTitle</span><span aria-hidden="true">+</span></summary><p>$compareCopy</p><div class="table-scroll" role="region" aria-label="$compareTitle" tabindex="0"><table><thead><tr>$compareHead</tr></thead><tbody>$compareBody</tbody></table></div></details>
+  </div>
+</section>
+<section class="section investment" id="investment"><div class="wrap investment-grid"><div class="investment-copy"><p class="eyebrow">$savingsLabel</p><h2>$savingsTitle</h2><p>$savingsCopy</p><div class="investment-line" aria-hidden="true"></div><p class="small-copy">$calcNote</p></div><div class="calculator"><div class="calculator-top"><h3>$calculatorTitle</h3><span id="currency">USD</span></div><p id="example-note">$exampleNote</p><form id="calculator" novalidate><div class="cost-fields">$fields</div><div class="result" aria-live="polite" aria-atomic="true"><p id="result-label">$savings</p><strong id="result-value">—</strong><p id="result-note">$neutral</p></div><div class="chart" id="cost-chart" hidden><div class="chart-row"><span>$homeLabel</span><strong id="home-total"></strong><div class="chart-track"><div id="home-bar"></div></div></div><div class="chart-row gold"><span>$total</span><strong id="colombia-total"></strong><div class="chart-track"><div id="colombia-bar"></div></div></div></div><div class="calculator-actions"><button class="text-button reset" type="reset">$reset</button><button class="text-button reset" type="button" data-load-example>$useExample</button></div></form><div class="calc-cta">$ctaButton</div></div></div></section>
+<section class="section team paper" id="team"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">$teamLabel</p><h2>$teamTitle</h2></div><p>$teamCopy</p></div><div class="team-editorial">$doctors</div></div></section>
+<section class="section journey paper" id="journey"><div class="wrap journey-grid"><div class="journey-intro"><p class="eyebrow">$journeyLabel</p><h2>$journeyTitle</h2><p>$journeyCopy</p>$ctaButton</div><div class="journey-route">$steps</div></div></section>
+<section class="section recommendations paper" aria-labelledby="recommendations-title">
+  <div class="wrap">
+    <div class="section-heading"><h2 id="recommendations-title">$recsTitle</h2><p>$recsIntro</p></div>
+    <ul class="recommendation-list">$recs</ul>
+  </div>
+</section>
+<section class="destination"><picture><source type="image/avif" srcset="/assets/colombia-800.avif 800w, /assets/colombia.avif 1536w" sizes="100vw"><img src="/assets/colombia.webp" srcset="/assets/colombia-800.webp 800w, /assets/colombia.webp 1536w" sizes="100vw" width="1536" height="1024" alt="$travelAlt" loading="lazy"></picture><div class="destination-shade"></div><div class="wrap destination-copy"><p class="eyebrow">$colombiaLabel</p><h2>$colombiaTitle</h2><p>$colombiaCopy</p></div></section>
+<section class="section story-section" aria-labelledby="stories-title">
+  <div class="wrap">
+    <div class="section-heading"><h2 id="stories-title">$storiesTitle</h2><p>$storiesIntro</p></div>
+    <div class="story-grid">$stories</div>
+  </div>
+</section>
 <section class="section faq paper" id="faq"><div class="wrap faq-grid"><div><p class="eyebrow">$faqLabel</p><h2>$faqTitle</h2></div><div class="faq-list">$faqs</div></div></section>
 <section class="section closing" id="contact"><div class="wrap"><p class="eyebrow">$endLabel</p><h2>$endTitle</h2><p>$endCopy</p>$ctaButton<div class="closing-mark" aria-hidden="true">SC</div></div></section>
 </main>
-<footer><div class="wrap footer-main"><a class="brand" href="$home"><img src="/assets/logo-onix.webp" width="180" height="120" alt="Sonrisas Colombia"></a><p>$footerLine</p><nav aria-label="$menu">$nav</nav></div><div class="wrap footer-bottom"><span>© $year $copyright</span><div><button class="plain-button" data-privacy>$privacy</button><a href="#faq">FAQ</a><a data-language href="$otherUrl">$other</a></div></div></footer>
+<footer><div class="wrap footer-main"><a class="brand" href="$home"><img src="/assets/logo-onix.webp" width="180" height="120" alt="Sonrisas Colombia"></a><p>$footerLine</p><nav aria-label="$menu">$nav</nav></div><div class="wrap footer-bottom"><span>© $year $copyright</span><div><button class="plain-button" data-privacy>$privacy</button><a data-language href="$otherUrl" lang="$otherLocale" hreflang="$otherLocale">$other</a></div></div></footer>
 <button class="floating-contact" data-contact aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12 7.7L3 21l1.6-5.4A8.5 8.5 0 1 1 20.5 11.7Z"/><path d="m8.5 7.7 1.8 2-1 1.2c.7 1.6 1.9 2.8 3.6 3.4l1.1-1 2.1 1.4c-.3 2.4-2.6 2-4.6 1-2.7-1.4-5.7-5.3-3-8Z"/></svg><span>WhatsApp</span></button>
 <dialog id="contact-dialog" aria-labelledby="contact-dialog-title"><button class="dialog-close" data-close aria-label="$close">×</button><p class="eyebrow">SONRISAS COLOMBIA</p><h2 id="contact-dialog-title">$contactTitle</h2><p>$contactUnavailable</p><button class="button" data-close>$close</button></dialog>
 <dialog id="privacy-dialog" aria-labelledby="privacy-dialog-title"><button class="dialog-close" data-close aria-label="$close">×</button><p class="eyebrow">SONRISAS COLOMBIA</p><h2 id="privacy-dialog-title">$privacyTitle</h2><p>$privacyText</p><p>$privacyMore</p><p class="privacy-state">$essential</p><div class="dialog-actions"><button class="button" data-consent="essential">$accept</button><button class="text-button" data-consent="rejected">$reject</button></div></dialog>

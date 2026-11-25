@@ -1,0 +1,174 @@
+{
+  "es": {
+    "recommendations": {
+      "title": "Tres cosas antes de viajar",
+      "intro": "Lleva estas preguntas a tu valoración virtual para preparar la visita con más claridad.",
+      "items": [
+        {
+          "title": "Aclara el alcance y el precio",
+          "text": "Pide un presupuesto desglosado. Pregunta qué incluye, qué podría cambiar tras la valoración presencial y cómo se cotizan los controles."
+        },
+        {
+          "title": "Confirma las fechas antes de reservar",
+          "text": "Consulta cuántas citas podrían hacer falta y qué margen conviene dejar entre ellas. Organiza tu vuelo y alojamiento una vez tengas una agenda coordinada."
+        },
+        {
+          "title": "Planea el seguimiento al volver",
+          "text": "Pregunta a quién contactar si surgen dudas después del viaje, qué seguimiento se puede hacer a distancia y cuándo podrías necesitar una visita presencial."
+        }
+      ]
+    },
+    "stories": {
+      "title": "Reseñas de ejemplo",
+      "intro": "Textos ficticios que muestran cómo podrían presentarse las reseñas.",
+      "items": [
+        {
+          "title": "Presupuesto y viaje",
+          "quote": "La primera conversación me ayudó a ordenar mis preguntas sobre el presupuesto y los gastos del viaje.",
+          "caption": "Reseña ficticia · Puerto Rico"
+        },
+        {
+          "title": "Opciones de tratamiento",
+          "quote": "Pude hablar de lo que quería cambiar y entendí qué se puede conversar por video y qué se revisa en persona.",
+          "caption": "Reseña ficticia · Estados Unidos"
+        }
+      ]
+    },
+    "doctorDetails": {
+      "vanessa": {
+        "text": "Vanessa Pulgarin se enfoca en diseño de sonrisa y estética dental. Su área de trabajo permite conversar sobre la forma, el color y las proporciones que quieres revisar, y explorar cuándo considerar resina o porcelana.",
+        "topics": [
+          "Diseño de sonrisa",
+          "Resina y porcelana"
+        ]
+      },
+      "katherine": {
+        "text": "Katherine Peña es ortodoncista. Su campo abarca la alineación de los dientes y la mordida. Con ella puedes conversar sobre qué se revisa en una valoración, qué opciones podrían considerarse y cómo se coordinaría el seguimiento.",
+        "topics": [
+          "Alineación y mordida",
+          "Valoración ortodóncica"
+        ]
+      }
+    },
+    "nav": [
+      "Comparador",
+      "Tratamientos",
+      "Ahorro",
+      "Equipo",
+      "Tu viaje",
+      "Preguntas"
+    ],
+    "eyebrow": "PARA PUERTO RICO Y ESTADOS UNIDOS",
+    "hero": "Diseña tu sonrisa",
+    "heroEm": "en Colombia.",
+    "intro": "Explora resina, porcelana y ortodoncia con una valoración virtual inicial gratuita. Compara el costo del tratamiento y del viaje antes de decidir.",
+    "secondary": "Explorar tratamientos",
+    "heroSecondary": "Calcular mi presupuesto",
+    "heroVisualTitle": "Forma y proporción",
+    "heroVisualHint": "Desliza para ver el cambio simulado",
+    "resultsLabel": "DISEÑO DE SONRISA",
+    "resultsTitle": "Los detalles cambian\nla expresión.",
+    "resultsCopy": "Este ejemplo muestra cómo la forma y la longitud de los dientes pueden cambiar la percepción de una sonrisa. En la valoración puedes hablar de lo que te gustaría explorar y de qué opciones merecen una evaluación presencial.",
+    "resultsExample": "Contorno y simetría",
+    "exampleNote": "Ejemplo editable. Las cifras son ficticias y no corresponden a tarifas.",
+    "useExample": "Cargar cifras de ejemplo",
+    "teamTitle": "Conoce a las doctoras.",
+    "teamCopy": "Diseño de sonrisa y ortodoncia, dos áreas complementarias para entender tus opciones.",
+    "portraitAlts": [
+      "Retrato de Katherine Peña apoyada en un sillón dental",
+      "Katherine Peña de pie junto a un sillón dental",
+      "Retrato de Katherine Peña con los brazos cruzados"
+    ],
+    "flow": [
+      "Valoración virtual",
+      "Explora los tratamientos",
+      "Planea tu viaje"
+    ]
+  },
+  "en": {
+    "recommendations": {
+      "title": "Three things before you travel",
+      "intro": "Bring these questions to your virtual consultation so you can plan your visit with more clarity.",
+      "items": [
+        {
+          "title": "Clarify the scope and cost",
+          "text": "Ask for an itemized estimate. Find out what it covers, what could change after an in-person assessment, and how follow-up appointments are priced."
+        },
+        {
+          "title": "Confirm dates before you book",
+          "text": "Ask how many appointments you may need and how much time to leave between them. Arrange your flights and lodging once the schedule is coordinated."
+        },
+        {
+          "title": "Plan for follow-up at home",
+          "text": "Ask whom to contact with questions after your trip, what can be handled remotely, and when you might need an in-person visit."
+        }
+      ]
+    },
+    "stories": {
+      "title": "Sample reviews",
+      "intro": "Fictional examples of how reviews could appear here.",
+      "items": [
+        {
+          "title": "Budget and travel",
+          "quote": "The first conversation helped me organize my questions about the treatment estimate and travel costs.",
+          "caption": "Fictional review · Puerto Rico"
+        },
+        {
+          "title": "Treatment options",
+          "quote": "I could explain what I wanted to change and see what could be discussed by video and what would need an in-person assessment.",
+          "caption": "Fictional review · United States"
+        }
+      ]
+    },
+    "doctorDetails": {
+      "vanessa": {
+        "text": "Vanessa Pulgarin focuses on smile design and dental aesthetics. You can discuss the shape, shade and proportions you’d like to explore and ask when composite or porcelain might be considered.",
+        "topics": [
+          "Smile design",
+          "Composite and porcelain"
+        ]
+      },
+      "katherine": {
+        "text": "Katherine Peña is an orthodontist. Her field covers tooth alignment and bite. You can ask what an assessment looks at, what options might be considered, and how follow-up would be coordinated.",
+        "topics": [
+          "Alignment and bite",
+          "Orthodontic assessment"
+        ]
+      }
+    },
+    "nav": [
+      "Smile comparison",
+      "Treatments",
+      "Costs",
+      "Our doctors",
+      "Your trip",
+      "FAQ"
+    ],
+    "eyebrow": "FOR PUERTO RICO AND U.S. PATIENTS",
+    "hero": "Design your smile",
+    "heroEm": "in Colombia.",
+    "intro": "Explore composite, porcelain and orthodontics with a free initial virtual consultation. Compare treatment and travel costs before you decide.",
+    "secondary": "Explore treatments",
+    "heroSecondary": "Estimate my budget",
+    "heroVisualTitle": "Shape and proportion",
+    "heroVisualHint": "Drag to reveal the simulated change",
+    "resultsLabel": "SMILE DESIGN",
+    "resultsTitle": "Small details change\nthe expression.",
+    "resultsCopy": "This example shows how the shape and length of teeth can change the way a smile looks. Your consultation is an opportunity to share what you would like to explore and discuss what needs an in-person assessment.",
+    "resultsExample": "Contour and symmetry",
+    "exampleNote": "Editable example. These fictional amounts are not treatment prices.",
+    "useExample": "Load example costs",
+    "teamTitle": "Meet your doctors.",
+    "teamCopy": "Smile design and orthodontics bring two perspectives to your treatment options.",
+    "portraitAlts": [
+      "Portrait of Katherine Peña leaning on a dental chair",
+      "Katherine Peña standing beside a dental chair",
+      "Portrait of Katherine Peña with her arms folded"
+    ],
+    "flow": [
+      "Virtual consultation",
+      "Explore treatments",
+      "Plan your trip"
+    ]
+  }
+}

@@ -1,0 +1,480 @@
+/* Editorial layout and interactive treatment explorer. */
+.header-inner {
+  height: 88px;
+}
+
+.header .brand img {
+  width: 136px;
+  height: 78px;
+}
+
+.header nav {
+  gap: clamp(15px, 2.2vw, 32px);
+}
+
+.header .language {
+  border: 1px solid #c5a46d55;
+  width: 42px;
+  min-height: 42px;
+}
+
+.hero {
+  min-height: clamp(610px, calc(100svh - 149px), 800px);
+  padding-block: 85px;
+}
+
+.hero-photo {
+  inset: 0 0 0 25%;
+}
+
+.hero-photo img {
+  object-position: 72% 45%;
+}
+
+.hero-shade {
+  background: linear-gradient(90deg, #080808 7%, #080808f7 25%, #080808a8 40%, #08080818 63%, transparent 76%),
+              linear-gradient(0deg, #0808088c, transparent 30%);
+}
+
+.hero-frame {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  inset: 22px 26px 22px max(22px, calc((100% - 1340px) / 2));
+  border: 1px solid #dfc69c4a;
+}
+
+.hero-content .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--soft);
+}
+
+.hero-content .eyebrow::before {
+  content: '';
+  inline-size: 32px;
+  block-size: 1px;
+  background: var(--gold);
+  transform-origin: left;
+  animation: open-rule .65s var(--ease) both;
+}
+
+@keyframes open-rule {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.hero-content h1 {
+  width: fit-content;
+  font-size: clamp(61px, 7.35vw, 118px);
+  line-height: .98;
+}
+
+.hero-intro {
+  max-width: 420px;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.hero-actions {
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero-actions .quiet-link {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  color: var(--paper);
+  border-color: var(--gold);
+  font-size: 13px;
+}
+
+.hero-actions .quiet-link:hover {
+  color: var(--soft);
+}
+
+.promise-strip {
+  min-height: 61px;
+  background: #15120e;
+  color: #efe5d4;
+  border-block: 1px solid #c5a46d42;
+  font-size: 13px;
+}
+
+.promise-strip span + span::before {
+  color: var(--gold);
+}
+
+.philosophy {
+  padding-block: clamp(66px, 8vw, 112px);
+}
+
+.treatments .section-heading {
+  margin-bottom: 42px;
+}
+
+.treatment-studio {
+  margin-bottom: 30px;
+}
+
+.studio-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  background: #eae4d8;
+  border: 1px solid #d9d0c1;
+}
+
+.studio-tabs[hidden],
+.studio-panel[hidden] {
+  display: none;
+}
+
+.studio-tabs button {
+  position: relative;
+  min-height: 62px;
+  padding: 10px 12px;
+  border: 0;
+  border-right: 1px solid #d9d0c1;
+  background: transparent;
+  color: #51483a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  transition: background-color .18s, color .18s;
+}
+
+.studio-tabs button:last-child {
+  border-right: 0;
+}
+
+.studio-tabs button[aria-selected="true"] {
+  color: var(--ink);
+  background: var(--paper);
+  box-shadow: inset 0 -3px #8d6a35;
+}
+
+.studio-tabs button:hover {
+  background: var(--paper);
+}
+
+.studio-tabs button:focus-visible {
+  outline-offset: -6px;
+}
+
+.studio-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  min-height: 470px;
+  background: #15110e;
+  color: var(--paper);
+}
+
+.studio-panel + .studio-panel {
+  margin-top: 18px;
+}
+
+.studio-tabs:not([hidden]) + .studio-panels .studio-panel {
+  margin-top: 0;
+}
+
+.studio-image {
+  position: relative;
+  display: block;
+  min-width: 0;
+  min-height: 100%;
+  aspect-ratio: 3 / 2;
+  background: #2b1d14;
+  overflow: hidden;
+}
+
+.studio-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.studio-copy {
+  align-self: center;
+  padding: clamp(32px, 4.1vw, 68px);
+}
+
+.studio-copy .eyebrow {
+  color: var(--soft);
+  margin-bottom: 14px;
+}
+
+.studio-copy h3 {
+  font-size: clamp(37px, 3.6vw, 56px);
+}
+
+.studio-copy > p:not(.eyebrow) {
+  margin-block: 18px;
+  color: #ded6c9;
+}
+
+.studio-copy details {
+  margin: 20px 0;
+  border-block: 1px solid #bda77f55;
+  font-size: 14px;
+}
+
+.studio-copy summary {
+  min-height: 48px;
+  font-weight: 600;
+}
+
+.studio-copy ul {
+  padding-inline-start: 20px;
+  color: #ded6c9;
+}
+
+.studio-copy li + li {
+  margin-top: 7px;
+}
+
+.studio-copy .text-button {
+  color: var(--soft);
+}
+
+.material-comparison > summary {
+  min-height: 44px;
+}
+
+.result {
+  padding: 21px 20px;
+  border: 1px solid #6f5e3d;
+  background: #201b14;
+}
+
+.result > p:last-child {
+  font-size: 13px;
+}
+
+@media (min-width: 951px) and (max-width: 1100px) {
+  .header .button-small {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 950px) {
+  html {
+    scroll-padding-top: 86px;
+  }
+
+  .header-inner {
+    height: 70px;
+    width: calc(100% - 36px);
+  }
+
+  .header .brand img {
+    width: 113px;
+    height: 64px;
+  }
+
+  .header .button-small {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header nav {
+    display: none;
+    position: absolute;
+    inset: 100% 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 12px 26px 22px;
+    border-bottom: 1px solid #5a4c35;
+    background: var(--ink);
+    font-size: 16px;
+  }
+
+  .header nav.open {
+    display: flex;
+  }
+
+  .header nav a {
+    padding: 12px 0;
+  }
+
+  .journey-intro {
+    top: 102px;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero {
+    min-height: 0;
+    padding: clamp(260px, 77vw, 430px) 0 40px;
+  }
+
+  .hero-photo {
+    inset: 0 0 auto;
+    height: clamp(370px, 108vw, 540px);
+    mask-image: linear-gradient(#000 73%, transparent 100%);
+  }
+
+  .hero-photo img {
+    object-position: 73% 32%;
+  }
+
+  .hero-shade {
+    background: linear-gradient(180deg, transparent 25%, #08080816 33%, #080808c2 50%, #080808 67%);
+  }
+
+  .hero-frame {
+    inset: 12px;
+    border-color: #d9bd9250;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(48px, 10.5vw, 74px);
+  }
+
+  .hero-content .eyebrow {
+    gap: 9px;
+  }
+
+  .hero-content .eyebrow::before {
+    inline-size: 20px;
+  }
+
+  .hero-intro {
+    font-size: 15px;
+    margin-top: 18px;
+  }
+
+  .hero-actions {
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    margin-top: 22px;
+  }
+
+  .promise-strip {
+    font-size: 12px;
+  }
+
+  .studio-tabs button {
+    min-height: 55px;
+    padding-inline: 6px;
+    font-size: 12px;
+  }
+
+  .studio-panel {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+  }
+
+  .studio-copy {
+    padding: 26px 20px 32px;
+  }
+
+  .studio-copy > p:not(.eyebrow) {
+    font-size: 15px;
+  }
+}
+
+.journey-grid:has(.journey-route) {
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  gap: clamp(2rem, 6vw, 6.25rem);
+}
+
+.journey-route {
+  min-width: 0;
+  border-top: 1px solid var(--line);
+}
+
+.journey-phase {
+  padding-block: 1.5rem 1.75rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.journey-phase > h3 {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  margin-bottom: 1.2rem;
+  color: #33291c;
+  font-size: clamp(1.65rem, 2.5vw, 2.3rem);
+}
+
+.journey-phase > h3::before {
+  width: .52rem;
+  height: .52rem;
+  flex: 0 0 auto;
+  background: #9c7540;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.journey-phase-steps {
+  display: grid;
+  gap: 1.05rem 2rem;
+  margin: 0;
+  padding-inline-start: 1.65rem;
+}
+
+.journey-phase-steps li {
+  padding-inline-start: .35rem;
+  min-width: 0;
+}
+
+.journey-phase-steps li::marker {
+  color: #75572d;
+  font-size: .8rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.journey-phase-steps h4 {
+  margin: 0;
+  font-size: .95rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.journey-phase-steps li > p {
+  margin-top: .3rem;
+  color: #5e584e;
+  font-size: .875rem;
+  line-height: 1.6;
+}
+
+.journey-phase-steps .journey-travel {
+  display: block;
+  margin-top: .6rem;
+  padding-inline-start: .65rem;
+  border-inline-start: 1px solid #ae8c54;
+  color: #5c4b31;
+  max-width: 38rem;
+}
+
+@media (min-width: 1050px) {
+  .journey-phase-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .journey-phase-steps .journey-step-travel,
+  .journey-phase-steps li:only-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .journey-grid:has(.journey-route) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.25rem;
+  }
+
+  .journey-phase {
+    padding-block: 1.25rem 1.5rem;
+  }
+}
