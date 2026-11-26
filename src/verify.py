@@ -72,8 +72,9 @@ for file in pages:
     assert page.imgs_without_alt == 0, route
     assert 20 <= len(page.title) <= 66, f'{route}: título de {len(page.title)} caracteres'
     assert len(page.meta.get('description', '')) <= 160, f'{route}: descripción muy larga'
-    assert page.meta.get('og:image', '').endswith('og-image.jpg'), route
+    assert page.meta.get('og:image', '').split('?')[0].endswith('og-image.jpg'), route
     assert page.ld and '@graph' in page.ld[0], route + ': faltan datos estructurados'
+    assert re.search(r'/assets/site\.css\?v=[0-9a-f]{10}', html) and re.search(r'/assets/site\.js\?v=[0-9a-f]{10}', html), route + ': CSS/JS sin versión (caché)'
     types = {n['@type'] for n in page.ld[0]['@graph']}
     assert {'Dentist', 'WebSite', 'WebPage', 'FAQPage'} <= types, f'{route}: {types}'
     assert 'data-calc' in html or 'carillas-' in route or 'veneers-' in route, route
@@ -82,7 +83,7 @@ for file in pages:
         if ref.startswith('#') and len(ref) > 1:
             assert ref[1:] in page.ids, route + ': falta el ancla ' + ref
         elif ref.startswith('/'):
-            target = ref.split('#')[0]
+            target = ref.split('#')[0].split('?')[0]
             ok = (SITE / target.lstrip('/')).exists() if not target.endswith('/') else (SITE / target.lstrip('/') / 'index.html').exists()
             assert ok, route + ': enlace roto ' + ref
     if not route.startswith('es/'):

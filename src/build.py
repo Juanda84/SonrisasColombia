@@ -709,12 +709,41 @@ def write_page(lang, d, P, path, title, description, sections, graph, alts, *, p
         client=json.dumps(client, ensure_ascii=False).replace('<', '\\u003c'),
         bodyAttrs=f' data-preset-city="{e(preset_city)}"' if preset_city else '',
     )
-    html = TEMPLATE.substitute(values)
+    html = bust_cache(TEMPLATE.substitute(values))
     target = SITE / path.lstrip('/') / 'index.html'
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(html, encoding='utf-8')
     return html
 
+
+import hashlib
+import re
+
+_HASHES = {}
+
+
+def asset_version(rel):
+    """Huella corta del contenido de un archivo de /assets/ (cambia solo si el archivo cambia)."""
+    if rel not in _HASHES:
+        f = SITE / rel.lstrip('/')
+        _HASHES[rel] = hashlib.md5(f.read_bytes()).hexdigest()[:10] if f.is_file() else ''
+    return _HASHES[rel]
+
+
+def bust_cache(html):
+    """Agrega ?v=<huella> a cada /assets/... para que los navegadores (incluido Safari en iPhone)
+    descarguen la versión nueva apenas cambia un archivo, sin borrar caché a mano."""
+    def repl(m):
+        rel = m.group(1)
+        v = asset_version(rel)
+        return f'{rel}?v={v}' if v else rel
+    return re.sub(r'(/assets/[A-Za-z0-9_./-]+\.(?:css|js|webp|avif|jpg|png|svg|woff2))(?![?\w])', repl, html)
+
+
+config = {'whatsapp': whatsapp, 'siteUrl': url, 'ga4': os.getenv('PUBLIC_GA4_ID', ''),
+          'metaPixel': os.getenv('PUBLIC_META_PIXEL_ID', ''), 'gtm': os.getenv('PUBLIC_GTM_ID', ''),
+          'trackingEnabled': False}
+(SITE / 'assets/config.js').write_text('window.SONRISAS = ' + json.dumps(config) + ';\n', encoding='utf-8')
 
 SITEMAP = []  # (path, alts)
 
@@ -770,10 +799,6 @@ for lang, d in CONTENT.items():
 
 # ---------------------------------------------------------------- archivos de apoyo
 
-config = {'whatsapp': whatsapp, 'siteUrl': url, 'ga4': os.getenv('PUBLIC_GA4_ID', ''),
-          'metaPixel': os.getenv('PUBLIC_META_PIXEL_ID', ''), 'gtm': os.getenv('PUBLIC_GTM_ID', ''),
-          'trackingEnabled': False}
-(SITE / 'assets/config.js').write_text('window.SONRISAS = ' + json.dumps(config) + ';\n', encoding='utf-8')
 
 AI_BOTS = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'PerplexityBot', 'Perplexity-User', 'ClaudeBot', 'Claude-SearchBot',
            'Claude-User', 'Google-Extended', 'Applebot-Extended', 'Bingbot']

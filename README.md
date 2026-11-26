@@ -63,6 +63,10 @@ Valores por defecto en `src/build.py` (se pueden cambiar con variables de entorn
 
 Todo el contenido se muestra siempre, con o sin dominio configurado.
 
+## Caché
+
+Cada referencia a `/assets/...` sale en el HTML con una huella de su contenido (`site.css?v=6ed7f7b64a`). Si un archivo cambia, cambia su URL y todos los navegadores, incluido Safari en iPhone, descargan la versión nueva. Nginx guarda esos archivos un año (`immutable`) y obliga a revisar siempre el HTML, `robots.txt`, `sitemap.xml`, `llms.txt` y `config.js` (`no-cache`). No hace falta borrar caché a mano después de publicar.
+
 ## Coolify
 
 1. Usa la raíz del repositorio con Docker Compose (`docker-compose.yml`).
