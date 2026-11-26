@@ -1,36 +1,630 @@
 {
-  "en": {
-    "treatmentImages": {"composite": "A fine brush shaping ivory-colored resin on a ceramic palette", "porcelain": "Translucent porcelain veneers arranged on a dark stone surface", "orthodontics": "A clear orthodontic aligner resting on polished stone"},
-    "journeyPhaseTitles": ["Before you travel", "In Colombia", "Back home"],
-    "locale": "en-US", "other": "ES", "otherUrl": "/es/", "title": "Sonrisas Colombia | Smile design, thoughtfully personal", "description": "Explore personalized composite veneers, porcelain veneers and orthodontics in Colombia. Start with a free virtual consultation and compare your travel budget.",
-    "nav": ["Treatments", "Cost calculator", "Our doctors", "Your journey", "FAQ"], "menu": "Menu", "close": "Close", "skip": "Skip to content", "cta": "Free virtual consultation", "shortCta": "Let's talk", "eyebrow": "COLOMBIA · SMILE DESIGN", "hero": "A smile that feels", "heroEm": "entirely you.", "intro": "Personalized smile design in Colombia. Explore composite, porcelain and orthodontic care with a free initial virtual consultation.", "secondary": "Explore treatments", "heroNote": "Thoughtfully personal. Naturally confident.", "imageAlt": "Editorial portrait of a woman smiling in warm light", "strip": ["Composite & porcelain", "Free initial virtual consultation", "For U.S. & Puerto Rico patients"],
-    "philosophyLabel": "THE ART OF A PERSONAL SMILE", "philosophy": "Beautiful is personal.", "philosophyEm": "Your care should be, too.", "philosophyCopy": "The starting point isn't a perfect smile on a screen. It's you. Your expressions, your dental health, and what makes you feel comfortable. Together, we explore a plan that makes sense for your smile.",
-    "treatmentLabel": "EXPLORE YOUR POSSIBILITIES", "treatmentTitle": "Find the approach\nthat fits your smile.", "treatmentIntro": "Explore how each option is planned, what to consider and what to discuss during your consultation.", "treatments": [
-      {"id":"composite", "name":"Composite veneers", "tag":"Shape & harmony", "text":"Explore adjustments to shape and proportion using tooth-colored composite resin, with a plan guided by your oral health and preferences.", "details":["Material applied and shaped directly on the tooth.", "Maintenance and polishing are part of ongoing care.", "Preparation, suitability and longevity depend on your individual case."]},
-      {"id":"porcelain", "name":"Porcelain veneers", "tag":"Detail & expression", "text":"Ceramic restorations individually planned around your smile. Discuss shade, proportions and preparation with your dentist before deciding.", "details":["Custom-made ceramic restorations.", "Preparation and appointments vary by clinical needs.", "Long-term care includes hygiene and professional follow-up."]},
-      {"id":"orthodontics", "name":"Orthodontics", "tag":"Alignment & balance", "text":"A considered approach to alignment and bite. Explore the options that support both function and appearance, with a plan for ongoing follow-up.", "details":["Assessment of alignment, bite and oral health.", "Treatment options and duration follow a clinical evaluation.", "International patients need a coordinated follow-up plan."]}
-    ], "detailsLabel":"What to consider", "compareTitle":"Resin or porcelain?", "compareCopy":"There is no universal best choice. The right material depends on your teeth, expectations, maintenance and clinical assessment.", "compareHeaders":["Consideration","Composite","Porcelain"], "compareRows":[["Technique","Directly shaped resin","Individually made ceramic"],["Planning","Shape, shade and oral health","Shape, shade, preparation and appointments"],["Ongoing care","Hygiene, checks and polishing as advised","Hygiene and checks as advised"],["Your decision","An individual clinical assessment","An individual clinical assessment"]],
-    "savingsLabel":"A MORE INFORMED INVESTMENT", "savingsTitle":"Your smile.\nYour numbers.", "savingsCopy":"A treatment abroad is more than a dental quote. Compare equivalent care and include the journey, so you can decide with the full picture.", "calculatorTitle":"Explore your potential savings", "calculatorIntro":"Enter your own estimates in U.S. dollars. No prices are assumed.", "fields":["Treatment at home","Treatment in Colombia","Flights","Accommodation","Other travel & follow-up costs"], "total":"Colombia + your journey", "homeLabel":"Treatment at home", "savings":"Potential savings", "extra":"Additional estimated cost", "neutral":"Enter all five amounts to compare.", "invalid":"Complete each amount with a valid number. Treatment at home must be greater than zero.", "calcNote":"Planning estimate, not a quotation or a guarantee. Compare equivalent treatments. Your final costs depend on diagnosis, your care plan and actual travel expenses.", "reset":"Clear amounts", "currency":"USD", "difference":"Difference", "percentage":"of your home treatment estimate",
-    "teamLabel":"THE PEOPLE BEHIND YOUR CARE", "teamTitle":"Two perspectives.\nOne thoughtful approach.", "teamCopy":"Get to know the professionals behind Sonrisas Colombia, and begin a conversation about what matters to you.", "doctors":[{"name":"Vanessa Pulgarin","role":"Dentist · Smile design","text":"A focus on personalized smile design and dental aesthetics.","initials":"VP"},{"name":"Katherine Peña","role":"Orthodontist","text":"A focus on alignment, bite and orthodontic care.","initials":"KP"}], "doctorPrefix":"Dr.",
-    "journeyLabel":"FROM YOUR HOME TO COLOMBIA", "journeyTitle":"A journey with\nclarity at every step.", "journeyCopy":"Start from where you are. Your initial virtual consultation helps you explore options; a definitive diagnosis and treatment decisions require an in-person clinical assessment.", "steps":[["Let's connect","Start a conversation on WhatsApp."],["Your virtual consultation","Share your goals in a free initial consultation."],["An initial assessment","Learn what information is needed to explore your options."],["Your preliminary plan","Discuss scope, estimated costs and possible appointments."],["Plan your own journey","Arrange flights and accommodation after coordinating your clinical schedule."],["Meet in Colombia","An in-person assessment confirms your diagnosis and plan."],["Your treatment","Proceed when clinically indicated and after informed agreement."],["Care beyond the appointment","Discuss maintenance, follow-up and care after returning home."]],
-    "colombiaLabel":"A NEW PERSPECTIVE", "colombiaTitle":"Your smile brings you here.\nColombia stays with you.", "colombiaCopy":"Explore a different setting for personalized dental care. Consider potential savings alongside your care needs, and discover Colombia when your clinical schedule allows.", "travelNote":"We provide dental care. Flights, accommodation and transportation are organized and paid for independently.", "travelAlt":"Golden sunlight on the historic streets of Cartagena, Colombia",
-    "faqLabel":"GOOD QUESTIONS. CLEAR ANSWERS.", "faqTitle":"Before your next chapter.", "faqs":[["How much does smile design cost?","Your estimate depends on the treatment, number of teeth and clinical needs. Start with a free initial virtual consultation to discuss your options; an in-person assessment confirms the plan."],["How much could I save?","Compare the same material and number of veneers in both quotes. The treatment difference varies with the case. Plan travel expenses separately."],["How do I choose between composite and porcelain?","Discuss your oral health, expectations, preparation, maintenance and budget with your dentist. Neither material is the right choice for everyone."],["How long should I stay in Colombia?","Your procedure and follow-up needs determine the schedule. Confirm appointments before booking flights."],["Is the virtual consultation free?","The initial virtual consultation is free. Additional examinations and treatments are quoted separately. A virtual conversation does not replace an in-person diagnosis."],["Are flights and accommodation included?","No. You organize and pay for travel, accommodation and transportation independently."],["What happens after I return home?","Agree on a follow-up plan before treatment, including who to contact and how additional visits or care would be managed."],["Is everyone a candidate?","No. Suitability depends on your oral health and clinical assessment. Another approach may be recommended."],["How do I get started?","Use the consultation button to connect with Sonrisas Colombia and request your initial virtual consultation."]],
-    "endLabel":"YOUR NEXT CHAPTER", "endTitle":"Let it begin\nwith a smile.", "endCopy":"Tell us what you have in mind. Let's explore what comes next, together.", "footerLine":"Personalized dental aesthetics.\nA Colombian perspective.", "privacy":"Privacy preferences", "legal":"Privacy", "copyright":"Sonrisas Colombia. All rights reserved.", "contactTitle":"Let's start a conversation", "contactUnavailable":"Our direct booking channel will be available soon. Please return to this page to request your initial consultation.", "contactMessage":"Hello! I would like to request a free initial virtual consultation with Sonrisas Colombia.", "privacyTitle":"Your privacy matters", "privacyText":"This website keeps calculator values in your browser and does not send them to a server. Optional analytics and advertising tools are disabled. Your language preference may be stored on this device. Opening WhatsApp takes you to an external service with its own privacy terms.", "privacyMore":"Please do not include clinical records or sensitive health information in an initial message. Ask the care team about an appropriate channel for sharing that information.", "accept":"Save preferences", "reject":"Reject optional tracking", "essential":"Essential functionality only", "galleryTitle":"A smile, in your own style.", "galleryText":"Natural expression. Considered proportions. A conversation that starts with you."
-  },
   "es": {
-    "treatmentImages": {"composite": "Pincel fino modelando resina color marfil sobre una paleta de cerámica", "porcelain": "Carillas de porcelana translúcida sobre una superficie de piedra oscura", "orthodontics": "Alineador transparente de ortodoncia sobre una superficie de piedra pulida"},
-    "journeyPhaseTitles": ["Antes de viajar", "En Colombia", "Al regresar"],
-    "locale":"es-PR", "other":"EN", "otherUrl":"/", "title":"Sonrisas Colombia | Diseño de sonrisa, pensado para ti", "description":"Explora diseño de sonrisa en resina, porcelana y ortodoncia en Colombia. Comienza con una valoración virtual gratuita y compara tu presupuesto de viaje.", "nav":["Tratamientos", "Calculadora", "Doctoras", "Tu viaje", "Preguntas frecuentes"], "menu":"Menú", "close":"Cerrar", "skip":"Ir al contenido", "cta":"Valoración virtual gratuita", "shortCta":"Conversemos", "eyebrow":"COLOMBIA · DISEÑO DE SONRISA", "hero":"Una sonrisa", "heroEm":"muy tuya.", "intro":"Diseño de sonrisa personalizado en Colombia. Explora tus opciones en resina, porcelana y ortodoncia con una valoración virtual inicial gratuita.", "secondary":"Explora los tratamientos", "heroNote":"Personal por naturaleza. Segura por elección.", "imageAlt":"Retrato editorial de una mujer sonriendo bajo una luz cálida", "strip":["Resina y porcelana","Valoración virtual inicial gratuita","Desde Puerto Rico y Estados Unidos"],
-    "philosophyLabel":"EL ARTE DE UNA SONRISA PERSONAL", "philosophy":"La belleza es personal.", "philosophyEm":"Tu atención también.", "philosophyCopy":"El punto de partida no es una sonrisa perfecta en una pantalla. Eres tú. Tus expresiones, tu salud dental y lo que te hace sentir bien. Juntos exploramos un plan que tenga sentido para tu sonrisa.", "treatmentLabel":"EXPLORA TUS POSIBILIDADES", "treatmentTitle":"Encuentra una opción\npara tu sonrisa.", "treatmentIntro":"Conoce cómo se planifica cada opción, qué cuidados implica y qué puedes conversar en tu valoración.", "treatments":[
-      {"id":"composite","name":"Diseño en resina","tag":"Forma y armonía","text":"Explora ajustes de forma y proporción con resina del color del diente, dentro de un plan guiado por tu salud oral y tus preferencias.","details":["Material aplicado y modelado directamente sobre el diente.","El mantenimiento y pulido forman parte del cuidado posterior.","Preparación, indicación y duración dependen de cada caso."]},
-      {"id":"porcelain","name":"Diseño en porcelana","tag":"Detalle y expresión","text":"Restauraciones cerámicas planificadas para tu sonrisa. Conversa sobre tono, proporciones y preparación con tu odontóloga antes de decidir.","details":["Restauraciones cerámicas elaboradas de forma individual.","La preparación y las citas varían según la necesidad clínica.","El cuidado incluye higiene y seguimiento profesional."]},
-      {"id":"orthodontics","name":"Ortodoncia","tag":"Alineación y equilibrio","text":"Una mirada a la alineación y la mordida. Explora alternativas que acompañen la función y la estética, con un plan de seguimiento continuo.","details":["Evaluación de alineación, mordida y salud oral.","Las alternativas y duración se definen mediante valoración.","Los pacientes internacionales necesitan seguimiento coordinado."]}
-    ], "detailsLabel":"Qué tener en cuenta", "compareTitle":"¿Resina o porcelana?", "compareCopy":"No existe una opción superior para todos. El material adecuado depende de tus dientes, expectativas, mantenimiento y valoración clínica.", "compareHeaders":["Aspecto","Resina","Porcelana"], "compareRows":[["Técnica","Resina modelada directamente","Cerámica elaborada individualmente"],["Planificación","Forma, tono y salud oral","Forma, tono, preparación y citas"],["Cuidado posterior","Higiene, controles y pulido según indicación","Higiene y controles según indicación"],["Tu decisión","Valoración clínica individual","Valoración clínica individual"]],
-    "savingsLabel":"UNA INVERSIÓN MÁS INFORMADA", "savingsTitle":"Tu sonrisa.\nTus números.", "savingsCopy":"Un tratamiento en el exterior es más que una cotización dental. Compara tratamientos equivalentes e incluye el viaje para decidir con el panorama completo.", "calculatorTitle":"Explora tu ahorro potencial", "calculatorIntro":"Ingresa tus estimados en dólares. No asumimos ninguna tarifa.", "fields":["Tratamiento en tu país","Tratamiento en Colombia","Vuelos","Alojamiento","Otros gastos y seguimiento"], "total":"Colombia + tu viaje", "homeLabel":"Tratamiento en tu país", "savings":"Ahorro potencial", "extra":"Costo adicional estimado", "neutral":"Completa los cinco valores para comparar.", "invalid":"Completa cada campo con un valor válido. El tratamiento en tu país debe ser mayor que cero.", "calcNote":"Estimación de planificación, no cotización ni garantía. Compara tratamientos equivalentes. El costo final depende del diagnóstico, el plan de atención y los gastos reales del viaje.", "reset":"Borrar valores", "currency":"USD", "difference":"Diferencia", "percentage":"del estimado de tratamiento en tu país",
-    "teamLabel":"LAS PERSONAS DETRÁS DE TU ATENCIÓN", "teamTitle":"Dos perspectivas.\nUna atención personal.", "teamCopy":"Conoce a las profesionales de Sonrisas Colombia y comienza una conversación sobre lo que importa para ti.", "doctors":[{"name":"Vanessa Pulgarin","role":"Odontóloga · Diseño de sonrisa","text":"Enfoque en diseño de sonrisa personalizado y estética dental.","initials":"VP"},{"name":"Katherine Peña","role":"Ortodoncista","text":"Enfoque en alineación, mordida y atención ortodóncica.","initials":"KP"}], "doctorPrefix":"Dra.",
-    "journeyLabel":"DE TU HOGAR A COLOMBIA", "journeyTitle":"Un viaje con claridad\nen cada paso.", "journeyCopy":"Comienza desde donde estés. La valoración virtual inicial permite explorar opciones; el diagnóstico definitivo y las decisiones de tratamiento requieren una valoración clínica presencial.", "steps":[["Conversemos","Inicia una conversación por WhatsApp."],["Tu valoración virtual","Cuéntanos tus objetivos en una valoración inicial gratuita."],["Evaluación inicial","Conoce la información necesaria para explorar tus opciones."],["Tu propuesta preliminar","Conversa sobre alcance, costos estimados y posibles citas."],["Organiza tu viaje","Reserva vuelos y alojamiento después de coordinar la agenda clínica."],["Nos vemos en Colombia","La valoración presencial confirma el diagnóstico y el plan."],["Tu tratamiento","Avanza cuando esté clínicamente indicado y tras tu consentimiento informado."],["El cuidado continúa","Acuerda mantenimiento, seguimiento y atención al regresar a casa."]],
-    "colombiaLabel":"UNA NUEVA PERSPECTIVA", "colombiaTitle":"Tu sonrisa te trae.\nColombia se queda contigo.", "colombiaCopy":"Explora un nuevo lugar para tu atención dental personalizada. Considera el ahorro potencial junto a tus necesidades de cuidado y conoce Colombia cuando tu agenda clínica lo permita.", "travelNote":"Ofrecemos atención odontológica. Los vuelos, alojamiento y transporte se organizan y pagan por separado.", "travelAlt":"Luz dorada sobre las calles históricas de Cartagena, Colombia",
-    "faqLabel":"BUENAS PREGUNTAS. RESPUESTAS CLARAS.", "faqTitle":"Antes de tu próxima etapa.", "faqs":[["¿Cuánto cuesta un diseño de sonrisa?","El estimado depende del tratamiento, número de dientes y necesidades clínicas. Comienza con una valoración virtual inicial gratuita para conocer tus opciones; el plan se confirma mediante valoración presencial."],["¿Cuánto podría ahorrar?","Compara el mismo material y el mismo número de carillas en ambas cotizaciones. La diferencia de tratamiento varía según el caso. Calcula los gastos de viaje por separado."],["¿Cómo elijo entre resina y porcelana?","Conversa con tu odontóloga sobre salud oral, expectativas, preparación, mantenimiento y presupuesto. Ningún material es el adecuado para todas las personas."],["¿Cuánto tiempo debo permanecer en Colombia?","El procedimiento y los controles determinan la agenda. Confirma las citas antes de comprar los vuelos."],["¿La valoración virtual es gratuita?","La valoración virtual inicial es gratuita. Los exámenes adicionales y tratamientos se cotizan por separado. La conversación virtual no reemplaza el diagnóstico presencial."],["¿Incluyen vuelos y alojamiento?","No. Organizas y pagas los vuelos, alojamiento y transporte de manera independiente."],["¿Qué sucede después de regresar?","Acuerda el plan de seguimiento antes del tratamiento, incluyendo a quién contactar y cómo se manejarían las citas o cuidados adicionales."],["¿Todas las personas son candidatas?","No. La indicación depende de la salud oral y la valoración clínica. Puede recomendarse un enfoque diferente."],["¿Cómo puedo comenzar?","Utiliza el botón de valoración para contactar a Sonrisas Colombia y solicitar tu consulta virtual inicial."]],
-    "endLabel":"TU PRÓXIMA ETAPA", "endTitle":"Que comience\ncon una sonrisa.", "endCopy":"Cuéntanos lo que tienes en mente. Exploremos juntos lo que viene después.", "footerLine":"Estética dental personalizada.\nUna perspectiva colombiana.", "privacy":"Preferencias de privacidad", "legal":"Privacidad", "copyright":"Sonrisas Colombia. Todos los derechos reservados.", "contactTitle":"Comencemos una conversación", "contactUnavailable":"Nuestro canal directo de reservas estará disponible próximamente. Vuelve a esta página para solicitar tu valoración inicial.", "contactMessage":"¡Hola! Quisiera solicitar una valoración virtual inicial gratuita con Sonrisas Colombia.", "privacyTitle":"Tu privacidad importa", "privacyText":"Los valores de la calculadora permanecen en tu navegador y no se envían a un servidor. Las herramientas opcionales de analítica y publicidad están desactivadas. Tu preferencia de idioma puede guardarse en este dispositivo. Al abrir WhatsApp accedes a un servicio externo con sus propias condiciones de privacidad.", "privacyMore":"No incluyas historias clínicas ni datos sensibles de salud en el mensaje inicial. Consulta con el equipo el canal adecuado para compartir esa información.", "accept":"Guardar preferencias", "reject":"Rechazar seguimiento opcional", "essential":"Solo funciones esenciales", "galleryTitle":"Una sonrisa a tu manera.", "galleryText":"Expresión natural. Proporciones cuidadas. Una conversación que comienza contigo."
+    "locale": "es-PR",
+    "otherLabel": "EN",
+    "otherUrl": "/en/",
+    "otherLocale": "en-US",
+    "title": "Carillas y diseño de sonrisa en Colombia | Sonrisas Colombia",
+    "description": "Carillas en resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Atención en Bogotá, Medellín, Cali y Pereira para pacientes de Puerto Rico y Estados Unidos. Valoración virtual gratis por WhatsApp.",
+    "skip": "Ir al contenido",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "nav": [
+      "Resultados",
+      "Precios",
+      "Cómo funciona",
+      "Ciudades",
+      "Doctoras",
+      "Preguntas"
+    ],
+    "headerCta": "Cotizar por WhatsApp",
+    "cta": "Pedir mi valoración gratis",
+    "ctaShort": "WhatsApp",
+    "placeholderPrefix": "Aquí pones:",
+    "heroKicker": "Para pacientes de Puerto Rico y Estados Unidos",
+    "heroTitle": "Tu nueva sonrisa,\nhecha en Colombia.",
+    "heroLead": "Carillas en resina desde USD {resin} y en porcelana desde USD {porcelain} por diente. Hasta {saveUs}% menos que en Estados Unidos, con doctoras que te acompañan antes, durante y después del viaje.",
+    "heroSecondary": "Calcular cuánto ahorro",
+    "heroProof": [
+      "Valoración virtual gratis",
+      "Presupuesto por escrito antes de viajar",
+      "Bogotá, Medellín, Cali y Pereira"
+    ],
+    "heroVisualTitle": "Forma y proporción",
+    "heroVisualHint": "Desliza para comparar",
+    "priceNote": "Precios de referencia en USD. Tu precio final se confirma en la valoración.",
+    "cityStrip": "Te atendemos en",
+    "resultsTitle": "Pequeños cambios.\nUna expresión distinta.",
+    "resultsLead": "Forma, largo y color se planean contigo antes de tocar un solo diente. Así sabes qué esperar desde la primera videollamada.",
+    "resultsExample": "Contorno y simetría",
+    "caseSlots": [
+      "Aquí pones: foto real ANTES de un paciente (con autorización firmada)",
+      "Aquí pones: foto real DESPUÉS del mismo paciente, mismo ángulo y luz"
+    ],
+    "caseVideo": "Aquí pones: video vertical de 15–30 s de un paciente real contando su experiencia (con autorización)",
+    "treatmentsTitle": "Elige cómo quieres\ntu sonrisa.",
+    "treatmentsLead": "Tres caminos, un mismo cuidado. En la valoración te decimos cuál tiene sentido para tus dientes y tu presupuesto.",
+    "treatmentImages": {
+      "composite": "Pincel fino modelando resina color marfil sobre una paleta de cerámica",
+      "porcelain": "Carillas de porcelana translúcida sobre una superficie de piedra oscura",
+      "orthodontics": "Alineador transparente de ortodoncia sobre una superficie de piedra pulida"
+    },
+    "treatments": [
+      {
+        "id": "composite",
+        "name": "Carillas en resina",
+        "price": "Desde USD {resin} por diente",
+        "time": "Referencia: 3 a 5 días en Colombia",
+        "text": "La forma más rápida de cambiar tu sonrisa. La resina se modela directamente sobre tus dientes, con poco o ningún desgaste según tu caso.",
+        "points": [
+          "Resultado en pocas citas",
+          "Se puede pulir y retocar",
+          "Ideal para forma, tamaño y espacios pequeños"
+        ]
+      },
+      {
+        "id": "porcelain",
+        "name": "Carillas en porcelana",
+        "price": "Desde USD {porcelain} por diente",
+        "time": "Referencia: 7 a 10 días en Colombia",
+        "text": "La opción más natural y duradera. Se fabrican a tu medida en laboratorio y conservan su color con el café, el vino y el tiempo.",
+        "points": [
+          "Brillo y translucidez de diente natural",
+          "No se manchan",
+          "Mayor duración que la resina"
+        ]
+      },
+      {
+        "id": "orthodontics",
+        "name": "Ortodoncia",
+        "price": "Aquí pones: precio desde de la ortodoncia",
+        "time": "Duración según tu caso",
+        "text": "Alinea tus dientes y tu mordida con la Dra. Katherine Peña, ortodoncista. A veces es el paso previo para que las carillas queden perfectas.",
+        "points": [
+          "Valoración de mordida y alineación",
+          "Plan de controles coordinado con tus viajes",
+          "Puede combinarse con carillas"
+        ]
+      }
+    ],
+    "compareTitle": "¿Resina o porcelana?",
+    "compareHeaders": [
+      "",
+      "Resina",
+      "Porcelana"
+    ],
+    "compareRows": [
+      [
+        "Precio por diente",
+        "Desde USD {resin}",
+        "Desde USD {porcelain}"
+      ],
+      [
+        "Tiempo en Colombia",
+        "3 a 5 días (referencia)",
+        "7 a 10 días (referencia)"
+      ],
+      [
+        "Cómo se hace",
+        "Modelada sobre el diente",
+        "Fabricada en laboratorio"
+      ],
+      [
+        "Manchas",
+        "Necesita pulido periódico",
+        "Conserva su color"
+      ],
+      [
+        "Ideal si buscas",
+        "Cambio rápido y económico",
+        "Máxima naturalidad y duración"
+      ]
+    ],
+    "calcTitle": "¿Cuánto te ahorras?",
+    "calcLead": "Elige material, cuántas carillas y dónde vives. Te mostramos la diferencia al instante y puedes enviarnos la cotización por WhatsApp con un toque.",
+    "calcMaterial": "Material",
+    "calcResin": "Resina",
+    "calcPorcelain": "Porcelana",
+    "calcQuantity": "Carillas",
+    "calcQuantityHint": "La mayoría de sonrisas usan de 8 a 10",
+    "calcMarket": "Vivo en",
+    "calcPR": "Puerto Rico",
+    "calcUS": "Estados Unidos",
+    "calcReceiptTitle": "Tu cotización estimada",
+    "calcHome": "Precio en {market}",
+    "calcColombia": "Precio en Colombia",
+    "calcSavings": "Te ahorras",
+    "calcSavingsPct": "{pct}% menos",
+    "calcTravel": "Con lo que ahorras cubres el vuelo y la estadía, y te sobra.",
+    "calcSend": "Enviar esta cotización por WhatsApp",
+    "calcNote": "Valores aproximados de referencia por diente. No incluyen vuelos ni hospedaje. El precio final depende de tu valoración.",
+    "calcInvalid": "Elige entre 1 y 28 carillas.",
+    "calcMessage": "¡Hola! Quiero cotizar {qty} carillas en {material}. Vivo en {market}. Vi en la página un estimado de {total} en Colombia.",
+    "includesTitle": "Todo lo que incluye\ntu plan.",
+    "includesLead": "Viajar por tu sonrisa debe ser simple. Esto es lo que recibes desde que nos escribes.",
+    "includes": [
+      [
+        "Valoración virtual gratis",
+        "Por WhatsApp o videollamada, en tu horario."
+      ],
+      [
+        "Presupuesto por escrito",
+        "Desglosado y claro, antes de que compres el vuelo."
+      ],
+      [
+        "Agenda coordinada",
+        "Te damos las fechas de tus citas para que planees el viaje sin adivinar."
+      ],
+      [
+        "Acompañamiento por WhatsApp",
+        "Antes, durante y después de tu tratamiento."
+      ],
+      [
+        "Plan de seguimiento",
+        "Sabes a quién escribir y qué controles necesitas al volver a casa."
+      ]
+    ],
+    "includesPlaceholders": [
+      "Aquí pones: ¿ofrecen traslado desde el aeropuerto? (sí/no y en qué ciudades)",
+      "Aquí pones: garantía de las carillas (ej. X años en porcelana, X en resina)",
+      "Aquí pones: formas de pago (tarjeta, transferencia, financiación)"
+    ],
+    "stepsTitle": "De tu casa a tu nueva\nsonrisa en 4 pasos.",
+    "stepsRouteFrom": "San Juan",
+    "steps": [
+      [
+        "Escríbenos",
+        "Mándanos 3 fotos de tu sonrisa por WhatsApp: de frente, sonriendo y de perfil."
+      ],
+      [
+        "Recibe tu plan",
+        "Te enviamos tratamiento sugerido, presupuesto y número de días en Colombia."
+      ],
+      [
+        "Viaja con fechas claras",
+        "Reservas vuelo y hospedaje con tus citas ya confirmadas."
+      ],
+      [
+        "Vuelve sonriendo",
+        "Tratamiento, controles y un plan de seguimiento para cuando estés en casa."
+      ]
+    ],
+    "travelNote": "Los vuelos, el hospedaje y el transporte se pagan aparte.",
+    "citiesTitle": "Cuatro ciudades.\nUna sola forma de atenderte.",
+    "citiesLead": "Elige la ciudad que más te convenga por vuelo, familia o paseo. Te atendemos con el mismo plan y el mismo cuidado.",
+    "citiesPick": "Atenderme en {city}",
+    "cities": [
+      {
+        "id": "bogota",
+        "name": "Bogotá",
+        "note": "La puerta de entrada a Colombia, con vuelos desde San Juan y las principales ciudades de EE. UU.",
+        "address": "Aquí pones: dirección de la sede en Bogotá",
+        "photo": "Aquí pones: foto de la sede o de Bogotá (horizontal, 1600×1000)"
+      },
+      {
+        "id": "medellin",
+        "name": "Medellín",
+        "note": "La ciudad de la eterna primavera, a una hora de Guatapé.",
+        "address": "Aquí pones: dirección de la sede en Medellín",
+        "photo": ""
+      },
+      {
+        "id": "cali",
+        "name": "Cali",
+        "note": "Clima cálido, salsa y el Pacífico a la vuelta de la esquina.",
+        "address": "Aquí pones: dirección de la sede en Cali",
+        "photo": "Aquí pones: foto de la sede o de Cali (horizontal, 1600×1000)"
+      },
+      {
+        "id": "pereira",
+        "name": "Pereira",
+        "note": "En el corazón del Eje Cafetero, muy cerca del Valle del Cocora.",
+        "address": "Aquí pones: dirección de la sede en Pereira",
+        "photo": ""
+      }
+    ],
+    "cityAlts": {
+      "medellin": "Teleférico sobre los barrios y las montañas de Medellín al atardecer",
+      "pereira": "Palmas de cera entre la neblina del Valle del Cocora, cerca de Pereira"
+    },
+    "teamTitle": "Las doctoras\ndetrás de tu sonrisa.",
+    "teamLead": "Diseño de sonrisa y ortodoncia trabajando juntas, para que tu plan cuide la estética y la mordida.",
+    "doctorPrefix": "Dra.",
+    "doctors": [
+      {
+        "id": "katherine",
+        "name": "Katherine Peña",
+        "role": "Ortodoncista",
+        "text": "Se encarga de que tus dientes y tu mordida estén alineados, para que el resultado se vea bien y dure.",
+        "credentials": "Aquí pones: universidad, especialización, años de experiencia y número de registro (ReTHUS)"
+      },
+      {
+        "id": "vanessa",
+        "name": "Vanessa Pulgarin",
+        "role": "Odontóloga, diseño de sonrisa",
+        "text": "Diseña contigo la forma, el color y la proporción de tus carillas, en resina o porcelana.",
+        "credentials": "Aquí pones: universidad, estudios en estética dental, años de experiencia y número de registro (ReTHUS)"
+      }
+    ],
+    "portraitAlts": [
+      "Retrato de la Dra. Katherine Peña apoyada en un sillón dental",
+      "La Dra. Katherine Peña de pie junto a un sillón dental",
+      "Retrato de la Dra. Katherine Peña con los brazos cruzados"
+    ],
+    "vanessaPhoto": "Aquí pones: foto profesional de la Dra. Vanessa Pulgarin (vertical, 1200×1600, mismo estilo que las de Katherine)",
+    "reviewsTitle": "Lo que dicen\nnuestros pacientes.",
+    "reviewsLead": "Reseñas reales de pacientes que viajaron desde Puerto Rico y Estados Unidos.",
+    "reviews": [
+      "Aquí pones: reseña real de Google de un paciente de Puerto Rico (texto, nombre o iniciales y ciudad)",
+      "Aquí pones: reseña real de un paciente de Estados Unidos (texto, nombre o iniciales y ciudad)",
+      "Aquí pones: reseña real con la calificación de Google (ej. 4,9 ★ en 120 reseñas) y enlace al perfil"
+    ],
+    "faqTitle": "Preguntas que\nnos hacen siempre.",
+    "faqs": [
+      [
+        "¿Cuánto cuesta un diseño de sonrisa?",
+        "Como referencia, las carillas en resina empiezan en USD {resin} por diente y las de porcelana en USD {porcelain}. La mayoría de sonrisas usan de 8 a 10 carillas. Tu presupuesto exacto te lo damos por escrito después de la valoración."
+      ],
+      [
+        "¿Cuántos días debo quedarme en Colombia?",
+        "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te confirmamos las fechas de las citas antes de que compres el vuelo."
+      ],
+      [
+        "¿La valoración virtual es gratis?",
+        "Sí. Nos escribes por WhatsApp, nos mandas tus fotos y conversamos por videollamada sin costo. El diagnóstico final se confirma en la primera cita presencial."
+      ],
+      [
+        "¿Resina o porcelana?",
+        "La resina es más económica y rápida. La porcelana es más natural, no se mancha y dura más. En la valoración te recomendamos la que tiene sentido para tus dientes y tu presupuesto."
+      ],
+      [
+        "¿Qué pasa si necesito algo cuando vuelva a casa?",
+        "Antes del tratamiento acordamos tu plan de seguimiento: a quién escribir, qué controles necesitas y cómo se manejarían si surge algo."
+      ],
+      [
+        "¿Incluyen vuelos y hospedaje?",
+        "No. Tú reservas vuelo y hospedaje, y nosotros te damos las fechas exactas de tus citas para que lo hagas con tranquilidad."
+      ],
+      [
+        "¿En qué ciudades atienden?",
+        "En Bogotá, Medellín, Cali y Pereira. Elige la que te quede mejor por vuelo o por plan de viaje."
+      ],
+      [
+        "¿Cualquier persona puede ponerse carillas?",
+        "No siempre. Depende de la salud de tus dientes y encías. Si hace falta otro tratamiento antes, te lo decimos con claridad."
+      ]
+    ],
+    "closingTitle": "Tu sonrisa empieza\ncon 3 fotos.",
+    "closingLead": "Mándanos tus fotos por WhatsApp y te respondemos con un estimado y los próximos pasos.",
+    "photoGuide": [
+      "De frente, sonriendo",
+      "De perfil, sonriendo",
+      "Primer plano de los dientes"
+    ],
+    "closingSecondary": "Hablar con una asesora",
+    "footerLine": "Diseño de sonrisa para pacientes de Puerto Rico y Estados Unidos, en Bogotá, Medellín, Cali y Pereira.",
+    "footerLegal": "Aquí pones: razón social, NIT y dirección del responsable",
+    "privacy": "Privacidad",
+    "copyright": "Sonrisas Colombia. Todos los derechos reservados.",
+    "privacyTitle": "Tu privacidad",
+    "privacyText": "Los valores de la calculadora se quedan en tu navegador y no se envían a ningún servidor. Al abrir WhatsApp pasas a un servicio externo con sus propias condiciones. No envíes historias clínicas en el primer mensaje.",
+    "privacyMore": "Aquí pones: enlace a la política de tratamiento de datos completa",
+    "contactMessage": "¡Hola! Quiero pedir mi valoración virtual gratis con Sonrisas Colombia.",
+    "contactCity": " Me gustaría atenderme en {city}.",
+    "contactTreatment": "¡Hola! Me interesa: {treatment}. ¿Me ayudan con una valoración gratis?"
+  },
+  "en": {
+    "locale": "en-US",
+    "otherLabel": "ES",
+    "otherUrl": "/",
+    "otherLocale": "es-PR",
+    "title": "Veneers and smile design in Colombia | Sonrisas Colombia",
+    "description": "Composite veneers from USD {resin} and porcelain veneers from USD {porcelain} per tooth. Care in Bogotá, Medellín, Cali and Pereira for patients from Puerto Rico and the U.S. Free virtual consultation on WhatsApp.",
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "nav": [
+      "Results",
+      "Prices",
+      "How it works",
+      "Cities",
+      "Doctors",
+      "FAQ"
+    ],
+    "headerCta": "Get a quote on WhatsApp",
+    "cta": "Get my free consultation",
+    "ctaShort": "WhatsApp",
+    "placeholderPrefix": "Aquí pones:",
+    "heroKicker": "For patients from Puerto Rico and the U.S.",
+    "heroTitle": "Your new smile,\nmade in Colombia.",
+    "heroLead": "Composite veneers from USD {resin} and porcelain veneers from USD {porcelain} per tooth. Up to {saveUs}% less than in the U.S., with doctors who stay with you before, during and after your trip.",
+    "heroSecondary": "See how much I save",
+    "heroProof": [
+      "Free virtual consultation",
+      "Written quote before you fly",
+      "Bogotá, Medellín, Cali and Pereira"
+    ],
+    "heroVisualTitle": "Shape and proportion",
+    "heroVisualHint": "Slide to compare",
+    "priceNote": "Reference prices in USD. Your consultation confirms your final price.",
+    "cityStrip": "We see patients in",
+    "resultsTitle": "Small changes.\nA different expression.",
+    "resultsLead": "Shape, length and shade are planned with you before a single tooth is touched, so you know what to expect from the first video call.",
+    "resultsExample": "Contour and symmetry",
+    "caseSlots": [
+      "Aquí pones: foto real ANTES de un paciente (con autorización firmada)",
+      "Aquí pones: foto real DESPUÉS del mismo paciente, mismo ángulo y luz"
+    ],
+    "caseVideo": "Aquí pones: video vertical de 15–30 s de un paciente real contando su experiencia (con autorización)",
+    "treatmentsTitle": "Choose how you want\nyour smile.",
+    "treatmentsLead": "Three paths, the same care. In your consultation we tell you which one makes sense for your teeth and your budget.",
+    "treatmentImages": {
+      "composite": "A fine brush shaping ivory resin on a ceramic palette",
+      "porcelain": "Translucent porcelain veneers on a dark stone surface",
+      "orthodontics": "A clear orthodontic aligner on polished stone"
+    },
+    "treatments": [
+      {
+        "id": "composite",
+        "name": "Composite veneers",
+        "price": "From USD {resin} per tooth",
+        "time": "Reference: 3 to 5 days in Colombia",
+        "text": "The fastest way to change your smile. Resin is shaped directly on your teeth, with little or no reduction depending on your case.",
+        "points": [
+          "Results in just a few visits",
+          "Can be polished and touched up",
+          "Great for shape, size and small gaps"
+        ]
+      },
+      {
+        "id": "porcelain",
+        "name": "Porcelain veneers",
+        "price": "From USD {porcelain} per tooth",
+        "time": "Reference: 7 to 10 days in Colombia",
+        "text": "The most natural and longest-lasting option. Custom-made in a lab, they keep their shade through coffee, wine and time.",
+        "points": [
+          "Natural tooth shine and translucency",
+          "Stain resistant",
+          "Last longer than composite"
+        ]
+      },
+      {
+        "id": "orthodontics",
+        "name": "Orthodontics",
+        "price": "Aquí pones: precio desde de la ortodoncia",
+        "time": "Length depends on your case",
+        "text": "Align your teeth and bite with Dr. Katherine Peña, orthodontist. Sometimes it is the step that makes veneers look perfect.",
+        "points": [
+          "Bite and alignment assessment",
+          "Check-ups planned around your trips",
+          "Can be combined with veneers"
+        ]
+      }
+    ],
+    "compareTitle": "Composite or porcelain?",
+    "compareHeaders": [
+      "",
+      "Composite",
+      "Porcelain"
+    ],
+    "compareRows": [
+      [
+        "Price per tooth",
+        "From USD {resin}",
+        "From USD {porcelain}"
+      ],
+      [
+        "Time in Colombia",
+        "3 to 5 days (reference)",
+        "7 to 10 days (reference)"
+      ],
+      [
+        "How it is made",
+        "Shaped on the tooth",
+        "Made in a lab"
+      ],
+      [
+        "Staining",
+        "Needs periodic polishing",
+        "Keeps its shade"
+      ],
+      [
+        "Best if you want",
+        "A fast, affordable change",
+        "Maximum natural look and lifespan"
+      ]
+    ],
+    "calcTitle": "How much do you save?",
+    "calcLead": "Pick a material, how many veneers and where you live. You see the difference instantly, and you can send us the quote on WhatsApp with one tap.",
+    "calcMaterial": "Material",
+    "calcResin": "Composite",
+    "calcPorcelain": "Porcelain",
+    "calcQuantity": "Veneers",
+    "calcQuantityHint": "Most smiles use 8 to 10",
+    "calcMarket": "I live in",
+    "calcPR": "Puerto Rico",
+    "calcUS": "United States",
+    "calcReceiptTitle": "Your estimated quote",
+    "calcHome": "Price in {market}",
+    "calcColombia": "Price in Colombia",
+    "calcSavings": "You save",
+    "calcSavingsPct": "{pct}% less",
+    "calcTravel": "Your savings cover the flight and the stay, with money to spare.",
+    "calcSend": "Send this quote on WhatsApp",
+    "calcNote": "Approximate reference prices per tooth. Flights and lodging not included. Your final price depends on your consultation.",
+    "calcInvalid": "Choose between 1 and 28 veneers.",
+    "calcMessage": "Hi! I'd like a quote for {qty} {material} veneers. I live in {market}. The website showed an estimate of {total} in Colombia.",
+    "includesTitle": "Everything included\nin your plan.",
+    "includesLead": "Traveling for your smile should be simple. Here is what you get from your first message.",
+    "includes": [
+      [
+        "Free virtual consultation",
+        "On WhatsApp or video call, on your schedule."
+      ],
+      [
+        "Written quote",
+        "Itemized and clear, before you buy your flight."
+      ],
+      [
+        "Coordinated schedule",
+        "We give you your appointment dates so you can plan the trip with certainty."
+      ],
+      [
+        "WhatsApp support",
+        "Before, during and after your treatment."
+      ],
+      [
+        "Follow-up plan",
+        "You know who to contact and which check-ups you need back home."
+      ]
+    ],
+    "includesPlaceholders": [
+      "Aquí pones: ¿ofrecen traslado desde el aeropuerto? (sí/no y en qué ciudades)",
+      "Aquí pones: garantía de las carillas (ej. X años en porcelana, X en resina)",
+      "Aquí pones: formas de pago (tarjeta, transferencia, financiación)"
+    ],
+    "stepsTitle": "From your home to your\nnew smile in 4 steps.",
+    "stepsRouteFrom": "San Juan",
+    "steps": [
+      [
+        "Message us",
+        "Send 3 photos of your smile on WhatsApp: front, smiling and profile."
+      ],
+      [
+        "Get your plan",
+        "We send a suggested treatment, a quote and the number of days in Colombia."
+      ],
+      [
+        "Travel with clear dates",
+        "Book your flight and lodging with your appointments already confirmed."
+      ],
+      [
+        "Fly home smiling",
+        "Treatment, check-ups and a follow-up plan for when you are back home."
+      ]
+    ],
+    "travelNote": "Flights, lodging and transportation are paid separately.",
+    "citiesTitle": "Four cities.\nOne way of caring for you.",
+    "citiesLead": "Choose the city that suits you best for flights, family or sightseeing. Same plan, same care.",
+    "citiesPick": "Book in {city}",
+    "cities": [
+      {
+        "id": "bogota",
+        "name": "Bogotá",
+        "note": "Colombia's main gateway, with flights from San Juan and major U.S. cities.",
+        "address": "Aquí pones: dirección de la sede en Bogotá",
+        "photo": "Aquí pones: foto de la sede o de Bogotá (horizontal, 1600×1000)"
+      },
+      {
+        "id": "medellin",
+        "name": "Medellín",
+        "note": "The city of eternal spring, an hour from Guatapé.",
+        "address": "Aquí pones: dirección de la sede en Medellín",
+        "photo": ""
+      },
+      {
+        "id": "cali",
+        "name": "Cali",
+        "note": "Warm weather, salsa and the Pacific close by.",
+        "address": "Aquí pones: dirección de la sede en Cali",
+        "photo": "Aquí pones: foto de la sede o de Cali (horizontal, 1600×1000)"
+      },
+      {
+        "id": "pereira",
+        "name": "Pereira",
+        "note": "In the heart of the Coffee Region, close to Cocora Valley.",
+        "address": "Aquí pones: dirección de la sede en Pereira",
+        "photo": ""
+      }
+    ],
+    "cityAlts": {
+      "medellin": "A cable car above the neighborhoods and mountains of Medellín at sunset",
+      "pereira": "Wax palms in the mist of Cocora Valley, near Pereira"
+    },
+    "teamTitle": "The doctors\nbehind your smile.",
+    "teamLead": "Smile design and orthodontics working together, so your plan takes care of both looks and bite.",
+    "doctorPrefix": "Dr.",
+    "doctors": [
+      {
+        "id": "katherine",
+        "name": "Katherine Peña",
+        "role": "Orthodontist",
+        "text": "Makes sure your teeth and bite are aligned, so your result looks great and lasts.",
+        "credentials": "Aquí pones: universidad, especialización, años de experiencia y número de registro (ReTHUS)"
+      },
+      {
+        "id": "vanessa",
+        "name": "Vanessa Pulgarin",
+        "role": "Dentist, smile design",
+        "text": "Designs the shape, shade and proportion of your veneers with you, in composite or porcelain.",
+        "credentials": "Aquí pones: universidad, estudios en estética dental, años de experiencia y número de registro (ReTHUS)"
+      }
+    ],
+    "portraitAlts": [
+      "Portrait of Dr. Katherine Peña leaning on a dental chair",
+      "Dr. Katherine Peña standing beside a dental chair",
+      "Portrait of Dr. Katherine Peña with arms crossed"
+    ],
+    "vanessaPhoto": "Aquí pones: foto profesional de la Dra. Vanessa Pulgarin (vertical, 1200×1600, mismo estilo que las de Katherine)",
+    "reviewsTitle": "What our\npatients say.",
+    "reviewsLead": "Real reviews from patients who traveled from Puerto Rico and the U.S.",
+    "reviews": [
+      "Aquí pones: reseña real de Google de un paciente de Puerto Rico (texto, nombre o iniciales y ciudad)",
+      "Aquí pones: reseña real de un paciente de Estados Unidos (texto, nombre o iniciales y ciudad)",
+      "Aquí pones: reseña real con la calificación de Google (ej. 4,9 ★ en 120 reseñas) y enlace al perfil"
+    ],
+    "faqTitle": "Questions we\nget all the time.",
+    "faqs": [
+      [
+        "How much does a smile makeover cost?",
+        "As a reference, composite veneers start at USD {resin} per tooth and porcelain at USD {porcelain}. Most smiles use 8 to 10 veneers. We send your exact quote in writing after your consultation."
+      ],
+      [
+        "How many days should I stay in Colombia?",
+        "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We confirm your appointment dates before you buy your flight."
+      ],
+      [
+        "Is the virtual consultation free?",
+        "Yes. Message us on WhatsApp, send your photos and we talk on a video call at no cost. The final diagnosis is confirmed at your first in-person visit."
+      ],
+      [
+        "Composite or porcelain?",
+        "Composite is more affordable and faster. Porcelain looks more natural, resists stains and lasts longer. In your consultation we recommend the one that fits your teeth and budget."
+      ],
+      [
+        "What if I need something after I get home?",
+        "Before treatment we agree on your follow-up plan: who to contact, which check-ups you need and how anything unexpected would be handled."
+      ],
+      [
+        "Are flights and lodging included?",
+        "No. You book your flight and lodging, and we give you your exact appointment dates so you can do it with peace of mind."
+      ],
+      [
+        "Which cities do you work in?",
+        "Bogotá, Medellín, Cali and Pereira. Choose the one that works best for your flights or travel plans."
+      ],
+      [
+        "Can anyone get veneers?",
+        "Not always. It depends on the health of your teeth and gums. If you need another treatment first, we tell you clearly."
+      ]
+    ],
+    "closingTitle": "Your smile starts\nwith 3 photos.",
+    "closingLead": "Send us your photos on WhatsApp and we reply with an estimate and your next steps.",
+    "photoGuide": [
+      "Front, smiling",
+      "Profile, smiling",
+      "Close-up of your teeth"
+    ],
+    "closingSecondary": "Talk to an advisor",
+    "footerLine": "Smile design for patients from Puerto Rico and the U.S., in Bogotá, Medellín, Cali and Pereira.",
+    "footerLegal": "Aquí pones: razón social, NIT y dirección del responsable",
+    "privacy": "Privacy",
+    "copyright": "Sonrisas Colombia. All rights reserved.",
+    "privacyTitle": "Your privacy",
+    "privacyText": "Calculator values stay in your browser and are never sent to a server. Opening WhatsApp takes you to an external service with its own terms. Please do not send medical records in your first message.",
+    "privacyMore": "Aquí pones: enlace a la política de tratamiento de datos completa",
+    "contactMessage": "Hi! I'd like to request my free virtual consultation with Sonrisas Colombia.",
+    "contactCity": " I'd like to be seen in {city}.",
+    "contactTreatment": "Hi! I'm interested in: {treatment}. Could you help me with a free consultation?"
   }
 }

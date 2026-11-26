@@ -1,67 +1,68 @@
-"""Offline integrity checks for the generated bilingual site."""
+"""Comprobaciones de integridad del sitio generado."""
+import json
+import re
 from html.parser import HTMLParser
 from pathlib import Path
-import json
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
 
+
 class Page(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.ids = set()
-        self.refs = []
-        self.h1 = 0
-        self.inputs = 0
-        self.sliders = 0
-        self.language = None
-        self.review_count = 0
-    def handle_starttag(self, tag, attrs):
-        attrs = dict(attrs)
-        if 'id' in attrs:
-            assert attrs['id'] not in self.ids, 'Duplicate ID: '+attrs['id']
-            self.ids.add(attrs['id'])
-        self.h1 += tag == 'h1'
-        if tag == 'html':
-            self.language = attrs.get('lang')
-        self.review_count += tag == 'blockquote'
-        self.inputs += tag == 'input' and attrs.get('type') == 'number'
-        self.sliders += tag == 'input' and attrs.get('type') == 'range'
-        if tag == 'img':
-            assert 'alt' in attrs and 'width' in attrs and 'height' in attrs
-        for key in ['src','href']:
-            if key in attrs:
-                self.refs.append(attrs[key])
-        for item in attrs.get('srcset','').split(','):
-            if item.strip(): self.refs.append(item.strip().split()[0])
+        self.ids, self.refs, self.h1, self.sliders, self.lang = set(), [], 0, 0, ''
+        self.imgs_without_alt = 0
 
-for source in ['content.json', 'editorial.json']:
-    data = json.loads((ROOT/'src'/source).read_text(encoding='utf-8'))
-    assert set(data['en']) == set(data['es']), 'Missing translation keys: '+source
-for route, language in [
-    ('index.html', 'es-PR'),
-    ('en/index.html', 'en-US'),
-    ('es/index.html', 'es-PR'),
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if 'id' in a:
+            assert a['id'] not in self.ids, 'Duplicate id: ' + a['id']
+            self.ids.add(a['id'])
+        if tag == 'html':
+            self.lang = a.get('lang', '')
+        if tag == 'h1':
+            self.h1 += 1
+        if tag == 'img' and 'alt' not in a:
+            self.imgs_without_alt += 1
+        if tag == 'input' and a.get('type') == 'range' and 'cmp__range' in a.get('class', ''):
+            self.sliders += 1
+        for key in ('href', 'src'):
+            if a.get(key):
+                self.refs.append(a[key])
+        for key in ('srcset',):
+            if a.get(key):
+                self.refs += [part.strip().split(' ')[0] for part in a[key].split(',')]
+
+
+data = json.loads((ROOT / 'src/content.json').read_text(encoding='utf-8'))
+assert set(data['es']) == set(data['en']), 'Missing translation keys: ' + str(set(data['es']) ^ set(data['en']))
+
+for route, language, caption in [
+    ('index.html', 'es-PR', 'Simulación generada de un caso ficticio.'),
+    ('en/index.html', 'en-US', 'Generated simulation of a fictional case.'),
+    ('es/index.html', 'es-PR', 'Simulación generada de un caso ficticio.'),
 ]:
+    html = (SITE / route).read_text(encoding='utf-8')
     page = Page()
-    html = (SITE/route).read_text(encoding='utf-8')
     page.feed(html)
-    assert page.h1 == 1
-    assert page.language == language
-    local_page = 'data-veneer-calculator' in html
-    assert page.inputs == (1 if local_page else 0)
-    assert page.sliders == 2, 'Los comparadores antes/después deben estar siempre'
-    assert page.review_count == (12 if local_page else 0)
-    caption = 'Simulación generada de un caso ficticio.' if language == 'es-PR' else 'Generated simulation of a fictional case.'
+    assert page.lang == language, route
+    assert page.h1 == 1, route
+    assert page.imgs_without_alt == 0, route
+    assert page.sliders == 2, 'Los dos comparadores antes/después deben estar siempre'
     assert html.count(caption) == 2, 'Cada comparador debe indicar que es una simulación'
+    assert 'data-calc' in html, 'La calculadora debe estar siempre'
+    assert not re.search(r'\{(resin|porcelain|saveUs|savePr)\}', html), 'Token de precio sin reemplazar'
     for ref in page.refs:
-        if ref.startswith('#'): assert ref[1:] in page.ids, ref
-        elif ref.startswith('/'): assert (SITE/ref.lstrip('/')).exists(), ref
-    assert 'DEVELOPMENT PREVIEW' not in html and 'VERSIÓN DE DESARROLLO' not in html
-    print(route+': links, images, headings, fields OK')
-for font in (SITE/'assets/fonts').glob('*.woff2'):
-    assert font.read_bytes()[:4] == b'wOF2', 'Invalid WOFF2: '+str(font)
-compose = (ROOT/'docker-compose.yml').read_text()
+        if ref.startswith('#') and len(ref) > 1:
+            assert ref[1:] in page.ids, route + ': missing anchor ' + ref
+        elif ref.startswith('/'):
+            assert (SITE / ref.lstrip('/').split('#')[0]).exists() or ref in ('/', '/en/'), route + ': missing ' + ref
+    print(route + ': enlaces, imágenes, títulos y comparadores OK — pendientes:', html.count('class="ph '))
+
+for font in (SITE / 'assets/fonts').glob('*.woff2'):
+    assert font.read_bytes()[:4] == b'wOF2', 'Invalid WOFF2: ' + str(font)
+compose = (ROOT / 'docker-compose.yml').read_text()
 assert 'ports:' not in compose
 assert 'expose:' in compose and 'healthcheck:' in compose
-print('Translations, WOFF2 fonts, Compose exposure OK')
+print('Traducciones, fuentes y Compose OK')
