@@ -121,13 +121,15 @@ def render_smile_comparison(key, lang, title, *, high_priority=False):
     if lang == 'es':
         before, after = 'Antes', 'Después'
         label = 'Ajustar la comparación entre antes y después'
-        alt_before = 'Sonrisa en el punto de partida'
-        alt_after = 'Sonrisa con el diseño aplicado'
+        caption = 'Simulación generada de un caso ficticio.'
+        alt_before = 'Ilustración de la sonrisa inicial de una persona ficticia'
+        alt_after = 'Ilustración de la misma sonrisa con cambios simulados'
     else:
         before, after = 'Before', 'After'
         label = 'Adjust the before and after comparison'
-        alt_before = 'Smile before the design'
-        alt_after = 'Smile with the design applied'
+        caption = 'Generated simulation of a fictional case.'
+        alt_before = 'Illustration of a fictional person’s initial smile'
+        alt_after = 'Illustration of the same smile with simulated changes'
 
     prefix = f'/assets/smile-example-{key}'
 
@@ -147,20 +149,15 @@ def render_smile_comparison(key, lang, title, *, high_priority=False):
         <span class="smile-comparison__badge smile-comparison__badge--after" aria-hidden="true">{e(after)}</span>
         <div class="smile-comparison__divider" aria-hidden="true"></div>
         <input class="smile-comparison__range" type="range" min="0" max="100" value="50"
-          aria-label="{e(f'{title}. {label}')}">
+          aria-label="{e(f'{title}. {label}')}" aria-describedby="comparison-caption-{key}">
         <span class="smile-comparison__knob" aria-hidden="true">↔</span>
       </div>
+      <figcaption class="smile-comparison__caption" id="comparison-caption-{key}">{e(caption)}</figcaption>
     </figure>'''
 
 def render_smile_sections(d, lang):
-    if not show_examples:
-        portrait = f'''
-          <picture class="signature-portrait">
-            <source type="image/avif" srcset="/assets/editorial-smile-800.avif 800w, /assets/editorial-smile.avif 1536w"
-              sizes="(max-width: 760px) 90vw, 48vw">
-            <img src="/assets/editorial-smile.webp" width="1536" height="1024" alt="{e(d['imageAlt'])}" fetchpriority="high">
-          </picture>'''
-        return portrait, ''
+    # El comparador se muestra siempre (también en producción), como en V2,
+    # identificado como simulación para no presentarlo como un caso real.
     hero = f'''
       <div class="signature-visual">
         <div class="signature-visual-head"><span>{e(d['heroVisualTitle'])}</span><span>{e(d['heroVisualHint'])}</span></div>

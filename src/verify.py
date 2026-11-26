@@ -50,10 +50,10 @@ for route, language in [
     assert page.language == language
     local_page = 'data-veneer-calculator' in html
     assert page.inputs == (1 if local_page else 0)
-    assert page.sliders == (2 if local_page else 0)
+    assert page.sliders == 2, 'Los comparadores antes/después deben estar siempre'
     assert page.review_count == (12 if local_page else 0)
-    assert 'Generated simulation of a fictional case.' not in html
-    assert 'Simulación generada de un caso ficticio.' not in html
+    caption = 'Simulación generada de un caso ficticio.' if language == 'es-PR' else 'Generated simulation of a fictional case.'
+    assert html.count(caption) == 2, 'Cada comparador debe indicar que es una simulación'
     for ref in page.refs:
         if ref.startswith('#'): assert ref[1:] in page.ids, ref
         elif ref.startswith('/'): assert (SITE/ref.lstrip('/')).exists(), ref
