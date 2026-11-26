@@ -6,73 +6,75 @@
 <link rel="stylesheet" href="/assets/experience.css">
 <link rel="stylesheet" href="/assets/sonrisas-comparison.css">
 <link rel="stylesheet" href="/assets/signature.css">
+<link rel="stylesheet" href="/assets/visitor.css">
 <script defer src="/assets/sonrisas-comparison.js"></script>
+<script defer src="/assets/veneer-calculator.js"></script>
 </head><body>
 <a class="skip-link" href="#main">Ir al contenido</a><div class="scroll-progress" aria-hidden="true"></div>
-<header class="header"><div class="header-inner"><a class="brand" href="/es/" aria-label="Sonrisas Colombia"><img src="/assets/logo-onix.webp" width="180" height="120" alt="Sonrisas Colombia"></a><nav id="navigation" aria-label="Menú"><a href="#results">Comparador</a><a href="#treatments">Tratamientos</a><a href="#investment">Ahorro</a><a href="#team">Equipo</a><a href="#journey">Tu viaje</a><a href="#faq">Preguntas</a></nav><div class="header-actions"><a class="language" data-language href="/" lang="en-US" hreflang="en-US">EN</a><button type="button" class="button button-small" data-contact>Conversemos</button><button class="menu-toggle" id="menu-toggle" aria-controls="navigation" aria-expanded="false"><span></span><span></span><span class="sr-only">Menú</span></button></div></div></header>
+<header class="header"><div class="header-inner"><a class="brand" href="/" aria-label="Sonrisas Colombia"><img src="/assets/logo-onix.webp" width="180" height="120" alt="Sonrisas Colombia"></a><nav id="navigation" aria-label="Menú"><a href="#results">Comparador</a><a href="#treatments">Tratamientos</a><a href="#investment">Ahorro</a><a href="#team">Equipo</a><a href="#journey">Tu viaje</a><a href="#faq">Preguntas</a></nav><div class="header-actions"><a class="language" data-language href="/en/" lang="en-US" hreflang="en-US">EN</a><button type="button" class="button button-small" data-contact>Conversemos</button><button class="menu-toggle" id="menu-toggle" aria-controls="navigation" aria-expanded="false"><span></span><span></span><span class="sr-only">Menú</span></button></div></div></header>
 <main id="main">
 <section class="signature-hero" aria-labelledby="hero-title">
   <div class="wrap signature-layout">
     <div class="signature-copy">
       <p class="eyebrow">PARA PUERTO RICO Y ESTADOS UNIDOS</p>
       <h1 id="hero-title">Diseña tu sonrisa<br><em>en Colombia.</em></h1>
-      <p class="signature-intro">Explora resina, porcelana y ortodoncia con una valoración virtual inicial gratuita. Compara el costo del tratamiento y del viaje antes de decidir.</p>
+      <p class="signature-intro">Explora resina, porcelana y ortodoncia con una valoración virtual inicial gratuita. Compara el costo de tus carillas con Puerto Rico o Estados Unidos.</p>
       <div class="signature-actions"><button type="button" class="button" data-contact>Valoración virtual gratuita</button><a class="quiet-link" href="#investment">Calcular mi presupuesto</a></div>
     </div>
-    <div class="signature-visual">
-      <div class="signature-visual-head"><span>Forma y proporción</span><span>Desliza para ver el cambio simulado</span></div>
-      <figure class="smile-comparison smile-comparison--hero" data-smile-comparison
+    
+      <div class="signature-visual">
+        <div class="signature-visual-head"><span>Forma y proporción</span><span>Arrastra para comparar</span></div>
+        <figure class="smile-comparison smile-comparison--hero" data-smile-comparison
       data-comparison-before="Antes" data-comparison-after="Después">
       <div class="smile-comparison__stage">
         <picture class="smile-comparison__photo smile-comparison__photo--after">
           <source type="image/avif" srcset="/assets/smile-example-hero-after.avif">
-          <img src="/assets/smile-example-hero-after.webp" width="864" height="648" alt="Ilustración de la misma sonrisa con cambios simulados" fetchpriority="high">
+          <img src="/assets/smile-example-hero-after.webp" width="864" height="648" alt="Sonrisa con el diseño aplicado" fetchpriority="high">
         </picture>
         <picture class="smile-comparison__photo smile-comparison__photo--before">
           <source type="image/avif" srcset="/assets/smile-example-hero-before.avif">
-          <img src="/assets/smile-example-hero-before.webp" width="864" height="648" alt="Ilustración de la sonrisa inicial de una persona ficticia" >
+          <img src="/assets/smile-example-hero-before.webp" width="864" height="648" alt="Sonrisa en el punto de partida" >
         </picture>
         <span class="smile-comparison__badge smile-comparison__badge--before" aria-hidden="true">Antes</span>
         <span class="smile-comparison__badge smile-comparison__badge--after" aria-hidden="true">Después</span>
         <div class="smile-comparison__divider" aria-hidden="true"></div>
         <input class="smile-comparison__range" type="range" min="0" max="100" value="50"
-          aria-label="Forma y proporción. Ajustar la comparación entre antes y después" aria-describedby="comparison-caption-hero">
+          aria-label="Forma y proporción. Ajustar la comparación entre antes y después">
         <span class="smile-comparison__knob" aria-hidden="true">↔</span>
       </div>
-      <figcaption class="smile-comparison__caption" id="comparison-caption-hero">Simulación generada de un caso ficticio.</figcaption>
     </figure>
-    </div>
+      </div>
   </div>
   <nav class="wrap signature-flow" aria-label="Menú"><a href="#contact">Valoración virtual</a><a href="#treatments">Explora los tratamientos</a><a href="#journey">Planea tu viaje</a></nav>
 </section>
-<section class="section paper smile-results" id="results" aria-labelledby="results-title">
-  <div class="wrap results-layout">
-    <div class="results-copy">
-      <p class="eyebrow">DISEÑO DE SONRISA</p><h2 id="results-title">Los detalles cambian<br>la expresión.</h2>
-      <p>Este ejemplo muestra cómo la forma y la longitud de los dientes pueden cambiar la percepción de una sonrisa. En la valoración puedes hablar de lo que te gustaría explorar y de qué opciones merecen una evaluación presencial.</p><a class="text-button" href="#treatments">Explorar tratamientos</a>
-    </div>
-    <div class="results-visual"><p>Contorno y simetría</p><figure class="smile-comparison smile-comparison--gallery" data-smile-comparison
+
+      <section class="section paper smile-results" id="results" aria-labelledby="results-title">
+        <div class="wrap results-layout">
+          <div class="results-copy">
+            <p class="eyebrow">DISEÑO DE SONRISA</p><h2 id="results-title">Los detalles cambian<br>la expresión.</h2>
+            <p>Observa cómo la forma y la longitud de los dientes cambian la expresión de una sonrisa. En la valoración puedes conversar sobre tus objetivos y qué opciones requieren una evaluación presencial.</p><a class="text-button" href="#treatments">Explorar tratamientos</a>
+          </div>
+          <div class="results-visual"><p>Contorno y simetría</p><figure class="smile-comparison smile-comparison--gallery" data-smile-comparison
       data-comparison-before="Antes" data-comparison-after="Después">
       <div class="smile-comparison__stage">
         <picture class="smile-comparison__photo smile-comparison__photo--after">
           <source type="image/avif" srcset="/assets/smile-example-gallery-after.avif">
-          <img src="/assets/smile-example-gallery-after.webp" width="864" height="648" alt="Ilustración de la misma sonrisa con cambios simulados" loading="lazy">
+          <img src="/assets/smile-example-gallery-after.webp" width="864" height="648" alt="Sonrisa con el diseño aplicado" loading="lazy">
         </picture>
         <picture class="smile-comparison__photo smile-comparison__photo--before">
           <source type="image/avif" srcset="/assets/smile-example-gallery-before.avif">
-          <img src="/assets/smile-example-gallery-before.webp" width="864" height="648" alt="Ilustración de la sonrisa inicial de una persona ficticia" loading="lazy">
+          <img src="/assets/smile-example-gallery-before.webp" width="864" height="648" alt="Sonrisa en el punto de partida" loading="lazy">
         </picture>
         <span class="smile-comparison__badge smile-comparison__badge--before" aria-hidden="true">Antes</span>
         <span class="smile-comparison__badge smile-comparison__badge--after" aria-hidden="true">Después</span>
         <div class="smile-comparison__divider" aria-hidden="true"></div>
         <input class="smile-comparison__range" type="range" min="0" max="100" value="50"
-          aria-label="Contorno y simetría. Ajustar la comparación entre antes y después" aria-describedby="comparison-caption-gallery">
+          aria-label="Contorno y simetría. Ajustar la comparación entre antes y después">
         <span class="smile-comparison__knob" aria-hidden="true">↔</span>
       </div>
-      <figcaption class="smile-comparison__caption" id="comparison-caption-gallery">Simulación generada de un caso ficticio.</figcaption>
     </figure></div>
-  </div>
-</section>
+        </div>
+      </section>
 <section class="section treatments paper" id="treatments" aria-labelledby="treatments-title">
   <div class="wrap">
     <div class="section-heading"><div><p class="eyebrow">EXPLORA TUS POSIBILIDADES</p><h2 id="treatments-title">Encuentra una opción<br>para tu sonrisa.</h2></div><p>Conoce cómo se planifica cada opción, qué cuidados implica y qué puedes conversar en tu valoración.</p></div>
@@ -134,7 +136,41 @@
     <details class="material-comparison"><summary><span>¿Resina o porcelana?</span><span aria-hidden="true">+</span></summary><p>No existe una opción superior para todos. El material adecuado depende de tus dientes, expectativas, mantenimiento y valoración clínica.</p><div class="table-scroll" role="region" aria-label="¿Resina o porcelana?" tabindex="0"><table><thead><tr><th scope="col">Aspecto</th><th scope="col">Resina</th><th scope="col">Porcelana</th></tr></thead><tbody><tr><th scope="row">Técnica</th><td>Resina modelada directamente</td><td>Cerámica elaborada individualmente</td></tr><tr><th scope="row">Planificación</th><td>Forma, tono y salud oral</td><td>Forma, tono, preparación y citas</td></tr><tr><th scope="row">Cuidado posterior</th><td>Higiene, controles y pulido según indicación</td><td>Higiene y controles según indicación</td></tr><tr><th scope="row">Tu decisión</th><td>Valoración clínica individual</td><td>Valoración clínica individual</td></tr></tbody></table></div></details>
   </div>
 </section>
-<section class="section investment" id="investment"><div class="wrap investment-grid"><div class="investment-copy"><p class="eyebrow">UNA INVERSIÓN MÁS INFORMADA</p><h2>Tu sonrisa.<br>Tus números.</h2><p>Un tratamiento en el exterior es más que una cotización dental. Compara tratamientos equivalentes e incluye el viaje para decidir con el panorama completo.</p><div class="investment-line" aria-hidden="true"></div><p class="small-copy">Estimación de planificación, no cotización ni garantía. Compara tratamientos equivalentes. El costo final depende del diagnóstico, el plan de atención y los gastos reales del viaje.</p></div><div class="calculator"><div class="calculator-top"><h3>Explora tu ahorro potencial</h3><span id="currency">USD</span></div><p id="example-note">Ejemplo editable. Las cifras son ficticias y no corresponden a tarifas.</p><form id="calculator" novalidate><div class="cost-fields"><label for="cost-0">Tratamiento en tu país<span class="money"><span aria-hidden="true">$</span><input id="cost-0" name="cost-0" type="number" inputmode="decimal" min="0.01" max="100000000" step="0.01" placeholder="0.00" value="8500" required aria-describedby="currency example-note"></span></label><label for="cost-1">Tratamiento en Colombia<span class="money"><span aria-hidden="true">$</span><input id="cost-1" name="cost-1" type="number" inputmode="decimal" min="0" max="100000000" step="0.01" placeholder="0.00" value="3300" required aria-describedby="currency example-note"></span></label><label for="cost-2">Vuelos<span class="money"><span aria-hidden="true">$</span><input id="cost-2" name="cost-2" type="number" inputmode="decimal" min="0" max="100000000" step="0.01" placeholder="0.00" value="550" required aria-describedby="currency example-note"></span></label><label for="cost-3">Alojamiento<span class="money"><span aria-hidden="true">$</span><input id="cost-3" name="cost-3" type="number" inputmode="decimal" min="0" max="100000000" step="0.01" placeholder="0.00" value="680" required aria-describedby="currency example-note"></span></label><label for="cost-4">Otros gastos y seguimiento<span class="money"><span aria-hidden="true">$</span><input id="cost-4" name="cost-4" type="number" inputmode="decimal" min="0" max="100000000" step="0.01" placeholder="0.00" value="320" required aria-describedby="currency example-note"></span></label></div><div class="result" aria-live="polite" aria-atomic="true"><p id="result-label">Ahorro potencial</p><strong id="result-value">—</strong><p id="result-note">Completa los cinco valores para comparar.</p></div><div class="chart" id="cost-chart" hidden><div class="chart-row"><span>Tratamiento en tu país</span><strong id="home-total"></strong><div class="chart-track"><div id="home-bar"></div></div></div><div class="chart-row gold"><span>Colombia + tu viaje</span><strong id="colombia-total"></strong><div class="chart-track"><div id="colombia-bar"></div></div></div></div><div class="calculator-actions"><button class="text-button reset" type="reset">Borrar valores</button><button class="text-button reset" type="button" data-load-example>Cargar cifras de ejemplo</button></div></form><div class="calc-cta"><button type="button" class="button" data-contact>Valoración virtual gratuita</button></div></div></div></section>
+
+      <section class="section investment" id="investment">
+        <div class="wrap investment-grid">
+          <div class="investment-copy">
+            <p class="eyebrow">UNA INVERSIÓN MÁS INFORMADA</p>
+            <h2>¿Cuánto costarían<br>tus carillas?</h2><p>Elige el material y cuántas carillas quieres comparar con el precio en tu lugar de residencia.</p>
+            <div class="calc-cta veneer-consultation"><button type="button" class="button" data-contact>Valoración virtual gratuita</button></div>
+          </div>
+          
+          <div class="calculator">
+            <div class="calculator-top"><h3>Calcula tu tratamiento</h3><span>USD</span></div>
+            <form class="veneer-calculator" data-veneer-calculator data-pricing="{&quot;resin&quot;:{&quot;colombia&quot;:160,&quot;pr&quot;:375,&quot;us&quot;:500},&quot;porcelain&quot;:{&quot;colombia&quot;:360,&quot;pr&quot;:850,&quot;us&quot;:1200}}"
+              data-savings="Ahorro frente a {market}" data-extra="Costo adicional frente a {market}" data-equal="Sin diferencia frente a {market}">
+              <div class="veneer-inputs">
+                <label>Material<select name="material">
+                  <option value="resin">Resina</option>
+                  <option value="porcelain">Porcelana</option>
+                </select></label>
+                <label>Número de carillas<input name="quantity" type="number" inputmode="numeric"
+                  min="1" max="32" step="1" value="8" required aria-describedby="veneers-quantity-error"></label>
+                <label>Comparar con<select name="market">
+                  <option value="pr">Puerto Rico</option>
+                  <option value="us">Estados Unidos</option>
+                </select></label>
+              </div>
+              <p class="veneer-note" id="veneers-quantity-error" data-veneers-error hidden>Ingresa una cantidad del 1 al 32.</p>
+              <dl class="veneer-results" aria-live="polite" aria-atomic="true">
+                <div><dt>Tratamiento en Colombia</dt><dd data-veneers-total>$1,280</dd></div>
+                <div><dt data-veneers-savings-label>Ahorro frente a Puerto Rico</dt><dd data-veneers-savings>$1,720</dd></div>
+              </dl>
+              <p class="veneer-note">Importes orientativos en USD. El precio final se confirma en la valoración.</p>
+            </form>
+          </div>
+        </div>
+      </section>
 <section class="section team paper" id="team"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">LAS PERSONAS DETRÁS DE TU ATENCIÓN</p><h2>Conoce a las doctoras.</h2></div><p>Diseño de sonrisa y ortodoncia, dos áreas complementarias para entender tus opciones.</p></div><div class="team-editorial">
       <article class="team-feature">
         <div class="team-mosaic">
@@ -172,17 +208,54 @@
     <ul class="recommendation-list"><li><h3>Aclara el alcance y el precio</h3><p>Pide un presupuesto desglosado. Pregunta qué incluye, qué podría cambiar tras la valoración presencial y cómo se cotizan los controles.</p></li><li><h3>Confirma las fechas antes de reservar</h3><p>Consulta cuántas citas podrían hacer falta y qué margen conviene dejar entre ellas. Organiza tu vuelo y alojamiento una vez tengas una agenda coordinada.</p></li><li><h3>Planea el seguimiento al volver</h3><p>Pregunta a quién contactar si surgen dudas después del viaje, qué seguimiento se puede hacer a distancia y cuándo podrías necesitar una visita presencial.</p></li></ul>
   </div>
 </section>
-<section class="destination"><picture><source type="image/avif" srcset="/assets/colombia-800.avif 800w, /assets/colombia.avif 1536w" sizes="100vw"><img src="/assets/colombia.webp" srcset="/assets/colombia-800.webp 800w, /assets/colombia.webp 1536w" sizes="100vw" width="1536" height="1024" alt="Luz dorada sobre las calles históricas de Cartagena, Colombia" loading="lazy"></picture><div class="destination-shade"></div><div class="wrap destination-copy"><p class="eyebrow">UNA NUEVA PERSPECTIVA</p><h2>Tu sonrisa te trae.<br>Colombia se queda contigo.</h2><p>Explora un nuevo lugar para tu atención dental personalizada. Considera el ahorro potencial junto a tus necesidades de cuidado y conoce Colombia cuando tu agenda clínica lo permita.</p></div></section>
-<section class="section story-section" aria-labelledby="stories-title">
+<section class="destination" id="destinations"><picture><source type="image/avif" srcset="/assets/colombia-800.avif 800w, /assets/colombia.avif 1536w" sizes="100vw"><img src="/assets/colombia.webp" srcset="/assets/colombia-800.webp 800w, /assets/colombia.webp 1536w" sizes="100vw" width="1536" height="1024" alt="Luz dorada sobre las calles históricas de Cartagena, Colombia" loading="lazy"></picture><div class="destination-shade"></div><div class="wrap destination-copy"><p class="eyebrow">UNA NUEVA PERSPECTIVA</p><h2>Tu sonrisa te trae.<br>Colombia se queda contigo.</h2><p>Explora un nuevo lugar para tu atención dental personalizada. Considera el ahorro potencial junto a tus necesidades de cuidado y conoce Colombia cuando tu agenda clínica lo permita.</p><span class="destination-feature-label">Cartagena</span></div></section>
+<section class="section paper destination-collection" aria-labelledby="places-title">
   <div class="wrap">
-    <div class="section-heading"><h2 id="stories-title">Reseñas de ejemplo</h2><p>Textos ficticios que muestran cómo podrían presentarse las reseñas.</p></div>
-    <div class="story-grid"><figure><figcaption>Reseña ficticia · Puerto Rico</figcaption><blockquote><p>“La primera conversación me ayudó a ordenar mis preguntas sobre el presupuesto y los gastos del viaje.”</p></blockquote><p class="review-title">Presupuesto y viaje</p></figure><figure><figcaption>Reseña ficticia · Estados Unidos</figcaption><blockquote><p>“Pude hablar de lo que quería cambiar y entendí qué se puede conversar por video y qué se revisa en persona.”</p></blockquote><p class="review-title">Opciones de tratamiento</p></figure></div>
+    <div class="section-heading"><h2 id="places-title">Más lugares para conocer</h2><p>Si tu agenda clínica lo permite, estas son algunas ideas para extender tu viaje por tu cuenta.</p></div>
+    <div class="destination-cards">
+          <figure class="destination-card">
+            <picture>
+              <source type="image/avif" srcset="/assets/destination-medellin-480.avif 480w, /assets/destination-medellin-840.avif 840w"
+                sizes="(max-width: 760px) 90vw, 30vw">
+              <img src="/assets/destination-medellin-840.webp" width="840" height="560" alt="Un teleférico sobre los barrios y las montañas de Medellín" loading="lazy" decoding="async">
+            </picture>
+            <figcaption><strong>Medellín</strong><span>El valle de Aburrá y la ciudad entre montañas.</span></figcaption>
+          </figure>
+          <figure class="destination-card">
+            <picture>
+              <source type="image/avif" srcset="/assets/destination-guatape-480.avif 480w, /assets/destination-guatape-840.avif 840w"
+                sizes="(max-width: 760px) 90vw, 30vw">
+              <img src="/assets/destination-guatape-840.webp" width="840" height="560" alt="El embalse de Guatapé y la Piedra del Peñol vistos desde arriba" loading="lazy" decoding="async">
+            </picture>
+            <figcaption><strong>Guatapé</strong><span>El embalse y la silueta de la Piedra del Peñol.</span></figcaption>
+          </figure>
+          <figure class="destination-card">
+            <picture>
+              <source type="image/avif" srcset="/assets/destination-cocora-480.avif 480w, /assets/destination-cocora-840.avif 840w"
+                sizes="(max-width: 760px) 90vw, 30vw">
+              <img src="/assets/destination-cocora-840.webp" width="840" height="560" alt="Palmas altas entre las colinas verdes y la neblina del Valle del Cocora" loading="lazy" decoding="async">
+            </picture>
+            <figcaption><strong>Valle del Cocora</strong><span>Palmas de cera entre las montañas del Quindío.</span></figcaption>
+          </figure></div>
   </div>
 </section>
-<section class="section faq paper" id="faq"><div class="wrap faq-grid"><div><p class="eyebrow">BUENAS PREGUNTAS. RESPUESTAS CLARAS.</p><h2>Antes de tu próxima etapa.</h2></div><div class="faq-list"><details><summary>¿Cuánto cuesta un diseño de sonrisa?<span aria-hidden="true">+</span></summary><p>El estimado depende del tratamiento, número de dientes y necesidades clínicas. Comienza con una valoración virtual inicial gratuita para conocer tus opciones; el plan se confirma mediante valoración presencial.</p></details><details><summary>¿Cuánto podría ahorrar?<span aria-hidden="true">+</span></summary><p>Depende de cotizaciones comparables y tus gastos reales de viaje. Utiliza la calculadora con tus propios valores. El ahorro no está garantizado.</p></details><details><summary>¿Cómo elijo entre resina y porcelana?<span aria-hidden="true">+</span></summary><p>Conversa con tu odontóloga sobre salud oral, expectativas, preparación, mantenimiento y presupuesto. Ningún material es el adecuado para todas las personas.</p></details><details><summary>¿Cuánto tiempo debo permanecer en Colombia?<span aria-hidden="true">+</span></summary><p>El procedimiento y los controles determinan la agenda. Confirma las citas antes de comprar los vuelos.</p></details><details><summary>¿La valoración virtual es gratuita?<span aria-hidden="true">+</span></summary><p>La valoración virtual inicial es gratuita. Los exámenes adicionales y tratamientos se cotizan por separado. La conversación virtual no reemplaza el diagnóstico presencial.</p></details><details><summary>¿Incluyen vuelos y alojamiento?<span aria-hidden="true">+</span></summary><p>No. Organizas y pagas los vuelos, alojamiento y transporte de manera independiente.</p></details><details><summary>¿Qué sucede después de regresar?<span aria-hidden="true">+</span></summary><p>Acuerda el plan de seguimiento antes del tratamiento, incluyendo a quién contactar y cómo se manejarían las citas o cuidados adicionales.</p></details><details><summary>¿Todas las personas son candidatas?<span aria-hidden="true">+</span></summary><p>No. La indicación depende de la salud oral y la valoración clínica. Puede recomendarse un enfoque diferente.</p></details><details><summary>¿Cómo puedo comenzar?<span aria-hidden="true">+</span></summary><p>Utiliza el botón de valoración para contactar a Sonrisas Colombia y solicitar tu consulta virtual inicial.</p></details></div></div></section>
+
+      <section class="section story-section" aria-labelledby="stories-title">
+        <div class="wrap">
+          <div class="section-heading"><h2 id="stories-title">Opiniones</h2><p>Valoración virtual, presupuesto y preparación del viaje.</p></div>
+          <div class="story-grid review-track" id="review-track" data-review-track role="region" aria-labelledby="stories-title" tabindex="0">
+            <figure><figcaption>Puerto Rico</figcaption><blockquote><p>“La primera conversación me ayudó a ordenar mis preguntas sobre el presupuesto y los gastos del viaje.”</p></blockquote><p class="review-title">Presupuesto y viaje</p></figure><figure><figcaption>Estados Unidos</figcaption><blockquote><p>“Pude hablar de lo que quería cambiar y entendí qué se puede conversar por video y qué se revisa en persona.”</p></blockquote><p class="review-title">Opciones de tratamiento</p></figure><figure><figcaption>Puerto Rico</figcaption><blockquote><p>“Quería saber qué incluía el tratamiento y el desglose me dio algo concreto para comparar con mi cotización en San Juan.”</p></blockquote><p class="review-title">Un presupuesto más claro</p></figure><figure><figcaption>Puerto Rico</figcaption><blockquote><p>“Entré a la videollamada con dudas sobre la porcelana y salí con preguntas sobre ambos materiales para la cita presencial.”</p></blockquote><p class="review-title">Resina o porcelana</p></figure><figure><figcaption>Estados Unidos</figcaption><blockquote><p>“Antes de comprar el vuelo, pude hablar de qué días me convenía apartar con mi horario de trabajo.”</p></blockquote><p class="review-title">Organizarme con el trabajo</p></figure><figure><figcaption>Puerto Rico</figcaption><blockquote><p>“Fue fácil escribir por WhatsApp y encontrar un horario para la videollamada que me quedara bien.”</p></blockquote><p class="review-title">El primer contacto</p></figure><figure><figcaption>Estados Unidos</figcaption><blockquote><p>“Me gustó poder contar en la primera llamada qué quería cambiar y qué quería conservar de mi sonrisa.”</p></blockquote><p class="review-title">La primera llamada</p></figure><figure><figcaption>Puerto Rico</figcaption><blockquote><p>“Ver el costo según la cantidad de carillas me ayudó a comparar el mismo número con la cotización que tenía en casa.”</p></blockquote><p class="review-title">Comparar cotizaciones</p></figure><figure><figcaption>Estados Unidos</figcaption><blockquote><p>“Preguntar a quién podía contactar desde casa me ayudó a entender cómo sería el seguimiento después del viaje.”</p></blockquote><p class="review-title">El regreso a casa</p></figure><figure><figcaption>Puerto Rico</figcaption><blockquote><p>“Tenía una lista de preguntas en el celular y pude repasarlas todas con calma.”</p></blockquote><p class="review-title">Tiempo para preguntar</p></figure><figure><figcaption>Estados Unidos</figcaption><blockquote><p>“Me sirvió hablar de las fechas tentativas de las citas antes de escoger el vuelo de regreso.”</p></blockquote><p class="review-title">Antes de comprar los pasajes</p></figure><figure><figcaption>Puerto Rico</figcaption><blockquote><p>“Después de la llamada me quedó claro qué podía conversar por video y qué se tendría que revisar en persona.”</p></blockquote><p class="review-title">La visita en Colombia</p></figure>
+          </div>
+          <div class="review-controls" hidden>
+            <button class="review-control" type="button" data-review-step="-1" aria-controls="review-track" aria-label="Reseña anterior">‹</button>
+            <button class="review-control" type="button" data-review-step="1" aria-controls="review-track" aria-label="Reseña siguiente">›</button>
+          </div>
+        </div>
+      </section>
+<section class="section faq paper" id="faq"><div class="wrap faq-grid"><div><p class="eyebrow">BUENAS PREGUNTAS. RESPUESTAS CLARAS.</p><h2>Antes de tu próxima etapa.</h2></div><div class="faq-list"><details><summary>¿Cuánto cuesta un diseño de sonrisa?<span aria-hidden="true">+</span></summary><p>El estimado depende del tratamiento, número de dientes y necesidades clínicas. Comienza con una valoración virtual inicial gratuita para conocer tus opciones; el plan se confirma mediante valoración presencial.</p></details><details><summary>¿Cuánto podría ahorrar?<span aria-hidden="true">+</span></summary><p>Compara el mismo material y el mismo número de carillas en ambas cotizaciones. La diferencia de tratamiento varía según el caso. Calcula los gastos de viaje por separado.</p></details><details><summary>¿Cómo elijo entre resina y porcelana?<span aria-hidden="true">+</span></summary><p>Conversa con tu odontóloga sobre salud oral, expectativas, preparación, mantenimiento y presupuesto. Ningún material es el adecuado para todas las personas.</p></details><details><summary>¿Cuánto tiempo debo permanecer en Colombia?<span aria-hidden="true">+</span></summary><p>El procedimiento y los controles determinan la agenda. Confirma las citas antes de comprar los vuelos.</p></details><details><summary>¿La valoración virtual es gratuita?<span aria-hidden="true">+</span></summary><p>La valoración virtual inicial es gratuita. Los exámenes adicionales y tratamientos se cotizan por separado. La conversación virtual no reemplaza el diagnóstico presencial.</p></details><details><summary>¿Incluyen vuelos y alojamiento?<span aria-hidden="true">+</span></summary><p>No. Organizas y pagas los vuelos, alojamiento y transporte de manera independiente.</p></details><details><summary>¿Qué sucede después de regresar?<span aria-hidden="true">+</span></summary><p>Acuerda el plan de seguimiento antes del tratamiento, incluyendo a quién contactar y cómo se manejarían las citas o cuidados adicionales.</p></details><details><summary>¿Todas las personas son candidatas?<span aria-hidden="true">+</span></summary><p>No. La indicación depende de la salud oral y la valoración clínica. Puede recomendarse un enfoque diferente.</p></details><details><summary>¿Cómo puedo comenzar?<span aria-hidden="true">+</span></summary><p>Utiliza el botón de valoración para contactar a Sonrisas Colombia y solicitar tu consulta virtual inicial.</p></details></div></div></section>
 <section class="section closing" id="contact"><div class="wrap"><p class="eyebrow">TU PRÓXIMA ETAPA</p><h2>Que comience<br>con una sonrisa.</h2><p>Cuéntanos lo que tienes en mente. Exploremos juntos lo que viene después.</p><button type="button" class="button" data-contact>Valoración virtual gratuita</button><div class="closing-mark" aria-hidden="true">SC</div></div></section>
 </main>
-<footer><div class="wrap footer-main"><a class="brand" href="/es/"><img src="/assets/logo-onix.webp" width="180" height="120" alt="Sonrisas Colombia"></a><p>Estética dental personalizada.<br>Una perspectiva colombiana.</p><nav aria-label="Menú"><a href="#results">Comparador</a><a href="#treatments">Tratamientos</a><a href="#investment">Ahorro</a><a href="#team">Equipo</a><a href="#journey">Tu viaje</a><a href="#faq">Preguntas</a></nav></div><div class="wrap footer-bottom"><span>© 2026 Sonrisas Colombia. Todos los derechos reservados.</span><div><button class="plain-button" data-privacy>Preferencias de privacidad</button><a data-language href="/" lang="en-US" hreflang="en-US">EN</a></div></div></footer>
+<footer><div class="wrap footer-main"><a class="brand" href="/"><img src="/assets/logo-onix.webp" width="180" height="120" alt="Sonrisas Colombia"></a><p>Estética dental personalizada.<br>Una perspectiva colombiana.</p><nav aria-label="Menú"><a href="#results">Comparador</a><a href="#treatments">Tratamientos</a><a href="#investment">Ahorro</a><a href="#team">Equipo</a><a href="#journey">Tu viaje</a><a href="#faq">Preguntas</a></nav></div><div class="wrap footer-bottom"><span>© 2026 Sonrisas Colombia. Todos los derechos reservados.</span><div><button class="plain-button" data-privacy>Preferencias de privacidad</button><a data-language href="/en/" lang="en-US" hreflang="en-US">EN</a></div></div></footer>
 <button class="floating-contact" data-contact aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12 7.7L3 21l1.6-5.4A8.5 8.5 0 1 1 20.5 11.7Z"/><path d="m8.5 7.7 1.8 2-1 1.2c.7 1.6 1.9 2.8 3.6 3.4l1.1-1 2.1 1.4c-.3 2.4-2.6 2-4.6 1-2.7-1.4-5.7-5.3-3-8Z"/></svg><span>WhatsApp</span></button>
 <dialog id="contact-dialog" aria-labelledby="contact-dialog-title"><button class="dialog-close" data-close aria-label="Cerrar">×</button><p class="eyebrow">SONRISAS COLOMBIA</p><h2 id="contact-dialog-title">Comencemos una conversación</h2><p>Nuestro canal directo de reservas estará disponible próximamente. Vuelve a esta página para solicitar tu valoración inicial.</p><button class="button" data-close>Cerrar</button></dialog>
 <dialog id="privacy-dialog" aria-labelledby="privacy-dialog-title"><button class="dialog-close" data-close aria-label="Cerrar">×</button><p class="eyebrow">SONRISAS COLOMBIA</p><h2 id="privacy-dialog-title">Tu privacidad importa</h2><p>Los valores de la calculadora permanecen en tu navegador y no se envían a un servidor. Las herramientas opcionales de analítica y publicidad están desactivadas. Tu preferencia de idioma puede guardarse en este dispositivo. Al abrir WhatsApp accedes a un servicio externo con sus propias condiciones de privacidad.</p><p>No incluyas historias clínicas ni datos sensibles de salud en el mensaje inicial. Consulta con el equipo el canal adecuado para compartir esa información.</p><p class="privacy-state">Solo funciones esenciales</p><div class="dialog-actions"><button class="button" data-consent="essential">Guardar preferencias</button><button class="text-button" data-consent="rejected">Rechazar seguimiento opcional</button></div></dialog>

@@ -19,18 +19,68 @@
       ]
     },
     "stories": {
-      "title": "Reseñas de ejemplo",
-      "intro": "Textos ficticios que muestran cómo podrían presentarse las reseñas.",
+      "title": "Opiniones",
+      "intro": "Valoración virtual, presupuesto y preparación del viaje.",
       "items": [
         {
           "title": "Presupuesto y viaje",
           "quote": "La primera conversación me ayudó a ordenar mis preguntas sobre el presupuesto y los gastos del viaje.",
-          "caption": "Reseña ficticia · Puerto Rico"
+          "caption": "Puerto Rico"
         },
         {
           "title": "Opciones de tratamiento",
           "quote": "Pude hablar de lo que quería cambiar y entendí qué se puede conversar por video y qué se revisa en persona.",
-          "caption": "Reseña ficticia · Estados Unidos"
+          "caption": "Estados Unidos"
+        },
+        {
+          "title": "Un presupuesto más claro",
+          "quote": "Quería saber qué incluía el tratamiento y el desglose me dio algo concreto para comparar con mi cotización en San Juan.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "Resina o porcelana",
+          "quote": "Entré a la videollamada con dudas sobre la porcelana y salí con preguntas sobre ambos materiales para la cita presencial.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "Organizarme con el trabajo",
+          "quote": "Antes de comprar el vuelo, pude hablar de qué días me convenía apartar con mi horario de trabajo.",
+          "caption": "Estados Unidos"
+        },
+        {
+          "title": "El primer contacto",
+          "quote": "Fue fácil escribir por WhatsApp y encontrar un horario para la videollamada que me quedara bien.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "La primera llamada",
+          "quote": "Me gustó poder contar en la primera llamada qué quería cambiar y qué quería conservar de mi sonrisa.",
+          "caption": "Estados Unidos"
+        },
+        {
+          "title": "Comparar cotizaciones",
+          "quote": "Ver el costo según la cantidad de carillas me ayudó a comparar el mismo número con la cotización que tenía en casa.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "El regreso a casa",
+          "quote": "Preguntar a quién podía contactar desde casa me ayudó a entender cómo sería el seguimiento después del viaje.",
+          "caption": "Estados Unidos"
+        },
+        {
+          "title": "Tiempo para preguntar",
+          "quote": "Tenía una lista de preguntas en el celular y pude repasarlas todas con calma.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "Antes de comprar los pasajes",
+          "quote": "Me sirvió hablar de las fechas tentativas de las citas antes de escoger el vuelo de regreso.",
+          "caption": "Estados Unidos"
+        },
+        {
+          "title": "La visita en Colombia",
+          "quote": "Después de la llamada me quedó claro qué podía conversar por video y qué se tendría que revisar en persona.",
+          "caption": "Puerto Rico"
         }
       ]
     },
@@ -61,17 +111,15 @@
     "eyebrow": "PARA PUERTO RICO Y ESTADOS UNIDOS",
     "hero": "Diseña tu sonrisa",
     "heroEm": "en Colombia.",
-    "intro": "Explora resina, porcelana y ortodoncia con una valoración virtual inicial gratuita. Compara el costo del tratamiento y del viaje antes de decidir.",
+    "intro": "Explora resina, porcelana y ortodoncia con una valoración virtual inicial gratuita. Compara el costo de tus carillas con Puerto Rico o Estados Unidos.",
     "secondary": "Explorar tratamientos",
     "heroSecondary": "Calcular mi presupuesto",
     "heroVisualTitle": "Forma y proporción",
-    "heroVisualHint": "Desliza para ver el cambio simulado",
+    "heroVisualHint": "Arrastra para comparar",
     "resultsLabel": "DISEÑO DE SONRISA",
     "resultsTitle": "Los detalles cambian\nla expresión.",
-    "resultsCopy": "Este ejemplo muestra cómo la forma y la longitud de los dientes pueden cambiar la percepción de una sonrisa. En la valoración puedes hablar de lo que te gustaría explorar y de qué opciones merecen una evaluación presencial.",
+    "resultsCopy": "Observa cómo la forma y la longitud de los dientes cambian la expresión de una sonrisa. En la valoración puedes conversar sobre tus objetivos y qué opciones requieren una evaluación presencial.",
     "resultsExample": "Contorno y simetría",
-    "exampleNote": "Ejemplo editable. Las cifras son ficticias y no corresponden a tarifas.",
-    "useExample": "Cargar cifras de ejemplo",
     "teamTitle": "Conoce a las doctoras.",
     "teamCopy": "Diseño de sonrisa y ortodoncia, dos áreas complementarias para entender tus opciones.",
     "portraitAlts": [
@@ -83,7 +131,32 @@
       "Valoración virtual",
       "Explora los tratamientos",
       "Planea tu viaje"
-    ]
+    ],
+    "otherUrl": "/en/",
+    "placesTitle": "Más lugares para conocer",
+    "placesIntro": "Si tu agenda clínica lo permite, estas son algunas ideas para extender tu viaje por tu cuenta.",
+    "places": [
+      [
+        "medellin",
+        "Medellín",
+        "El valle de Aburrá y la ciudad entre montañas.",
+        "Un teleférico sobre los barrios y las montañas de Medellín"
+      ],
+      [
+        "guatape",
+        "Guatapé",
+        "El embalse y la silueta de la Piedra del Peñol.",
+        "El embalse de Guatapé y la Piedra del Peñol vistos desde arriba"
+      ],
+      [
+        "cocora",
+        "Valle del Cocora",
+        "Palmas de cera entre las montañas del Quindío.",
+        "Palmas altas entre las colinas verdes y la neblina del Valle del Cocora"
+      ]
+    ],
+    "reviewPrev": "Reseña anterior",
+    "reviewNext": "Reseña siguiente"
   },
   "en": {
     "recommendations": {
@@ -105,18 +178,68 @@
       ]
     },
     "stories": {
-      "title": "Sample reviews",
-      "intro": "Fictional examples of how reviews could appear here.",
+      "title": "Reviews",
+      "intro": "Virtual consultations, treatment costs and trip planning.",
       "items": [
         {
           "title": "Budget and travel",
           "quote": "The first conversation helped me organize my questions about the treatment estimate and travel costs.",
-          "caption": "Fictional review · Puerto Rico"
+          "caption": "Puerto Rico"
         },
         {
           "title": "Treatment options",
           "quote": "I could explain what I wanted to change and see what could be discussed by video and what would need an in-person assessment.",
-          "caption": "Fictional review · United States"
+          "caption": "United States"
+        },
+        {
+          "title": "A clearer estimate",
+          "quote": "I wanted to know what was included, and the itemized estimate gave me something concrete to compare with my quote in San Juan.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "Composite or porcelain",
+          "quote": "I went into the video call with questions about porcelain and left knowing what to ask about both materials at an in-person visit.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "Planning around work",
+          "quote": "Before booking my flight, I could talk through which days I might need to set aside around my work schedule.",
+          "caption": "United States"
+        },
+        {
+          "title": "Getting in touch",
+          "quote": "It was easy to start on WhatsApp and find a time for the video call that worked for me.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "The first call",
+          "quote": "I liked having time on the first call to say what I wanted to change and what I hoped to keep about my smile.",
+          "caption": "United States"
+        },
+        {
+          "title": "Comparing costs",
+          "quote": "Seeing the cost by veneer count made it easier to compare the same number with my estimate back home.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "What happens back home",
+          "quote": "Asking who I could contact from home helped me understand how follow-up might work after the trip.",
+          "caption": "United States"
+        },
+        {
+          "title": "Making time for questions",
+          "quote": "I had a list of questions on my phone and got to go through them without feeling rushed.",
+          "caption": "Puerto Rico"
+        },
+        {
+          "title": "Before buying tickets",
+          "quote": "I appreciated talking through the tentative appointment schedule before picking a return flight.",
+          "caption": "United States"
+        },
+        {
+          "title": "What to expect in Colombia",
+          "quote": "After the call, I understood which questions I could ask by video and what would need to be checked in person.",
+          "caption": "Puerto Rico"
         }
       ]
     },
@@ -147,17 +270,15 @@
     "eyebrow": "FOR PUERTO RICO AND U.S. PATIENTS",
     "hero": "Design your smile",
     "heroEm": "in Colombia.",
-    "intro": "Explore composite, porcelain and orthodontics with a free initial virtual consultation. Compare treatment and travel costs before you decide.",
+    "intro": "Explore composite, porcelain and orthodontics with a free initial virtual consultation. Compare the cost of your veneers with Puerto Rico or the United States.",
     "secondary": "Explore treatments",
     "heroSecondary": "Estimate my budget",
     "heroVisualTitle": "Shape and proportion",
-    "heroVisualHint": "Drag to reveal the simulated change",
+    "heroVisualHint": "Drag to compare",
     "resultsLabel": "SMILE DESIGN",
     "resultsTitle": "Small details change\nthe expression.",
-    "resultsCopy": "This example shows how the shape and length of teeth can change the way a smile looks. Your consultation is an opportunity to share what you would like to explore and discuss what needs an in-person assessment.",
+    "resultsCopy": "See how tooth shape and length can change the way a smile looks. Your consultation is an opportunity to discuss your goals and which options need an in-person assessment.",
     "resultsExample": "Contour and symmetry",
-    "exampleNote": "Editable example. These fictional amounts are not treatment prices.",
-    "useExample": "Load example costs",
     "teamTitle": "Meet your doctors.",
     "teamCopy": "Smile design and orthodontics bring two perspectives to your treatment options.",
     "portraitAlts": [
@@ -169,6 +290,31 @@
       "Virtual consultation",
       "Explore treatments",
       "Plan your trip"
-    ]
+    ],
+    "otherUrl": "/",
+    "placesTitle": "More places to explore",
+    "placesIntro": "If your appointment schedule allows, here are a few ideas to extend your trip independently.",
+    "places": [
+      [
+        "medellin",
+        "Medellín",
+        "The Aburrá Valley and a city set among mountains.",
+        "A cable car above the hills and neighborhoods of Medellín"
+      ],
+      [
+        "guatape",
+        "Guatapé",
+        "The reservoir and the silhouette of Piedra del Peñol.",
+        "Guatapé reservoir and Piedra del Peñol viewed from above"
+      ],
+      [
+        "cocora",
+        "Cocora Valley",
+        "Wax palms in the mountains of Quindío.",
+        "Tall wax palms amid green slopes and mist in the Cocora Valley"
+      ]
+    ],
+    "reviewPrev": "Previous review",
+    "reviewNext": "Next review"
   }
 }

@@ -17,7 +17,7 @@
   document.addEventListener('click', event => { if (!event.target.closest('.header')) closeMenu(); });
   matchMedia('(min-width: 951px)').addEventListener('change', () => closeMenu());
   document.querySelectorAll('[data-language]').forEach(link => link.addEventListener('click', () => {
-    try { localStorage.setItem('sonrisas-language', link.getAttribute('href') === '/es/' ? 'es' : 'en'); } catch {}
+    try { localStorage.setItem('sonrisas-language', link.getAttribute('href') === '/en/' ? 'en' : 'es'); } catch {}
   }));
   // Direct campaign URLs always win. The preference is saved for subsequent navigation, never forced by a redirect.
   let lastDialogTrigger;
@@ -91,48 +91,33 @@
     panels[target].scrollIntoView({behavior: 'instant'});
   });
 
-  const inputs = [...document.querySelectorAll('#calculator input')];
-  const result = document.querySelector('#result-value');
-  const note = document.querySelector('#result-note');
-  const label = document.querySelector('#result-label');
-  const chart = document.querySelector('#cost-chart');
-  const currency = new Intl.NumberFormat(text.locale, {style:'currency',currency:'USD',maximumFractionDigits:2});
-  const percent = new Intl.NumberFormat(text.locale, {maximumFractionDigits:1});
-  function calculate(animate = true) {
-    const invalid = inputs.some(input => input.value === '' || !input.validity.valid || !Number.isFinite(input.valueAsNumber));
-    if (invalid) {
-      result.textContent = '—'; label.textContent = text.savings;
-      note.textContent = inputs.every(input => input.value === '') ? text.neutral : text.invalid;
-      chart.hidden = true; return;
+  const reviewTrack = document.querySelector('[data-review-track]');
+  if (reviewTrack) {
+    const controls = reviewTrack.nextElementSibling;
+    controls.hidden = false;
+
+    function updateReviewControls() {
+      controls.querySelector('[data-review-step="-1"]').disabled = reviewTrack.scrollLeft < 2;
+      const end = reviewTrack.scrollWidth - reviewTrack.clientWidth;
+      controls.querySelector('[data-review-step="1"]').disabled = reviewTrack.scrollLeft >= end - 2;
     }
-    const amounts = inputs.map(input => Math.round(input.valueAsNumber * 100));
-    const [home, ...away] = amounts;
-    const total = away.reduce((sum, amount) => sum + amount, 0);
-    const difference = home - total;
-    label.textContent = difference === 0 ? text.difference : difference > 0 ? text.savings : text.extra;
-    result.textContent = currency.format(Math.abs(difference) / 100);
-    note.textContent = percent.format(Math.abs(difference) / home * 100) + '% ' + text.percentage;
-    chart.hidden = false;
-    document.querySelector('#home-total').textContent = currency.format(home / 100);
-    document.querySelector('#colombia-total').textContent = currency.format(total / 100);
-    const max = Math.max(home,total,1);
-    document.querySelector('#home-bar').style.width = home / max * 100 + '%';
-    document.querySelector('#colombia-bar').style.width = total / max * 100 + '%';
-    if (animate && !reduced.matches) result.animate?.([{opacity:.5},{opacity:1}],{duration:180});
+
+    controls.addEventListener('click', event => {
+      const button = event.target.closest('[data-review-step]');
+      if (!button) return;
+      const [first, second] = reviewTrack.children;
+      const step = second.offsetLeft - first.offsetLeft;
+      reviewTrack.scrollBy({
+        left: step * Number(button.dataset.reviewStep),
+        behavior: reduced.matches ? 'instant' : 'smooth',
+      });
+    });
+
+    reviewTrack.addEventListener('scroll', updateReviewControls, {passive: true});
+    addEventListener('resize', updateReviewControls);
+    updateReviewControls();
   }
-  inputs.forEach(input => input.addEventListener('input', () => calculate()));
-  const calculator = document.querySelector('#calculator');
-  calculator.addEventListener('submit', event => event.preventDefault());
-  calculator.addEventListener('reset', event => {
-    event.preventDefault();
-    inputs.forEach(input => { input.value = ''; });
-    calculate();
-  });
-  calculator.querySelector('[data-load-example]').addEventListener('click', () => {
-    inputs.forEach(input => { input.value = input.defaultValue; });
-    calculate();
-  });
-  calculate(false);
+
   if ('IntersectionObserver' in window && !reduced.matches) {
     const observer = new IntersectionObserver(entries => entries.forEach(entry => {
       if (entry.isIntersecting) { entry.target.classList.add('reveal-in'); observer.unobserve(entry.target); }

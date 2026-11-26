@@ -14,12 +14,17 @@ class Page(HTMLParser):
         self.h1 = 0
         self.inputs = 0
         self.sliders = 0
+        self.language = None
+        self.review_count = 0
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if 'id' in attrs:
             assert attrs['id'] not in self.ids, 'Duplicate ID: '+attrs['id']
             self.ids.add(attrs['id'])
         self.h1 += tag == 'h1'
+        if tag == 'html':
+            self.language = attrs.get('lang')
+        self.review_count += tag == 'blockquote'
         self.inputs += tag == 'input' and attrs.get('type') == 'number'
         self.sliders += tag == 'input' and attrs.get('type') == 'range'
         if tag == 'img':
@@ -33,13 +38,22 @@ class Page(HTMLParser):
 for source in ['content.json', 'editorial.json']:
     data = json.loads((ROOT/'src'/source).read_text(encoding='utf-8'))
     assert set(data['en']) == set(data['es']), 'Missing translation keys: '+source
-for route in ['index.html','es/index.html']:
+for route, language in [
+    ('index.html', 'es-PR'),
+    ('en/index.html', 'en-US'),
+    ('es/index.html', 'es-PR'),
+]:
     page = Page()
     html = (SITE/route).read_text(encoding='utf-8')
     page.feed(html)
     assert page.h1 == 1
-    assert page.inputs == 5
-    assert page.sliders == 2
+    assert page.language == language
+    local_page = 'data-veneer-calculator' in html
+    assert page.inputs == (1 if local_page else 0)
+    assert page.sliders == (2 if local_page else 0)
+    assert page.review_count == (12 if local_page else 0)
+    assert 'Generated simulation of a fictional case.' not in html
+    assert 'Simulación generada de un caso ficticio.' not in html
     for ref in page.refs:
         if ref.startswith('#'): assert ref[1:] in page.ids, ref
         elif ref.startswith('/'): assert (SITE/ref.lstrip('/')).exists(), ref

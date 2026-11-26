@@ -1,6 +1,6 @@
 # Sonrisas Colombia — editorial website
 
-Sitio bilingüe estático, reconstruido para una presentación editorial premium. Inglés en `/`, español en `/es/`. No requiere npm, framework, base de datos ni servicios de terceros para funcionar.
+Sitio bilingüe estático, reconstruido para una presentación editorial premium. Español de Puerto Rico en `/`, inglés en `/en/` y `/es/` como ruta compatible para enlaces previos. No requiere npm, framework, base de datos ni servicios de terceros para funcionar.
 
 ## Ejecutar localmente
 
@@ -12,7 +12,7 @@ python src/verify.py
 python -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
-Abrir http://127.0.0.1:8765/es/ o http://127.0.0.1:8765/.
+Abrir http://127.0.0.1:8765/ para español o http://127.0.0.1:8765/en/ para inglés.
 
 ## Organización
 
@@ -24,7 +24,8 @@ Abrir http://127.0.0.1:8765/es/ o http://127.0.0.1:8765/.
 - `site/assets/style.css`: diseño responsive, fuentes locales y movimiento reducido.
 - `site/assets/experience.css`: portada editorial, explorador de tratamientos y fases del viaje.
 - `site/assets/signature.css` y `sonrisas-comparison.*`: diseño de portada interactiva, comparadores y secciones editoriales.
-- `site/assets/app.js`: menú, calculadora, diálogos, idioma y animación.
+- `site/assets/app.js`: menú, reseñas, diálogos, idioma y animación.
+- `site/assets/veneer-calculator.js` y `visitor.css`: estimador de carillas, galería de destinos y presentación de reseñas.
 - `site/assets/config.js`: configuración pública generada; no guardar secretos.
 - `site/assets/fonts`: Bodoni Moda y Manrope WOFF2 con licencias OFL.
 - `site/assets/editorial-smile*`, `colombia*` y `studio-*`: imágenes editoriales generadas y optimizadas en AVIF/WebP.
@@ -57,7 +58,7 @@ Los valores de la calculadora no se guardan ni transmiten. Las preferencias de i
 1. Usar la raíz de este repositorio con Docker Compose y `docker-compose.yml`.
 2. Configurar las variables públicas y asignar dominio al servicio `web`, puerto interno 80.
 3. Compilar y desplegar. La imagen multi-stage genera el HTML antes de copiarlo a Nginx.
-4. Validar `/`, `/es/`, `/health`, `/robots.txt` y, con dominio configurado, `/sitemap.xml`.
+4. Validar `/`, `/en/`, `/es/`, `/health`, `/robots.txt` y, con dominio configurado, `/sitemap.xml`.
 
 No se publican puertos del host, no hay redes externas obligatorias ni etiquetas manuales de Traefik. HTTPS y dominio los gestiona Coolify. Cambiar variables requiere reconstruir la imagen: Nginx no sustituye variables en tiempo de ejecución. Los archivos HTML generados también están disponibles en `site/` para alojamiento estático.
 
@@ -72,9 +73,10 @@ Recursos editoriales generados con la herramienta integrada de generación de im
 - `site/assets/studio-composite-*`: fotografía macro editorial de un pincel fino y resina marfil sobre una paleta de cerámica oscura, con iluminación cálida lateral.
 - `site/assets/studio-porcelain-*`: fotografía macro editorial de carillas de porcelana translúcida sobre piedra oscura, con luz champán y sombras largas.
 - `site/assets/studio-orthodontics-*`: fotografía macro editorial de un alineador transparente sobre piedra pulida, con luz cálida y sin marcas.
-- `site/assets/smile-example-hero-*` y `smile-example-gallery-*`: dos pares sintéticos de sonrisas anónimas, con el mismo encuadre por par y cambios sutiles simulados en espacio, alineación y contorno. Ambos comparadores identifican los casos como ficticios.
+- `site/assets/smile-example-hero-*` y `smile-example-gallery-*`: dos pares sintéticos de sonrisas anónimas, con el mismo encuadre por par y cambios sutiles simulados en espacio, alineación y contorno.
+- `site/assets/destination-*`: imágenes generadas de Medellín desde una ladera con teleférico al atardecer, del embalse de Guatapé con la Piedra del Peñol y del Valle del Cocora con palmas de cera entre la neblina.
 
-Los archivos `site/assets/katherine-*` se prepararon a partir de los tres retratos entregados por el usuario. Vanessa conserva una ficha tipográfica. La calculadora llega con un escenario de cinco cifras ficticias, editables y marcadas como ejemplo. Las dos reseñas de muestra llevan identificación de ficción junto a la cita. Antes de publicar, sustituir los casos y reseñas de ejemplo por material autorizado o retirar esos ejemplos.
+Los archivos `site/assets/katherine-*` se prepararon a partir de los tres retratos entregados por el usuario. Vanessa conserva una ficha tipográfica. En la compilación local sin dominio, la calculadora usa importes ficticios mantenidos en `VENEER_EXAMPLE_RATES` y compara el valor de las carillas en Colombia con Puerto Rico o Estados Unidos. La misma compilación muestra dos comparadores sintéticos y doce reseñas de muestra. Al configurar `PUBLIC_SITE_URL`, los casos, las reseñas y los importes de ejemplo quedan fuera de las páginas generadas. Sustituirlos por contenido autorizado y valores verificados antes de incorporarlos al sitio público.
 
 Referencias de contenido consultadas: https://drajuliamolina.com/, https://www.omeristanbul.com/, https://cosmeticrestorativedentistry.com/, https://www.newteethnow.com/. Se tomaron como referencia la claridad de tratamientos, el recorrido internacional, las preguntas y la visibilidad del contacto, sin reutilizar afirmaciones ni materiales. La referencia dralejandroaristizabal.com no estuvo accesible mediante la herramienta de consulta.
 
