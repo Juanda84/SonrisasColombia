@@ -53,22 +53,38 @@
           {
             "photo": "bogota-monserrate",
             "name": "Cerro de Monserrate",
-            "text": "El santuario sobre la ciudad, a más de 3.000 metros. Se sube en teleférico o funicular."
+            "text": "El santuario sobre la ciudad, a más de 3.000 metros. Se sube en teleférico o funicular.",
+            "cop": 35000,
+            "costNote": "ida y regreso en teleférico o funicular; a pie es gratis",
+            "where": "En la ciudad",
+            "time": "2 a 3 horas"
           },
           {
             "photo": "bogota-candelaria",
             "name": "La Candelaria",
-            "text": "El centro histórico: casas coloniales, arte urbano, museos y cafés."
+            "text": "El centro histórico: casas coloniales, arte urbano, museos y cafés.",
+            "cop": 0,
+            "costNote": "",
+            "where": "En la ciudad",
+            "time": "Medio día"
           },
           {
             "photo": "bogota-museo-oro",
             "name": "Museo del Oro",
-            "text": "Una de las colecciones de orfebrería prehispánica más grandes del mundo."
+            "text": "Una de las colecciones de orfebrería prehispánica más grandes del mundo.",
+            "cop": 5000,
+            "costNote": "gratis los domingos",
+            "where": "En la ciudad",
+            "time": "2 horas"
           },
           {
             "photo": "bogota-zipaquira",
             "name": "Catedral de Sal de Zipaquirá",
-            "text": "Una catedral construida dentro de una mina de sal, a cerca de una hora de Bogotá."
+            "text": "Una catedral construida dentro de una mina de sal, a cerca de una hora de Bogotá.",
+            "cop": 125000,
+            "costNote": "tarifa para extranjeros",
+            "where": "A 1 h de Bogotá",
+            "time": "Medio día"
           }
         ]
       },
@@ -111,22 +127,38 @@
           {
             "photo": "medellin-penol",
             "name": "Piedra del Peñol, Guatapé",
-            "text": "Unos 700 escalones hasta una vista única del embalse."
+            "text": "Unos 700 escalones hasta una vista única del embalse.",
+            "cop": 35000,
+            "costNote": "para subir a la piedra",
+            "where": "A 2 h de Medellín",
+            "time": "Día completo"
           },
           {
             "photo": "medellin-comuna13",
             "name": "Comuna 13",
-            "text": "Grafitis, escaleras eléctricas al aire libre y la historia de transformación de la ciudad."
+            "text": "Grafitis, escaleras eléctricas al aire libre y la historia de transformación de la ciudad.",
+            "cop": 0,
+            "costNote": "tours guiados opcionales",
+            "where": "En la ciudad",
+            "time": "Medio día"
           },
           {
             "photo": "medellin-metrocable",
             "name": "Metrocable",
-            "text": "Teleféricos que suben por las laderas, con vistas de todo el valle."
+            "text": "Teleféricos que suben por las laderas, con vistas de todo el valle.",
+            "cop": 4400,
+            "costNote": "por trayecto; el cable a Parque Arví se paga aparte",
+            "where": "En la ciudad",
+            "time": "2 horas"
           },
           {
             "photo": "medellin-pueblito",
             "name": "Pueblito Paisa",
-            "text": "Réplica de un pueblo antioqueño en el cerro Nutibara, con mirador sobre la ciudad."
+            "text": "Réplica de un pueblo antioqueño en el cerro Nutibara, con mirador sobre la ciudad.",
+            "cop": 0,
+            "costNote": "",
+            "where": "En la ciudad",
+            "time": "1 a 2 horas"
           }
         ]
       },
@@ -169,22 +201,38 @@
           {
             "photo": "cali-cristo-rey",
             "name": "Cristo Rey",
-            "text": "Mirador en lo alto de los cerros, con vista a toda la ciudad."
+            "text": "Mirador en lo alto de los cerros, con vista a toda la ciudad.",
+            "cop": 0,
+            "costNote": "se llega en taxi o tour",
+            "where": "Afueras de la ciudad",
+            "time": "2 horas"
           },
           {
             "photo": "cali-san-antonio",
             "name": "Barrio San Antonio",
-            "text": "Casas coloniales, la capilla de San Antonio y atardeceres con música."
+            "text": "Casas coloniales, la capilla de San Antonio y atardeceres con música.",
+            "cop": 0,
+            "costNote": "",
+            "where": "En la ciudad",
+            "time": "Una tarde"
           },
           {
             "photo": "cali-gato",
             "name": "El Gato del Río",
-            "text": "La escultura de Hernando Tejada, ícono de la ciudad, junto al río Cali."
+            "text": "La escultura de Hernando Tejada, ícono de la ciudad, junto al río Cali.",
+            "cop": 0,
+            "costNote": "",
+            "where": "En la ciudad",
+            "time": "30 minutos"
           },
           {
             "photo": "cali-bulevar",
             "name": "Bulevar del Río",
-            "text": "Paseo peatonal a orillas del río Cali, ideal para caminar al final de la tarde."
+            "text": "Paseo peatonal a orillas del río Cali, ideal para caminar al final de la tarde.",
+            "cop": 0,
+            "costNote": "",
+            "where": "En la ciudad",
+            "time": "1 hora"
           }
         ]
       },
@@ -227,22 +275,38 @@
           {
             "photo": "pereira-termales",
             "name": "Termales de Santa Rosa de Cabal",
-            "text": "Piscinas de agua caliente al pie de una cascada, a unos 40 minutos."
+            "text": "Piscinas de agua caliente al pie de una cascada, a unos 40 minutos.",
+            "cop": 60000,
+            "costNote": "Pasaporte Termal; hasta COP 106.000 según la fecha",
+            "where": "A 40 min de Pereira",
+            "time": "Medio día"
           },
           {
             "photo": "pereira-ukumari",
             "name": "Bioparque Ukumarí",
-            "text": "Un gran bioparque con animales de varios continentes, en las afueras de la ciudad."
+            "text": "Un gran bioparque con animales de varios continentes, en las afueras de la ciudad.",
+            "cop": 35000,
+            "costNote": "pasaporte general",
+            "where": "Afueras de Pereira",
+            "time": "Medio día"
           },
           {
             "photo": "pereira-viaducto",
             "name": "Viaducto César Gaviria Trujillo",
-            "text": "El puente atirantado que une Pereira y Dosquebradas, símbolo de la ciudad."
+            "text": "El puente atirantado que une Pereira y Dosquebradas, símbolo de la ciudad.",
+            "cop": 0,
+            "costNote": "",
+            "where": "En la ciudad",
+            "time": "30 minutos"
           },
           {
             "photo": "pereira-bolivar",
             "name": "Bolívar Desnudo",
-            "text": "La escultura de Rodrigo Arenas Betancourt en la Plaza de Bolívar."
+            "text": "La escultura de Rodrigo Arenas Betancourt en la Plaza de Bolívar.",
+            "cop": 0,
+            "costNote": "",
+            "where": "En la ciudad",
+            "time": "30 minutos"
           }
         ]
       },
@@ -285,22 +349,38 @@
           {
             "photo": "armenia-parque-cafe",
             "name": "Parque del Café",
-            "text": "Atracciones, shows y cultura cafetera en Montenegro, muy cerca de Armenia."
+            "text": "Atracciones, shows y cultura cafetera en Montenegro, muy cerca de Armenia.",
+            "cop": 75000,
+            "costNote": "Pasaporte Múltiple con atracciones ilimitadas",
+            "where": "A 20 min de Armenia",
+            "time": "Día completo"
           },
           {
             "photo": "armenia-panaca",
             "name": "Panaca",
-            "text": "Parque agropecuario en Quimbaya para convivir con animales de granja."
+            "text": "Parque agropecuario en Quimbaya para convivir con animales de granja.",
+            "cop": 85000,
+            "costNote": "Pasaporte Terra",
+            "where": "A 40 min de Armenia",
+            "time": "Día completo"
           },
           {
             "photo": "armenia-cocora",
             "name": "Valle del Cocora",
-            "text": "Las palmas de cera, árbol nacional de Colombia, entre montañas y neblina."
+            "text": "Las palmas de cera, árbol nacional de Colombia, entre montañas y neblina.",
+            "cop": 25000,
+            "costNote": "aporte aproximado en las fincas privadas del sendero",
+            "where": "A 1 h de Armenia",
+            "time": "Medio día"
           },
           {
             "photo": "armenia-filandia",
             "name": "Filandia",
-            "text": "Pueblo de balcones coloridos y mirador sobre el paisaje cafetero."
+            "text": "Pueblo de balcones coloridos y mirador sobre el paisaje cafetero.",
+            "cop": 0,
+            "costNote": "",
+            "where": "A 40 min de Armenia",
+            "time": "Medio día"
           }
         ]
       }
@@ -376,7 +456,13 @@
     "menuMore": "Ver opciones de",
     "placesTitle": "Qué visitar en {city}",
     "placesLead": "Lugares reconocidos para aprovechar los días libres entre citas.",
-    "photoBy": "Foto:"
+    "photoBy": "Foto:",
+    "factEntry": "Entrada",
+    "factWhere": "Dónde",
+    "factTime": "Tiempo",
+    "free": "Gratis",
+    "fromLabel": "Desde",
+    "placesNote": "Valores aproximados por adulto, consultados en noviembre de 2026 (1 USD ≈ {rate} COP). Pueden cambiar por temporada o día de la semana: confirma en el sitio oficial antes de ir. El transporte va aparte."
   },
   "en": {
     "home": "Home",
@@ -432,22 +518,38 @@
           {
             "photo": "bogota-monserrate",
             "name": "Monserrate Hill",
-            "text": "The sanctuary above the city, over 3,000 meters up. Ride the cable car or the funicular."
+            "text": "The sanctuary above the city, over 3,000 meters up. Ride the cable car or the funicular.",
+            "cop": 35000,
+            "costNote": "round trip by cable car or funicular; hiking up is free",
+            "where": "In the city",
+            "time": "2 to 3 hours"
           },
           {
             "photo": "bogota-candelaria",
             "name": "La Candelaria",
-            "text": "The historic center: colonial houses, street art, museums and cafés."
+            "text": "The historic center: colonial houses, street art, museums and cafés.",
+            "cop": 0,
+            "costNote": "",
+            "where": "In the city",
+            "time": "Half a day"
           },
           {
             "photo": "bogota-museo-oro",
             "name": "Gold Museum",
-            "text": "One of the world's largest collections of pre-Hispanic goldwork."
+            "text": "One of the world's largest collections of pre-Hispanic goldwork.",
+            "cop": 5000,
+            "costNote": "free on Sundays",
+            "where": "In the city",
+            "time": "2 hours"
           },
           {
             "photo": "bogota-zipaquira",
             "name": "Zipaquirá Salt Cathedral",
-            "text": "A cathedral built inside a salt mine, about an hour from Bogotá."
+            "text": "A cathedral built inside a salt mine, about an hour from Bogotá.",
+            "cop": 125000,
+            "costNote": "rate for foreign visitors",
+            "where": "1 h from Bogotá",
+            "time": "Half a day"
           }
         ]
       },
@@ -490,22 +592,38 @@
           {
             "photo": "medellin-penol",
             "name": "Peñol Rock, Guatapé",
-            "text": "About 700 steps to a one-of-a-kind view of the reservoir."
+            "text": "About 700 steps to a one-of-a-kind view of the reservoir.",
+            "cop": 35000,
+            "costNote": "to climb the rock",
+            "where": "2 h from Medellín",
+            "time": "Full day"
           },
           {
             "photo": "medellin-comuna13",
             "name": "Comuna 13",
-            "text": "Street art, outdoor escalators and the city's story of transformation."
+            "text": "Street art, outdoor escalators and the city's story of transformation.",
+            "cop": 0,
+            "costNote": "guided tours optional",
+            "where": "In the city",
+            "time": "Half a day"
           },
           {
             "photo": "medellin-metrocable",
             "name": "Metrocable",
-            "text": "Cable cars climbing the hillsides, with views of the whole valley."
+            "text": "Cable cars climbing the hillsides, with views of the whole valley.",
+            "cop": 4400,
+            "costNote": "per ride; the Parque Arví line is extra",
+            "where": "In the city",
+            "time": "2 hours"
           },
           {
             "photo": "medellin-pueblito",
             "name": "Pueblito Paisa",
-            "text": "A replica Antioquian village on Nutibara Hill, with a lookout over the city."
+            "text": "A replica Antioquian village on Nutibara Hill, with a lookout over the city.",
+            "cop": 0,
+            "costNote": "",
+            "where": "In the city",
+            "time": "1 to 2 hours"
           }
         ]
       },
@@ -548,22 +666,38 @@
           {
             "photo": "cali-cristo-rey",
             "name": "Cristo Rey",
-            "text": "A lookout high in the hills, with views over the whole city."
+            "text": "A lookout high in the hills, with views over the whole city.",
+            "cop": 0,
+            "costNote": "reach it by taxi or tour",
+            "where": "Outskirts of the city",
+            "time": "2 hours"
           },
           {
             "photo": "cali-san-antonio",
             "name": "San Antonio neighborhood",
-            "text": "Colonial houses, the San Antonio chapel and sunsets with music."
+            "text": "Colonial houses, the San Antonio chapel and sunsets with music.",
+            "cop": 0,
+            "costNote": "",
+            "where": "In the city",
+            "time": "An afternoon"
           },
           {
             "photo": "cali-gato",
             "name": "El Gato del Río",
-            "text": "Hernando Tejada's sculpture, a city icon by the Cali River."
+            "text": "Hernando Tejada's sculpture, a city icon by the Cali River.",
+            "cop": 0,
+            "costNote": "",
+            "where": "In the city",
+            "time": "30 minutes"
           },
           {
             "photo": "cali-bulevar",
             "name": "Bulevar del Río",
-            "text": "A riverside promenade along the Cali River, perfect for an evening walk."
+            "text": "A riverside promenade along the Cali River, perfect for an evening walk.",
+            "cop": 0,
+            "costNote": "",
+            "where": "In the city",
+            "time": "1 hour"
           }
         ]
       },
@@ -606,22 +740,38 @@
           {
             "photo": "pereira-termales",
             "name": "Santa Rosa de Cabal hot springs",
-            "text": "Hot pools at the foot of a waterfall, about 40 minutes away."
+            "text": "Hot pools at the foot of a waterfall, about 40 minutes away.",
+            "cop": 60000,
+            "costNote": "thermal pass; up to COP 106,000 depending on the date",
+            "where": "40 min from Pereira",
+            "time": "Half a day"
           },
           {
             "photo": "pereira-ukumari",
             "name": "Ukumarí Biopark",
-            "text": "A large biopark with animals from several continents, on the outskirts of the city."
+            "text": "A large biopark with animals from several continents, on the outskirts of the city.",
+            "cop": 35000,
+            "costNote": "general pass",
+            "where": "Outskirts of Pereira",
+            "time": "Half a day"
           },
           {
             "photo": "pereira-viaducto",
             "name": "César Gaviria Trujillo Viaduct",
-            "text": "The cable-stayed bridge linking Pereira and Dosquebradas, a city symbol."
+            "text": "The cable-stayed bridge linking Pereira and Dosquebradas, a city symbol.",
+            "cop": 0,
+            "costNote": "",
+            "where": "In the city",
+            "time": "30 minutes"
           },
           {
             "photo": "pereira-bolivar",
             "name": "Bolívar Desnudo",
-            "text": "Rodrigo Arenas Betancourt's sculpture in Plaza de Bolívar."
+            "text": "Rodrigo Arenas Betancourt's sculpture in Plaza de Bolívar.",
+            "cop": 0,
+            "costNote": "",
+            "where": "In the city",
+            "time": "30 minutes"
           }
         ]
       },
@@ -664,22 +814,38 @@
           {
             "photo": "armenia-parque-cafe",
             "name": "Coffee Park",
-            "text": "Rides, shows and coffee culture in Montenegro, close to Armenia."
+            "text": "Rides, shows and coffee culture in Montenegro, close to Armenia.",
+            "cop": 75000,
+            "costNote": "Multiple Pass with unlimited rides",
+            "where": "20 min from Armenia",
+            "time": "Full day"
           },
           {
             "photo": "armenia-panaca",
             "name": "Panaca",
-            "text": "A farm theme park in Quimbaya to get close to farm animals."
+            "text": "A farm theme park in Quimbaya to get close to farm animals.",
+            "cop": 85000,
+            "costNote": "Terra Pass",
+            "where": "40 min from Armenia",
+            "time": "Full day"
           },
           {
             "photo": "armenia-cocora",
             "name": "Cocora Valley",
-            "text": "Wax palms, Colombia's national tree, among mountains and mist."
+            "text": "Wax palms, Colombia's national tree, among mountains and mist.",
+            "cop": 25000,
+            "costNote": "approximate fee at the private farms along the trail",
+            "where": "1 h from Armenia",
+            "time": "Half a day"
           },
           {
             "photo": "armenia-filandia",
             "name": "Filandia",
-            "text": "A town of colorful balconies with a lookout over coffee country."
+            "text": "A town of colorful balconies with a lookout over coffee country.",
+            "cop": 0,
+            "costNote": "",
+            "where": "40 min from Armenia",
+            "time": "Half a day"
           }
         ]
       }
@@ -755,6 +921,12 @@
     "menuMore": "Show options for",
     "placesTitle": "What to see in {city}",
     "placesLead": "Well-known places to enjoy your free days between appointments.",
-    "photoBy": "Photo:"
+    "photoBy": "Photo:",
+    "factEntry": "Admission",
+    "factWhere": "Where",
+    "factTime": "Time",
+    "free": "Free",
+    "fromLabel": "From",
+    "placesNote": "Approximate prices per adult, checked in November 2026 (1 USD ≈ {rate} COP). They may change by season or day of the week: confirm on the official site before you go. Transportation is extra."
   }
 }

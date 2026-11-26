@@ -41,6 +41,7 @@ PRICES = {
 }
 
 PLACEHOLDER = 'Aquí pones:'
+COP_PER_USD = 3300  # tasa de referencia para mostrar entradas en USD (TRM nov. 2026 ≈ 3.300)
 CITY_PHOTO = {'armenia': 'cocora'}  # foto principal de cada ciudad: /assets/destination-<valor>-*
 CREDITS = json.loads((BASE / 'src/photo-credits.json').read_text(encoding='utf-8'))
 
@@ -616,8 +617,22 @@ def render_places(P, city_id, city_name):
         if credit:
             by = (f'<p class="place__credit">{e(P["photoBy"])} <a href="{e(credit["source"])}" rel="noopener" target="_blank">'
                   f'{e(credit["author"])}</a>, <a href="{e(credit["licenseUrl"])}" rel="noopener license" target="_blank">{e(credit["license"])}</a></p>')
+        cop = place.get('cop')
+        facts = ''
+        if cop is not None:
+            if cop == 0:
+                cost = f'<strong>{e(P["free"])}</strong>'
+            else:
+                usd = max(1, round(cop / COP_PER_USD))
+                cop_txt = f'{cop:,}'.replace(',', '.') if P is PAGES['es'] else f'{cop:,}'
+                cost = f'<strong>{e(P["fromLabel"])} COP {cop_txt}</strong> <span class="place__usd">≈ USD {usd}</span>'
+            if place.get('costNote'):
+                cost += f'<small>{e(place["costNote"])}</small>'
+            facts = (f'<dl class="place__facts"><div><dt>{e(P["factEntry"])}</dt><dd>{cost}</dd></div>'
+                     f'<div><dt>{e(P["factWhere"])}</dt><dd>{e(place["where"])}</dd></div>'
+                     f'<div><dt>{e(P["factTime"])}</dt><dd>{e(place["time"])}</dd></div></dl>')
         cards.append(f'<li class="place" data-reveal><figure>{img}<figcaption><h3>{e(place["name"])}</h3>'
-                     f'<p>{e(place["text"])}</p>{by}</figcaption></figure></li>')
+                     f'<p>{e(place["text"])}</p>{facts}{by}</figcaption></figure></li>')
     if not cards:
         return ''
     return f'''
@@ -628,6 +643,7 @@ def render_places(P, city_id, city_name):
       <p class="lead">{e(P['placesLead'])}</p>
     </div>
     <ul class="places">{''.join(cards)}</ul>
+    <p class="fine places__note">{e(P['placesNote'].replace('{rate}', f"{COP_PER_USD:,}".replace(',', '.') if P is PAGES['es'] else f"{COP_PER_USD:,}"))}</p>
   </div>
 </section>'''
 
