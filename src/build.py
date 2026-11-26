@@ -42,6 +42,7 @@ PRICES = {
 
 PLACEHOLDER = 'Aquí pones:'
 COP_PER_USD = 3300  # tasa de referencia para mostrar entradas en USD (TRM nov. 2026 ≈ 3.300)
+SEASON_END = '2027-01-12'  # la sección de Navidad deja de generarse (y se oculta en el navegador) después de esta fecha
 CITY_PHOTO = {'armenia': 'cocora'}  # foto principal de cada ciudad: /assets/destination-<valor>-*
 CREDITS = json.loads((BASE / 'src/photo-credits.json').read_text(encoding='utf-8'))
 
@@ -648,6 +649,62 @@ def render_places(P, city_id, city_name):
 </section>'''
 
 
+def season_on():
+    return date.today().isoformat() <= SEASON_END
+
+
+def lights():
+    dots = ''.join(f'<i style="--x:{(i * 37) % 100}%;--y:{(i * 53) % 100}%;--d:{(i % 7) * 0.45:.2f}s;--s:{2 + i % 3}px"></i>' for i in range(42))
+    return f'<div class="xmas__lights" aria-hidden="true">{dots}</div>'
+
+
+def render_xmas_home(d, P, home):
+    if not season_on():
+        return ''
+    X = P['xmas']
+    links = ''.join(f'<li><a href="{home}{P["cities"][c["id"]]["slug"]}/#navidad">{e(X["seeCity"].replace("{city}", c["name"]))}</a></li>'
+                    for c in d['cities'])
+    title = lines(X['homeTitle'])
+    return f'''
+<section class="xmas" id="navidad" aria-labelledby="xmas-title" data-season-end="{SEASON_END}">
+  {lights()}
+  <div class="wrap xmas__in">
+    <div class="xmas__copy" data-reveal>
+      <p class="kicker">{e(X['kicker'])}</p>
+      <h2 id="xmas-title">{title}</h2>
+      <p class="lead">{e(X['homeLead'])}</p>
+      <p class="xmas__tip">{e(X['homeTip'])}</p>
+      {wa_button(X['cta'], 'btn btn--gold btn--lg', f'data-wa-text="{e(X["message"])}"')}
+    </div>
+    <ul class="xmas__cities" data-reveal>{links}</ul>
+  </div>
+</section>'''
+
+
+def render_xmas_city(P, city_id, city_name):
+    if not season_on():
+        return ''
+    X = P['xmas']
+    items = ''.join(f'<li><h3>{e(n)}</h3><p class="xmas__when">{e(w)}</p><p>{e(t)}</p></li>' for n, w, t in X['cities'].get(city_id, []))
+    if not items:
+        return ''
+    return f'''
+<section class="xmas xmas--city" id="navidad" aria-labelledby="xmas-title" data-season-end="{SEASON_END}">
+  {lights()}
+  <div class="wrap">
+    <div class="sec__head" data-reveal>
+      <div><p class="kicker">{e(X['kicker'])}</p><h2 id="xmas-title">{e(X['cityTitle'].replace('{city}', city_name))}</h2></div>
+      <p class="lead">{e(X['cityLead'])}</p>
+    </div>
+    <ul class="xmas__list" data-reveal>{items}</ul>
+    <div class="xmas__foot">
+      {wa_button(X['cta'], 'btn btn--gold btn--lg', f'data-wa-text="{e(X["message"])}"')}
+      <p class="fine">{e(X['note'])}</p>
+    </div>
+  </div>
+</section>'''
+
+
 def render_travel(d, P, lang, city_id):
     prefix = '/' if lang == 'es' else '/en/'
     others = ''.join(
@@ -800,7 +857,7 @@ for lang, d in CONTENT.items():
     # ---- portada
     alts = {'es-PR': '/', 'en-US': '/en/'}
     sections = ''.join([
-        render_hero(d, lang), render_results(d, lang), render_treatments(d), render_calculator(d),
+        render_hero(d, lang), render_xmas_home(d, P, home), render_results(d, lang), render_treatments(d), render_calculator(d),
         render_includes(d), render_steps(d), render_cities(d, P, home), render_team(d), render_reviews(d),
         render_faq(d), render_closing(d),
     ])
@@ -821,6 +878,7 @@ for lang, d in CONTENT.items():
             page_hero(d, P, crumbs, cp['h1'], fill(cp['lead']), city_media(d, c['id'])),
             render_why(P['whyTitle'].replace('{city}', c['name']), cp['why']),
             render_places(P, c['id'], c['name']),
+            render_xmas_city(P, c['id'], c['name']),
             render_treatments(d), render_steps(d, c['name']), render_travel(d, P, lang, c['id']),
             render_faq(d, P['cityFaqTitle'].replace('{city}', c['name']), cp['faqs']), render_closing(d),
         ])

@@ -15,6 +15,7 @@
   /* ---------- WhatsApp con contexto */
   function waMessage(button) {
     if (button.hasAttribute('data-wa-quote') && state.quote) return state.quote;
+    if (button.dataset.waText) return button.dataset.waText + (state.city ? text.contactCity.replace('{city}', state.city) : '');
     if (button.hasAttribute('data-wa-photos')) return text.photosMessage + (state.city ? text.contactCity.replace('{city}', state.city) : '');
     let msg = button.dataset.waTreatment
       ? text.contactTreatment.replace('{treatment}', button.dataset.waTreatment)
@@ -28,6 +29,11 @@
     const number = /^[1-9]\d{7,14}$/.test(config.whatsapp || '') ? config.whatsapp : '';
     const href = 'https://wa.me/' + number + '?text=' + encodeURIComponent(waMessage(button));
     window.open(href, '_blank', 'noopener,noreferrer');
+  });
+
+  /* ---------- contenido de temporada: se oculta solo al pasar su fecha */
+  document.querySelectorAll('[data-season-end]').forEach(el => {
+    if (new Date() > new Date(el.dataset.seasonEnd + 'T23:59:59')) el.remove();
   });
 
   /* ---------- intro de la portada */
