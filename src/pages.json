@@ -223,7 +223,11 @@
         ]
       ]
     },
-    "updatedText": "noviembre de 2026"
+    "updatedText": "noviembre de 2026",
+    "menuPriceGuide": "¿Cuánto cuestan las carillas?",
+    "menuFaq": "Preguntas frecuentes",
+    "menuAllCities": "Ver las 4 ciudades",
+    "menuMore": "Ver opciones de"
   },
   "en": {
     "home": "Home",
@@ -449,6 +453,10 @@
         ]
       ]
     },
-    "updatedText": "November 2026"
+    "updatedText": "November 2026",
+    "menuPriceGuide": "How much do veneers cost?",
+    "menuFaq": "Frequently asked questions",
+    "menuAllCities": "See all 4 cities",
+    "menuMore": "Show options for"
   }
 }

@@ -668,7 +668,25 @@ def alt_links(alts):
 def write_page(lang, d, P, path, title, description, sections, graph, alts, *, preset_city=''):
     home = '/' if lang == 'es' else '/en/'
     other = alts['en-US'] if lang == 'es' else alts['es-PR']
-    nav = ''.join(f'<a href="{home if path != home else ""}#{s}">{e(label)}</a>' for s, label in zip(SECTIONS, d['nav']))
+    anchor = home if path != home else ''
+    nav = ''.join(f'<a href="{anchor}#{s}">{e(label)}</a>' for s, label in zip(SECTIONS, d['nav']))
+    subs = {
+        'ciudades': [(f'{anchor}#ciudades', P['menuAllCities'])] + [
+            (f"{home}{P['cities'][c['id']]['slug']}/", P['seeCity'].replace('{city}', c['name'])) for c in d['cities']],
+        'preguntas': [(f'{anchor}#preguntas', P['menuFaq']), (f"{home}{P['pricePage']['slug']}/", P['menuPriceGuide'])],
+    }
+    header_nav = ''
+    for s_id, label in zip(SECTIONS, d['nav']):
+        if s_id not in subs:
+            header_nav += f'<a href="{anchor}#{s_id}">{e(label)}</a>'
+            continue
+        current = ' aria-current="page"'
+        links = ''.join(f'<a href="{href}"{current if href == path else ""}>{e(text)}</a>' for href, text in subs[s_id])
+        header_nav += (f'<div class="nav__item" data-sub>'
+                       f'<a href="{anchor}#{s_id}">{e(label)}</a>'
+                       f'<button type="button" class="nav__toggle" aria-expanded="false" aria-controls="sub-{s_id}" '
+                       f'aria-label="{e(P["menuMore"])} {e(label)}"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>'
+                       f'<div class="nav__sub" id="sub-{s_id}">{links}</div></div>')
     seo = (f'<link rel="canonical" href="{e(url + path)}">' + alt_links(alts) +
            f'<meta property="og:url" content="{e(url + path)}"><meta property="og:locale" content="{OG_LOCALE[lang]}">'
            f'<meta property="og:locale:alternate" content="{OG_LOCALE["en" if lang == "es" else "es"]}">'
@@ -680,7 +698,7 @@ def write_page(lang, d, P, path, title, description, sections, graph, alts, *, p
     values = dict(
         locale=e(d['locale']), title=e(title), description=e(description),
         robots='index,follow,max-image-preview:large' if indexable else 'noindex,nofollow', seo=seo, home=home,
-        skip=e(d['skip']), menu=e(d['menu']), close=e(d['close']), nav=nav,
+        skip=e(d['skip']), menu=e(d['menu']), close=e(d['close']), nav=nav, navHeader=header_nav,
         otherUrl=other, otherLocale=d['otherLocale'], otherLabel=e(d['otherLabel']),
         headerCta=wa_button(d['headerCta'], 'btn btn--gold btn--sm hdr__cta'),
         sections=sections, footerLine=e(d['footerLine']), footerExtra=footer_extra(d, P, lang),
