@@ -41,6 +41,8 @@ PRICES = {
 }
 
 PLACEHOLDER = 'Aquí pones:'
+CITY_PHOTO = {'armenia': 'cocora'}  # foto principal de cada ciudad: /assets/destination-<valor>-*
+CREDITS = json.loads((BASE / 'src/photo-credits.json').read_text(encoding='utf-8'))
 
 
 def save_pct(market):
@@ -367,7 +369,7 @@ def render_cities(d, P=None, prefix='/'):
         if c['photo']:
             inner = ph(c['photo'], 'media')
         else:
-            src = {'pereira': 'cocora'}.get(c['id'], c['id'])
+            src = CITY_PHOTO.get(c['id'], c['id'])
             inner = picture(f'/assets/destination-{src}', d['cityAlts'][c['id']], '(max-width: 760px) 92vw, 44vw',
                             widths=[480, 840], w=840, h=560, klass='city__img')
         media.append(f'<div class="cities__media-item" data-city-media="{c["id"]}">{inner}</div>')
@@ -587,7 +589,7 @@ def page_hero(d, P, crumbs, h1, lead, media='', extra=''):
 
 
 def city_media(d, cid):
-    src = {'pereira': 'cocora'}.get(cid, cid)
+    src = CITY_PHOTO.get(cid, cid)
     return picture(f'/assets/destination-{src}', d['cityAlts'][cid], '(max-width: 1080px) 92vw, 46vw',
                    widths=[480, 840], w=840, h=560, lazy=False, klass='page-photo')
 
@@ -603,6 +605,33 @@ def render_why(title, items):
 </section>'''
 
 
+def render_places(P, city_id, city_name):
+    cards = []
+    for place in P['cities'][city_id].get('places', []):
+        key = 'place-' + place['photo']
+        credit = CREDITS.get(key, {})
+        img = picture(f'/assets/{key}', place['name'], '(max-width: 760px) 92vw, (max-width: 1080px) 46vw, 24vw',
+                      widths=[480, 840], w=840, h=560, klass='place__img')
+        by = ''
+        if credit:
+            by = (f'<p class="place__credit">{e(P["photoBy"])} <a href="{e(credit["source"])}" rel="noopener" target="_blank">'
+                  f'{e(credit["author"])}</a>, <a href="{e(credit["licenseUrl"])}" rel="noopener license" target="_blank">{e(credit["license"])}</a></p>')
+        cards.append(f'<li class="place" data-reveal><figure>{img}<figcaption><h3>{e(place["name"])}</h3>'
+                     f'<p>{e(place["text"])}</p>{by}</figcaption></figure></li>')
+    if not cards:
+        return ''
+    return f'''
+<section class="sec sec--stone" aria-labelledby="places-title">
+  <div class="wrap">
+    <div class="sec__head" data-reveal>
+      <h2 id="places-title">{e(P['placesTitle'].replace('{city}', city_name))}</h2>
+      <p class="lead">{e(P['placesLead'])}</p>
+    </div>
+    <ul class="places">{''.join(cards)}</ul>
+  </div>
+</section>'''
+
+
 def render_travel(d, P, lang, city_id):
     prefix = '/' if lang == 'es' else '/en/'
     others = ''.join(
@@ -610,7 +639,7 @@ def render_travel(d, P, lang, city_id):
         for c in d['cities'] if c['id'] != city_id)
     city = P['cities'][city_id]
     return f'''
-<section class="sec sec--stone" aria-labelledby="travel-title">
+<section class="sec sec--ivory" aria-labelledby="travel-title">
   <div class="wrap travel">
     <div data-reveal><h2 id="travel-title">{e(P['travelTitle'])}</h2><p class="lead">{e(city['travel'])}</p></div>
     <div class="travel__more" data-reveal>
@@ -775,6 +804,7 @@ for lang, d in CONTENT.items():
         sections = ''.join([
             page_hero(d, P, crumbs, cp['h1'], fill(cp['lead']), city_media(d, c['id'])),
             render_why(P['whyTitle'].replace('{city}', c['name']), cp['why']),
+            render_places(P, c['id'], c['name']),
             render_treatments(d), render_steps(d, c['name']), render_travel(d, P, lang, c['id']),
             render_faq(d, P['cityFaqTitle'].replace('{city}', c['name']), cp['faqs']), render_closing(d),
         ])
@@ -827,7 +857,7 @@ llms = f"""# Sonrisas Colombia
 - Carillas en porcelana / Porcelain veneers: desde / from USD {TOKENS['porcelain']} por diente / per tooth (Puerto Rico ≈ USD {TOKENS['prPorcelain']}, EE. UU./U.S. ≈ USD {TOKENS['usPorcelain']}).
 - Precios de referencia actualizados / Reference prices updated: {PRICES_UPDATED}. El precio final se confirma en la valoración / Final price confirmed at consultation.
 - Días en Colombia (referencia) / Days in Colombia (reference): resina 3–5, porcelana 7–10.
-- Ciudades / Cities: Bogotá, Medellín, Cali, Pereira.
+- Ciudades / Cities: {', '.join(c['name'] for c in CONTENT['es']['cities'])}.
 - Equipo / Team: {', '.join(f"Dra. {doc['name']} ({doc['role']})" for doc in es['doctors'])}.
 - Contacto / Contact: WhatsApp +{whatsapp} — https://wa.me/{whatsapp}
 - Vuelos y hospedaje no incluidos / Flights and lodging not included.

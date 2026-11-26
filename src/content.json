@@ -5,7 +5,7 @@
     "otherUrl": "/en/",
     "otherLocale": "en-US",
     "title": "Carillas en Colombia desde USD {resin} | Pacientes de Puerto Rico",
-    "description": "Carillas en resina desde USD {resin} y porcelana desde USD {porcelain} por diente en Bogotá, Medellín, Cali y Pereira. Valoración virtual gratis por WhatsApp.",
+    "description": "Carillas en resina desde USD {resin} y porcelana desde USD {porcelain} por diente en Bogotá, Medellín, Cali, Pereira y Armenia. Valoración gratis.",
     "skip": "Ir al contenido",
     "menu": "Menú",
     "close": "Cerrar",
@@ -28,7 +28,7 @@
     "heroProof": [
       "Valoración virtual gratis",
       "Presupuesto por escrito antes de viajar",
-      "Bogotá, Medellín, Cali y Pereira"
+      "Bogotá, Medellín, Cali, Pereira y Armenia"
     ],
     "heroVisualTitle": "Forma y proporción",
     "heroVisualHint": "Desliza para comparar",
@@ -186,7 +186,7 @@
       ]
     ],
     "travelNote": "Los vuelos, el hospedaje y el transporte se pagan aparte.",
-    "citiesTitle": "Cuatro ciudades.\nUna sola forma de atenderte.",
+    "citiesTitle": "Cinco ciudades.\nUna sola forma de atenderte.",
     "citiesLead": "Elige la ciudad que más te convenga por vuelo, familia o paseo. Te atendemos con el mismo plan y el mismo cuidado.",
     "citiesPick": "Atenderme en {city}",
     "cities": [
@@ -214,16 +214,24 @@
       {
         "id": "pereira",
         "name": "Pereira",
-        "note": "En el corazón del Eje Cafetero, muy cerca del Valle del Cocora.",
+        "note": "En el corazón del Eje Cafetero, cerca de los termales de Santa Rosa de Cabal.",
+        "address": "",
+        "photo": ""
+      },
+      {
+        "id": "armenia",
+        "name": "Armenia",
+        "note": "Capital del Quindío, a minutos del Parque del Café, Panaca y Salento.",
         "address": "",
         "photo": ""
       }
     ],
     "cityAlts": {
       "medellin": "Teleférico sobre los barrios y las montañas de Medellín al atardecer",
-      "pereira": "Palmas de cera entre la neblina del Valle del Cocora, cerca de Pereira",
+      "pereira": "El viaducto César Gaviria Trujillo y Pereira de noche",
       "bogota": "Vista aérea del centro de Bogotá con los cerros orientales al fondo",
-      "cali": "La iglesia La Ermita, de estilo neogótico, en el centro de Cali"
+      "cali": "La iglesia La Ermita, de estilo neogótico, en el centro de Cali",
+      "armenia": "Palmas de cera entre la neblina del Valle del Cocora, en el Quindío"
     },
     "teamTitle": "Las doctoras\ndetrás de tu sonrisa.",
     "teamLead": "Diseño de sonrisa y ortodoncia trabajando juntas, para que tu plan cuide la estética y la mordida.",
@@ -293,7 +301,7 @@
       ],
       [
         "¿En qué ciudades atienden?",
-        "En Bogotá, Medellín, Cali y Pereira. Elige la que te quede mejor por vuelo o por plan de viaje."
+        "En Bogotá, Medellín, Cali, Pereira y Armenia. Elige la que te quede mejor por vuelo o por plan de viaje."
       ],
       [
         "¿Cualquier persona puede ponerse carillas?",
@@ -329,7 +337,7 @@
         "text": "Baja suavemente el labio inferior para mostrar tus dientes inferiores."
       }
     ],
-    "footerLine": "Diseño de sonrisa para pacientes de Puerto Rico y Estados Unidos, en Bogotá, Medellín, Cali y Pereira.",
+    "footerLine": "Diseño de sonrisa para pacientes de Puerto Rico y Estados Unidos, en Bogotá, Medellín, Cali, Pereira y Armenia.",
     "footerLegal": "",
     "privacy": "Privacidad",
     "copyright": "Sonrisas Colombia. Todos los derechos reservados.",
@@ -360,7 +368,7 @@
     "otherUrl": "/",
     "otherLocale": "es-PR",
     "title": "Veneers in Colombia from USD {resin} | Sonrisas Colombia",
-    "description": "Composite veneers from USD {resin} and porcelain from USD {porcelain} per tooth in Bogotá, Medellín, Cali and Pereira. Free virtual consultation on WhatsApp.",
+    "description": "Composite veneers from USD {resin} and porcelain from USD {porcelain} per tooth in Bogotá, Medellín, Cali, Pereira and Armenia. Free consultation.",
     "skip": "Skip to content",
     "menu": "Menu",
     "close": "Close",
@@ -383,7 +391,7 @@
     "heroProof": [
       "Free virtual consultation",
       "Written quote before you fly",
-      "Bogotá, Medellín, Cali and Pereira"
+      "Bogotá, Medellín, Cali, Pereira and Armenia"
     ],
     "heroVisualTitle": "Shape and proportion",
     "heroVisualHint": "Slide to compare",
@@ -541,7 +549,7 @@
       ]
     ],
     "travelNote": "Flights, lodging and transportation are paid separately.",
-    "citiesTitle": "Four cities.\nOne way of caring for you.",
+    "citiesTitle": "Five cities.\nOne way of caring for you.",
     "citiesLead": "Choose the city that suits you best for flights, family or sightseeing. Same plan, same care.",
     "citiesPick": "Book in {city}",
     "cities": [
@@ -569,16 +577,24 @@
       {
         "id": "pereira",
         "name": "Pereira",
-        "note": "In the heart of the Coffee Region, close to Cocora Valley.",
+        "note": "In the heart of the Coffee Region, close to the Santa Rosa de Cabal hot springs.",
+        "address": "",
+        "photo": ""
+      },
+      {
+        "id": "armenia",
+        "name": "Armenia",
+        "note": "Capital of Quindío, minutes from the Coffee Park, Panaca and Salento.",
         "address": "",
         "photo": ""
       }
     ],
     "cityAlts": {
       "medellin": "A cable car above the neighborhoods and mountains of Medellín at sunset",
-      "pereira": "Wax palms in the mist of Cocora Valley, near Pereira",
+      "pereira": "The César Gaviria Trujillo viaduct and Pereira at night",
       "bogota": "Aerial view of downtown Bogotá with the eastern hills behind",
-      "cali": "La Ermita, a neo-Gothic church in downtown Cali"
+      "cali": "La Ermita, a neo-Gothic church in downtown Cali",
+      "armenia": "Wax palms in the mist of Cocora Valley, in Quindío"
     },
     "teamTitle": "The doctors\nbehind your smile.",
     "teamLead": "Smile design and orthodontics working together, so your plan takes care of both looks and bite.",
@@ -648,7 +664,7 @@
       ],
       [
         "Which cities do you work in?",
-        "Bogotá, Medellín, Cali and Pereira. Choose the one that works best for your flights or travel plans."
+        "Bogotá, Medellín, Cali, Pereira and Armenia. Choose the one that works best for your flights or travel plans."
       ],
       [
         "Can anyone get veneers?",
@@ -684,7 +700,7 @@
         "text": "Gently pull your lower lip down to show your lower teeth."
       }
     ],
-    "footerLine": "Smile design for patients from Puerto Rico and the U.S., in Bogotá, Medellín, Cali and Pereira.",
+    "footerLine": "Smile design for patients from Puerto Rico and the U.S., in Bogotá, Medellín, Cali, Pereira and Armenia.",
     "footerLegal": "",
     "privacy": "Privacy",
     "copyright": "Sonrisas Colombia. All rights reserved.",

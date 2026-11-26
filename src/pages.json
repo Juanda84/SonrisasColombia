@@ -48,6 +48,28 @@
             "¿Cuánto cuestan las carillas en Bogotá?",
             "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. El precio final depende de tu valoración."
           ]
+        ],
+        "places": [
+          {
+            "photo": "bogota-monserrate",
+            "name": "Cerro de Monserrate",
+            "text": "El santuario sobre la ciudad, a más de 3.000 metros. Se sube en teleférico o funicular."
+          },
+          {
+            "photo": "bogota-candelaria",
+            "name": "La Candelaria",
+            "text": "El centro histórico: casas coloniales, arte urbano, museos y cafés."
+          },
+          {
+            "photo": "bogota-museo-oro",
+            "name": "Museo del Oro",
+            "text": "Una de las colecciones de orfebrería prehispánica más grandes del mundo."
+          },
+          {
+            "photo": "bogota-zipaquira",
+            "name": "Catedral de Sal de Zipaquirá",
+            "text": "Una catedral construida dentro de una mina de sal, a cerca de una hora de Bogotá."
+          }
         ]
       },
       "medellin": {
@@ -84,6 +106,28 @@
             "¿Cuánto cuestan las carillas en Medellín?",
             "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
           ]
+        ],
+        "places": [
+          {
+            "photo": "medellin-penol",
+            "name": "Piedra del Peñol, Guatapé",
+            "text": "Unos 700 escalones hasta una vista única del embalse."
+          },
+          {
+            "photo": "medellin-comuna13",
+            "name": "Comuna 13",
+            "text": "Grafitis, escaleras eléctricas al aire libre y la historia de transformación de la ciudad."
+          },
+          {
+            "photo": "medellin-metrocable",
+            "name": "Metrocable",
+            "text": "Teleféricos que suben por las laderas, con vistas de todo el valle."
+          },
+          {
+            "photo": "medellin-pueblito",
+            "name": "Pueblito Paisa",
+            "text": "Réplica de un pueblo antioqueño en el cerro Nutibara, con mirador sobre la ciudad."
+          }
         ]
       },
       "cali": {
@@ -120,6 +164,28 @@
             "¿Cuánto cuestan las carillas en Cali?",
             "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. El precio final se confirma en la valoración."
           ]
+        ],
+        "places": [
+          {
+            "photo": "cali-cristo-rey",
+            "name": "Cristo Rey",
+            "text": "Mirador en lo alto de los cerros, con vista a toda la ciudad."
+          },
+          {
+            "photo": "cali-san-antonio",
+            "name": "Barrio San Antonio",
+            "text": "Casas coloniales, la capilla de San Antonio y atardeceres con música."
+          },
+          {
+            "photo": "cali-gato",
+            "name": "El Gato del Río",
+            "text": "La escultura de Hernando Tejada, ícono de la ciudad, junto al río Cali."
+          },
+          {
+            "photo": "cali-bulevar",
+            "name": "Bulevar del Río",
+            "text": "Paseo peatonal a orillas del río Cali, ideal para caminar al final de la tarde."
+          }
         ]
       },
       "pereira": {
@@ -138,11 +204,11 @@
             "Una ciudad más pequeña y tranquila, ideal para recuperarte sin el ritmo de una capital."
           ],
           [
-            "Paisaje Cultural Cafetero",
-            "El Valle del Cocora, las fincas de café y los termales de Santa Rosa de Cabal están cerca."
+            "Termales y naturaleza",
+            "Los termales de Santa Rosa de Cabal y el Bioparque Ukumarí están cerca de la ciudad."
           ]
         ],
-        "travel": "Llegas al aeropuerto Matecaña (PEI), a pocos minutos del centro. Desde Pereira el Valle del Cocora queda a cerca de una hora por carretera.",
+        "travel": "Llegas al aeropuerto Matecaña (PEI), a pocos minutos del centro. Los termales de Santa Rosa de Cabal quedan a cerca de 40 minutos por carretera.",
         "faqs": [
           [
             "¿Cuántos días debo quedarme en Pereira?",
@@ -156,6 +222,86 @@
             "¿Cuánto cuestan las carillas en Pereira?",
             "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
           ]
+        ],
+        "places": [
+          {
+            "photo": "pereira-termales",
+            "name": "Termales de Santa Rosa de Cabal",
+            "text": "Piscinas de agua caliente al pie de una cascada, a unos 40 minutos."
+          },
+          {
+            "photo": "pereira-ukumari",
+            "name": "Bioparque Ukumarí",
+            "text": "Un gran bioparque con animales de varios continentes, en las afueras de la ciudad."
+          },
+          {
+            "photo": "pereira-viaducto",
+            "name": "Viaducto César Gaviria Trujillo",
+            "text": "El puente atirantado que une Pereira y Dosquebradas, símbolo de la ciudad."
+          },
+          {
+            "photo": "pereira-bolivar",
+            "name": "Bolívar Desnudo",
+            "text": "La escultura de Rodrigo Arenas Betancourt en la Plaza de Bolívar."
+          }
+        ]
+      },
+      "armenia": {
+        "slug": "carillas-armenia",
+        "title": "Carillas en Armenia desde USD {resin} | Sonrisas Colombia",
+        "description": "Diseño de sonrisa en Armenia, Quindío, para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente.",
+        "h1": "Carillas en Armenia,\nentre cafetales y palmas de cera.",
+        "lead": "Armenia, capital del Quindío, es una ciudad amable rodeada de fincas cafeteras, parques temáticos y pueblos llenos de color. Ideal para combinar tu tratamiento con unos días en familia.",
+        "why": [
+          [
+            "Aeropuerto cerca",
+            "El aeropuerto El Edén queda a pocos minutos de la ciudad."
+          ],
+          [
+            "Planes para toda la familia",
+            "El Parque del Café y Panaca están muy cerca, perfectos para los días sin citas."
+          ],
+          [
+            "Pueblos de postal",
+            "Salento, Filandia y el Valle del Cocora quedan a menos de una hora."
+          ]
+        ],
+        "travel": "Llegas al aeropuerto El Edén (AXM), a pocos minutos de la ciudad. Desde Armenia, Salento y el Valle del Cocora quedan a cerca de una hora por carretera.",
+        "faqs": [
+          [
+            "¿Cuántos días debo quedarme en Armenia?",
+            "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
+          ],
+          [
+            "¿Puedo ir al Parque del Café entre citas?",
+            "Sí, en un día sin citas. Es un buen plan para ir en familia mientras avanza tu tratamiento."
+          ],
+          [
+            "¿Cuánto cuestan las carillas en Armenia?",
+            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
+          ]
+        ],
+        "places": [
+          {
+            "photo": "armenia-parque-cafe",
+            "name": "Parque del Café",
+            "text": "Atracciones, shows y cultura cafetera en Montenegro, muy cerca de Armenia."
+          },
+          {
+            "photo": "armenia-panaca",
+            "name": "Panaca",
+            "text": "Parque agropecuario en Quimbaya para convivir con animales de granja."
+          },
+          {
+            "photo": "armenia-cocora",
+            "name": "Valle del Cocora",
+            "text": "Las palmas de cera, árbol nacional de Colombia, entre montañas y neblina."
+          },
+          {
+            "photo": "armenia-filandia",
+            "name": "Filandia",
+            "text": "Pueblo de balcones coloridos y mirador sobre el paisaje cafetero."
+          }
         ]
       }
     },
@@ -226,8 +372,11 @@
     "updatedText": "noviembre de 2026",
     "menuPriceGuide": "¿Cuánto cuestan las carillas?",
     "menuFaq": "Preguntas frecuentes",
-    "menuAllCities": "Ver las 4 ciudades",
-    "menuMore": "Ver opciones de"
+    "menuAllCities": "Ver las 5 ciudades",
+    "menuMore": "Ver opciones de",
+    "placesTitle": "Qué visitar en {city}",
+    "placesLead": "Lugares reconocidos para aprovechar los días libres entre citas.",
+    "photoBy": "Foto:"
   },
   "en": {
     "home": "Home",
@@ -278,6 +427,28 @@
             "How much do veneers cost in Bogotá?",
             "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. Your final price depends on your consultation."
           ]
+        ],
+        "places": [
+          {
+            "photo": "bogota-monserrate",
+            "name": "Monserrate Hill",
+            "text": "The sanctuary above the city, over 3,000 meters up. Ride the cable car or the funicular."
+          },
+          {
+            "photo": "bogota-candelaria",
+            "name": "La Candelaria",
+            "text": "The historic center: colonial houses, street art, museums and cafés."
+          },
+          {
+            "photo": "bogota-museo-oro",
+            "name": "Gold Museum",
+            "text": "One of the world's largest collections of pre-Hispanic goldwork."
+          },
+          {
+            "photo": "bogota-zipaquira",
+            "name": "Zipaquirá Salt Cathedral",
+            "text": "A cathedral built inside a salt mine, about an hour from Bogotá."
+          }
         ]
       },
       "medellin": {
@@ -314,6 +485,28 @@
             "How much do veneers cost in Medellín?",
             "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
           ]
+        ],
+        "places": [
+          {
+            "photo": "medellin-penol",
+            "name": "Peñol Rock, Guatapé",
+            "text": "About 700 steps to a one-of-a-kind view of the reservoir."
+          },
+          {
+            "photo": "medellin-comuna13",
+            "name": "Comuna 13",
+            "text": "Street art, outdoor escalators and the city's story of transformation."
+          },
+          {
+            "photo": "medellin-metrocable",
+            "name": "Metrocable",
+            "text": "Cable cars climbing the hillsides, with views of the whole valley."
+          },
+          {
+            "photo": "medellin-pueblito",
+            "name": "Pueblito Paisa",
+            "text": "A replica Antioquian village on Nutibara Hill, with a lookout over the city."
+          }
         ]
       },
       "cali": {
@@ -350,6 +543,28 @@
             "How much do veneers cost in Cali?",
             "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. Your consultation confirms the final price."
           ]
+        ],
+        "places": [
+          {
+            "photo": "cali-cristo-rey",
+            "name": "Cristo Rey",
+            "text": "A lookout high in the hills, with views over the whole city."
+          },
+          {
+            "photo": "cali-san-antonio",
+            "name": "San Antonio neighborhood",
+            "text": "Colonial houses, the San Antonio chapel and sunsets with music."
+          },
+          {
+            "photo": "cali-gato",
+            "name": "El Gato del Río",
+            "text": "Hernando Tejada's sculpture, a city icon by the Cali River."
+          },
+          {
+            "photo": "cali-bulevar",
+            "name": "Bulevar del Río",
+            "text": "A riverside promenade along the Cali River, perfect for an evening walk."
+          }
         ]
       },
       "pereira": {
@@ -368,11 +583,11 @@
             "A smaller, calmer city, ideal for recovering away from big-city pace."
           ],
           [
-            "Coffee Cultural Landscape",
-            "Cocora Valley, coffee farms and the Santa Rosa de Cabal hot springs are close by."
+            "Hot springs and nature",
+            "The Santa Rosa de Cabal hot springs and Ukumarí Biopark are close to the city."
           ]
         ],
-        "travel": "You arrive at Matecaña airport (PEI), minutes from downtown. Cocora Valley is about an hour's drive from Pereira.",
+        "travel": "You arrive at Matecaña airport (PEI), minutes from downtown. The Santa Rosa de Cabal hot springs are about 40 minutes away by road.",
         "faqs": [
           [
             "How many days should I stay in Pereira?",
@@ -386,6 +601,86 @@
             "How much do veneers cost in Pereira?",
             "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
           ]
+        ],
+        "places": [
+          {
+            "photo": "pereira-termales",
+            "name": "Santa Rosa de Cabal hot springs",
+            "text": "Hot pools at the foot of a waterfall, about 40 minutes away."
+          },
+          {
+            "photo": "pereira-ukumari",
+            "name": "Ukumarí Biopark",
+            "text": "A large biopark with animals from several continents, on the outskirts of the city."
+          },
+          {
+            "photo": "pereira-viaducto",
+            "name": "César Gaviria Trujillo Viaduct",
+            "text": "The cable-stayed bridge linking Pereira and Dosquebradas, a city symbol."
+          },
+          {
+            "photo": "pereira-bolivar",
+            "name": "Bolívar Desnudo",
+            "text": "Rodrigo Arenas Betancourt's sculpture in Plaza de Bolívar."
+          }
+        ]
+      },
+      "armenia": {
+        "slug": "veneers-armenia",
+        "title": "Veneers in Armenia from USD {resin} | Sonrisas Colombia",
+        "description": "Smile design in Armenia, Quindío, for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth.",
+        "h1": "Veneers in Armenia,\namong coffee farms and wax palms.",
+        "lead": "Armenia, capital of Quindío, is a friendly city surrounded by coffee farms, theme parks and colorful towns. Ideal for pairing your treatment with a few family days.",
+        "why": [
+          [
+            "Airport nearby",
+            "El Edén airport is just minutes from the city."
+          ],
+          [
+            "Plans for the whole family",
+            "The Coffee Park and Panaca are very close, perfect for days without appointments."
+          ],
+          [
+            "Postcard towns",
+            "Salento, Filandia and Cocora Valley are less than an hour away."
+          ]
+        ],
+        "travel": "You arrive at El Edén airport (AXM), minutes from the city. From Armenia, Salento and Cocora Valley are about an hour's drive.",
+        "faqs": [
+          [
+            "How many days should I stay in Armenia?",
+            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
+          ],
+          [
+            "Can I visit the Coffee Park between appointments?",
+            "Yes, on a day without appointments. It's a great family plan while your treatment moves forward."
+          ],
+          [
+            "How much do veneers cost in Armenia?",
+            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
+          ]
+        ],
+        "places": [
+          {
+            "photo": "armenia-parque-cafe",
+            "name": "Coffee Park",
+            "text": "Rides, shows and coffee culture in Montenegro, close to Armenia."
+          },
+          {
+            "photo": "armenia-panaca",
+            "name": "Panaca",
+            "text": "A farm theme park in Quimbaya to get close to farm animals."
+          },
+          {
+            "photo": "armenia-cocora",
+            "name": "Cocora Valley",
+            "text": "Wax palms, Colombia's national tree, among mountains and mist."
+          },
+          {
+            "photo": "armenia-filandia",
+            "name": "Filandia",
+            "text": "A town of colorful balconies with a lookout over coffee country."
+          }
         ]
       }
     },
@@ -456,7 +751,10 @@
     "updatedText": "November 2026",
     "menuPriceGuide": "How much do veneers cost?",
     "menuFaq": "Frequently asked questions",
-    "menuAllCities": "See all 4 cities",
-    "menuMore": "Show options for"
+    "menuAllCities": "See all 5 cities",
+    "menuMore": "Show options for",
+    "placesTitle": "What to see in {city}",
+    "placesLead": "Well-known places to enjoy your free days between appointments.",
+    "photoBy": "Photo:"
   }
 }

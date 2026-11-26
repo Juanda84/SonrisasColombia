@@ -40,12 +40,12 @@ En móvil aparece una barra fija de WhatsApp. En escritorio, un botón flotante.
 
 ## Páginas y SEO
 
-Se generan 12 páginas (más `/es/`, copia de la portada en español):
+Se generan 14 páginas (más `/es/`, copia de la portada en español):
 
 | Español | Inglés |
 |---|---|
 | `/` | `/en/` |
-| `/carillas-bogota/`, `/carillas-medellin/`, `/carillas-cali/`, `/carillas-pereira/` | `/en/veneers-bogota/`, `/en/veneers-medellin/`, `/en/veneers-cali/`, `/en/veneers-pereira/` |
+| `/carillas-bogota/`, `/carillas-medellin/`, `/carillas-cali/`, `/carillas-pereira/`, `/carillas-armenia/` | `/en/veneers-bogota/`, `/en/veneers-medellin/`, `/en/veneers-cali/`, `/en/veneers-pereira/`, `/en/veneers-armenia/` |
 | `/precio-carillas-colombia/` | `/en/veneers-colombia-cost/` |
 
 Cada página tiene título y descripción propios, canonical, hreflang, Open Graph con `og-image.jpg` (1200×630) y datos estructurados en un `@graph`: `Dentist` con ofertas y precios, `WebSite`, `WebPage`, `FAQPage`, `BreadcrumbList` en las internas y `HowTo` (guía de 5 fotos) en la portada.
@@ -80,6 +80,8 @@ Cada referencia a `/assets/...` sale en el HTML con una huella de su contenido (
 - `studio-*`: fotografía editorial generada de materiales (resina, porcelana, alineador).
 - `destination-medellin-*` y `destination-cocora-*`: Medellín y el Valle del Cocora (para Pereira), generadas.
 - `destination-bogota-*` y `destination-cali-*`: fotos de Unsplash (licencia libre, uso comercial permitido). Bogotá: Random Institute. Cali, iglesia La Ermita: Juan Manuel Gonzalez Restrepo.
+- `destination-pereira-*`: Pereira de noche con el viaducto (Wikimedia Commons, Norbey, CC BY-SA 4.0). Armenia usa `destination-cocora-*`.
+- `place-*`: 20 fotos de sitios turísticos (4 por ciudad) de Wikimedia Commons con licencias CC0, CC BY o CC BY-SA. Autor, licencia y enlace de cada una están en `src/photo-credits.json` y se muestran debajo de cada foto, como piden esas licencias. Los textos de cada sitio están en `src/pages.json` (`cities.<ciudad>.places`).
 - `katherine-*`: fotos reales de la Dra. Katherine Peña.
 - `logo-transparent.webp`: el logo con fondo transparente, generado a partir de `logo-onix.webp`.
 - Fuentes: Bodoni Moda y Manrope (licencia OFL) en `site/assets/fonts`.
