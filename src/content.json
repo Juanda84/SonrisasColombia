@@ -77,7 +77,7 @@
       {
         "id": "orthodontics",
         "name": "Ortodoncia",
-        "price": "Aquí pones: precio desde de la ortodoncia",
+        "price": "",
         "time": "Duración según tu caso",
         "text": "Alinea tus dientes y tu mordida con la Dra. Katherine Peña, ortodoncista. A veces es el paso previo para que las carillas queden perfectas.",
         "points": [
@@ -164,11 +164,7 @@
         "Sabes a quién escribir y qué controles necesitas al volver a casa."
       ]
     ],
-    "includesPlaceholders": [
-      "Aquí pones: ¿ofrecen traslado desde el aeropuerto? (sí/no y en qué ciudades)",
-      "Aquí pones: garantía de las carillas (ej. X años en porcelana, X en resina)",
-      "Aquí pones: formas de pago (tarjeta, transferencia, financiación)"
-    ],
+    "includesPlaceholders": [],
     "stepsTitle": "De tu casa a tu nueva\nsonrisa en 4 pasos.",
     "stepsRouteFrom": "San Juan",
     "steps": [
@@ -198,34 +194,36 @@
         "id": "bogota",
         "name": "Bogotá",
         "note": "La puerta de entrada a Colombia, con vuelos desde San Juan y las principales ciudades de EE. UU.",
-        "address": "Aquí pones: dirección de la sede en Bogotá",
-        "photo": "Aquí pones: foto de la sede o de Bogotá (horizontal, 1600×1000)"
+        "address": "",
+        "photo": ""
       },
       {
         "id": "medellin",
         "name": "Medellín",
         "note": "La ciudad de la eterna primavera, a una hora de Guatapé.",
-        "address": "Aquí pones: dirección de la sede en Medellín",
+        "address": "",
         "photo": ""
       },
       {
         "id": "cali",
         "name": "Cali",
         "note": "Clima cálido, salsa y el Pacífico a la vuelta de la esquina.",
-        "address": "Aquí pones: dirección de la sede en Cali",
-        "photo": "Aquí pones: foto de la sede o de Cali (horizontal, 1600×1000)"
+        "address": "",
+        "photo": ""
       },
       {
         "id": "pereira",
         "name": "Pereira",
         "note": "En el corazón del Eje Cafetero, muy cerca del Valle del Cocora.",
-        "address": "Aquí pones: dirección de la sede en Pereira",
+        "address": "",
         "photo": ""
       }
     ],
     "cityAlts": {
       "medellin": "Teleférico sobre los barrios y las montañas de Medellín al atardecer",
-      "pereira": "Palmas de cera entre la neblina del Valle del Cocora, cerca de Pereira"
+      "pereira": "Palmas de cera entre la neblina del Valle del Cocora, cerca de Pereira",
+      "bogota": "Vista aérea del centro de Bogotá con los cerros orientales al fondo",
+      "cali": "La iglesia La Ermita, de estilo neogótico, en el centro de Cali"
     },
     "teamTitle": "Las doctoras\ndetrás de tu sonrisa.",
     "teamLead": "Diseño de sonrisa y ortodoncia trabajando juntas, para que tu plan cuide la estética y la mordida.",
@@ -303,7 +301,7 @@
     ],
     "closingSecondary": "Hablar con una asesora",
     "footerLine": "Diseño de sonrisa para pacientes de Puerto Rico y Estados Unidos, en Bogotá, Medellín, Cali y Pereira.",
-    "footerLegal": "Aquí pones: razón social, NIT y dirección del responsable",
+    "footerLegal": "",
     "privacy": "Privacidad",
     "copyright": "Sonrisas Colombia. Todos los derechos reservados.",
     "privacyTitle": "Tu privacidad",
@@ -391,7 +389,7 @@
       {
         "id": "orthodontics",
         "name": "Orthodontics",
-        "price": "Aquí pones: precio desde de la ortodoncia",
+        "price": "",
         "time": "Length depends on your case",
         "text": "Align your teeth and bite with Dr. Katherine Peña, orthodontist. Sometimes it is the step that makes veneers look perfect.",
         "points": [
@@ -478,11 +476,7 @@
         "You know who to contact and which check-ups you need back home."
       ]
     ],
-    "includesPlaceholders": [
-      "Aquí pones: ¿ofrecen traslado desde el aeropuerto? (sí/no y en qué ciudades)",
-      "Aquí pones: garantía de las carillas (ej. X años en porcelana, X en resina)",
-      "Aquí pones: formas de pago (tarjeta, transferencia, financiación)"
-    ],
+    "includesPlaceholders": [],
     "stepsTitle": "From your home to your\nnew smile in 4 steps.",
     "stepsRouteFrom": "San Juan",
     "steps": [
@@ -512,34 +506,36 @@
         "id": "bogota",
         "name": "Bogotá",
         "note": "Colombia's main gateway, with flights from San Juan and major U.S. cities.",
-        "address": "Aquí pones: dirección de la sede en Bogotá",
-        "photo": "Aquí pones: foto de la sede o de Bogotá (horizontal, 1600×1000)"
+        "address": "",
+        "photo": ""
       },
       {
         "id": "medellin",
         "name": "Medellín",
         "note": "The city of eternal spring, an hour from Guatapé.",
-        "address": "Aquí pones: dirección de la sede en Medellín",
+        "address": "",
         "photo": ""
       },
       {
         "id": "cali",
         "name": "Cali",
         "note": "Warm weather, salsa and the Pacific close by.",
-        "address": "Aquí pones: dirección de la sede en Cali",
-        "photo": "Aquí pones: foto de la sede o de Cali (horizontal, 1600×1000)"
+        "address": "",
+        "photo": ""
       },
       {
         "id": "pereira",
         "name": "Pereira",
         "note": "In the heart of the Coffee Region, close to Cocora Valley.",
-        "address": "Aquí pones: dirección de la sede en Pereira",
+        "address": "",
         "photo": ""
       }
     ],
     "cityAlts": {
       "medellin": "A cable car above the neighborhoods and mountains of Medellín at sunset",
-      "pereira": "Wax palms in the mist of Cocora Valley, near Pereira"
+      "pereira": "Wax palms in the mist of Cocora Valley, near Pereira",
+      "bogota": "Aerial view of downtown Bogotá with the eastern hills behind",
+      "cali": "La Ermita, a neo-Gothic church in downtown Cali"
     },
     "teamTitle": "The doctors\nbehind your smile.",
     "teamLead": "Smile design and orthodontics working together, so your plan takes care of both looks and bite.",
@@ -617,7 +613,7 @@
     ],
     "closingSecondary": "Talk to an advisor",
     "footerLine": "Smile design for patients from Puerto Rico and the U.S., in Bogotá, Medellín, Cali and Pereira.",
-    "footerLegal": "Aquí pones: razón social, NIT y dirección del responsable",
+    "footerLegal": "",
     "privacy": "Privacy",
     "copyright": "Sonrisas Colombia. All rights reserved.",
     "privacyTitle": "Your privacy",

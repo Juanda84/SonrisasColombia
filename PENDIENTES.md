@@ -24,9 +24,7 @@ Confirma también los días de referencia en Colombia (hoy: resina 3–5 días, 
 |---|---|---|
 | Resultados | Foto real ANTES de un paciente, con autorización firmada | Horizontal 4:3, 1600×1200, mismo encuadre que el DESPUÉS |
 | Resultados | Foto real DESPUÉS del mismo paciente, misma luz y ángulo | Horizontal 4:3, 1600×1200 |
-| Ciudades | Foto de la sede o de Bogotá | Horizontal, 1600×1000 |
-| Ciudades | Foto de la sede o de Cali | Horizontal, 1600×1000 |
-| Ciudades (opcional) | Fotos reales de las sedes de Medellín y Pereira (hoy se ven el teleférico y el Valle del Cocora) | Horizontal, 1600×1000 |
+| Ciudades (opcional) | Fotos reales de las 4 sedes (hoy se ven fotos de cada ciudad) | Horizontal, 1600×1000 |
 | Doctoras | Foto profesional de la Dra. Vanessa Pulgarin, mismo estilo que las de Katherine | Vertical 3:4, 1200×1600 |
 
 ## 3. Video

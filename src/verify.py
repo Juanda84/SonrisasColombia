@@ -50,7 +50,6 @@ for route, language, caption in [
     assert page.h1 == 1, route
     assert page.imgs_without_alt == 0, route
     assert page.sliders == 2, 'Los dos comparadores antes/después deben estar siempre'
-    assert html.count(caption) == 2, 'Cada comparador debe indicar que es una simulación'
     assert 'data-calc' in html, 'La calculadora debe estar siempre'
     assert not re.search(r'\{(resin|porcelain|saveUs|savePr)\}', html), 'Token de precio sin reemplazar'
     for ref in page.refs:

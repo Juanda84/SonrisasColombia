@@ -26,7 +26,7 @@ Luego abre http://127.0.0.1:8765/ (español) o http://127.0.0.1:8765/en/ (inglé
 
 ## Secciones
 
-1. Portada con precio "desde", comparador antes/después con barrido animado (es una simulación y lo dice) y las 4 ciudades.
+1. Portada con precio "desde", comparador antes/después con barrido animado y las 4 ciudades.
 2. Resultados: segundo comparador y espacios para casos reales y un video testimonial.
 3. Tratamientos: resina, porcelana y ortodoncia, con precio, días de referencia y botón de WhatsApp que indica el tratamiento.
 4. Calculadora "¿Cuánto te ahorras?": cotización estilo recibo que se envía por WhatsApp con material, cantidad, país y ciudad.
@@ -57,9 +57,10 @@ Todo el contenido se muestra siempre, con o sin dominio configurado.
 
 ## Imágenes
 
-- `smile-example-*`: sonrisas sintéticas para los comparadores, marcadas en el sitio como "Simulación generada de un caso ficticio".
+- `smile-example-*`: sonrisas sintéticas (generadas) para los comparadores. Reemplazarlas por casos reales autorizados.
 - `studio-*`: fotografía editorial generada de materiales (resina, porcelana, alineador).
-- `destination-medellin-*` y `destination-cocora-*`: Medellín y el Valle del Cocora (para Pereira).
+- `destination-medellin-*` y `destination-cocora-*`: Medellín y el Valle del Cocora (para Pereira), generadas.
+- `destination-bogota-*` y `destination-cali-*`: fotos de Unsplash (licencia libre, uso comercial permitido). Bogotá: Random Institute. Cali, iglesia La Ermita: Juan Manuel Gonzalez Restrepo.
 - `katherine-*`: fotos reales de la Dra. Katherine Peña.
 - `logo-transparent.webp`: el logo con fondo transparente, generado a partir de `logo-onix.webp`.
 - Fuentes: Bodoni Moda y Manrope (licencia OFL) en `site/assets/fonts`.

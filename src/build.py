@@ -108,13 +108,11 @@ def render_comparison(key, lang, title, *, hero=False):
     if lang == 'es':
         before, after = 'Antes', 'Después'
         label = 'Ajustar la comparación entre antes y después'
-        caption = 'Simulación generada de un caso ficticio.'
         alt_before = 'Ilustración de la sonrisa inicial de una persona ficticia'
         alt_after = 'Ilustración de la misma sonrisa con cambios simulados'
     else:
         before, after = 'Before', 'After'
         label = 'Adjust the before and after comparison'
-        caption = 'Generated simulation of a fictional case.'
         alt_before = 'Illustration of a fictional person’s initial smile'
         alt_after = 'Illustration of the same smile with simulated changes'
     prefix = f'/assets/smile-example-{key}'
@@ -131,10 +129,9 @@ def render_comparison(key, lang, title, *, hero=False):
         <span class="cmp__badge cmp__badge--before" aria-hidden="true">{e(before)}</span>
         <span class="cmp__badge cmp__badge--after" aria-hidden="true">{e(after)}</span>
         <span class="cmp__line" aria-hidden="true"></span>
-        <input class="cmp__range" type="range" min="0" max="100" value="50" aria-label="{e(title + '. ' + label)}" aria-describedby="cmp-cap-{key}">
+        <input class="cmp__range" type="range" min="0" max="100" value="50" aria-label="{e(title + '. ' + label)}">
         <span class="cmp__knob" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
       </div>
-      <figcaption class="cmp__cap" id="cmp-cap-{key}">{e(caption)}</figcaption>
     </figure>'''
 
 
@@ -200,7 +197,7 @@ def render_treatments(d):
         name = e(t['name'])
         tabs.append(f'<button type="button" class="tabs__tab" id="tab-{slug}" data-tab="{slug}">{name}</button>')
         points = ''.join(f'<li>{CHECK}<span>{e(p)}</span></li>' for p in t['points'])
-        price = (ph(t['price'], 'inline') if is_ph(t['price'])
+        price = ('' if not t['price'] else ph(t['price'], 'inline') if is_ph(t['price'])
                  else f'<p class="treat__price">{e(t["price"])}</p>')
         image = picture(f'/assets/studio-{slug}', d['treatmentImages'][slug], '(max-width: 760px) 92vw, 50vw',
                         widths=[720, 1200], w=720, h=480, klass='treat__img')
@@ -308,7 +305,7 @@ def render_includes(d):
     </div>
     <div>
       <ul class="includes__list" data-reveal>{items}</ul>
-      <div class="includes__pending">{pending}</div>
+      {f'<div class="includes__pending">{pending}</div>' if pending else ''}
     </div>
   </div>
 </section>'''
@@ -344,7 +341,7 @@ def render_cities(d):
     rows, media = [], []
     for i, c in enumerate(d['cities']):
         pick = e(d['citiesPick']).replace('{city}', e(c['name']))
-        address = ph(c['address'], 'inline') if is_ph(c['address']) else f'<p>{e(c["address"])}</p>'
+        address = '' if not c['address'] else ph(c['address'], 'inline') if is_ph(c['address']) else f'<p>{e(c["address"])}</p>'
         rows.append(f'''
         <li class="city" data-city="{c['id']}" data-city-name="{e(c['name'])}">
           <button type="button" class="city__head" aria-pressed="false" data-city-pick>
@@ -355,7 +352,7 @@ def render_cities(d):
         if c['photo']:
             inner = ph(c['photo'], 'media')
         else:
-            src = 'medellin' if c['id'] == 'medellin' else 'cocora'
+            src = {'pereira': 'cocora'}.get(c['id'], c['id'])
             inner = picture(f'/assets/destination-{src}', d['cityAlts'][c['id']], '(max-width: 760px) 92vw, 44vw',
                             widths=[480, 840], w=840, h=560, klass='city__img')
         media.append(f'<div class="cities__media-item" data-city-media="{c["id"]}">{inner}</div>')
@@ -488,7 +485,7 @@ for lang, d in CONTENT.items():
         skip=e(d['skip']), menu=e(d['menu']), close=e(d['close']), nav=nav,
         otherUrl=d['otherUrl'], otherLocale=d['otherLocale'], otherLabel=e(d['otherLabel']),
         headerCta=wa_button(d['headerCta'], 'btn btn--gold btn--sm hdr__cta'),
-        sections=sections, footerLine=e(d['footerLine']), footerLegal=ph(d['footerLegal'], 'inline'),
+        sections=sections, footerLine=e(d['footerLine']), footerLegal=(ph(d['footerLegal'], 'inline') if is_ph(d['footerLegal']) else e(d['footerLegal'])),
         privacy=e(d['privacy']), copyright=e(d['copyright']), year=str(date.today().year),
         privacyTitle=e(d['privacyTitle']), privacyText=e(d['privacyText']), privacyMore=ph(d['privacyMore'], 'inline'),
         floating=wa_button(d['ctaShort'], 'fab', f'aria-label="{e(d["headerCta"])}"'),
