@@ -17,7 +17,8 @@ Luego abre http://127.0.0.1:8765/ (español) o http://127.0.0.1:8765/en/ (inglé
 | Quiero cambiar… | Archivo |
 |---|---|
 | Precios (USD por diente) | `PRICES` en `src/build.py`: se reflejan en todo el sitio |
-| Textos en español e inglés | `src/content.json` |
+| Textos en español e inglés (portada) | `src/content.json` |
+| Páginas por ciudad y guía de precios | `src/pages.json` |
 | Estructura HTML de cada sección | funciones `render_*` en `src/build.py` y `src/page.html` |
 | Estilos y animaciones | `site/assets/site.css` |
 | Interacciones (WhatsApp, calculadora, ciudades, comparador) | `site/assets/site.js` |
@@ -36,6 +37,20 @@ Luego abre http://127.0.0.1:8765/ (español) o http://127.0.0.1:8765/en/ (inglé
 8. Doctoras, opiniones, preguntas frecuentes y cierre con la guía de "3 fotos".
 
 En móvil aparece una barra fija de WhatsApp. En escritorio, un botón flotante. Con `prefers-reduced-motion` se desactivan las animaciones.
+
+## Páginas y SEO
+
+Se generan 12 páginas (más `/es/`, copia de la portada en español):
+
+| Español | Inglés |
+|---|---|
+| `/` | `/en/` |
+| `/carillas-bogota/`, `/carillas-medellin/`, `/carillas-cali/`, `/carillas-pereira/` | `/en/veneers-bogota/`, `/en/veneers-medellin/`, `/en/veneers-cali/`, `/en/veneers-pereira/` |
+| `/precio-carillas-colombia/` | `/en/veneers-colombia-cost/` |
+
+Cada página tiene título y descripción propios, canonical, hreflang, Open Graph con `og-image.jpg` (1200×630) y datos estructurados en un `@graph`: `Dentist` con ofertas y precios, `WebSite`, `WebPage`, `FAQPage`, `BreadcrumbList` en las internas y `HowTo` (guía de 5 fotos) en la portada.
+
+También se generan `sitemap.xml` (con hreflang), `robots.txt` (con permisos explícitos para buscadores de IA cuando la indexación está activa) y `llms.txt` (resumen del negocio para ChatGPT, Perplexity, Claude, etc.). La fecha de los precios está en `PRICES_UPDATED` (`src/build.py`).
 
 ## Configuración
 

@@ -10,7 +10,7 @@
   const config = window.SONRISAS || {};
   const lang = root.lang;
   const money = new Intl.NumberFormat(lang, { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
-  const state = { city: null, quote: null };
+  const state = { city: document.body.dataset.presetCity || null, quote: null };
 
   /* ---------- WhatsApp con contexto */
   function waMessage(button) {

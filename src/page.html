@@ -20,7 +20,7 @@ $seo
 <script defer src="/assets/config.js"></script>
 <script defer src="/assets/site.js"></script>
 </head>
-<body>
+<body$bodyAttrs>
 <a class="skip" href="#main">$skip</a>
 <header class="hdr" data-header>
   <div class="wrap hdr__in">
@@ -41,7 +41,7 @@ $sections
     <a class="ftr__brand" href="$home"><img src="/assets/logo-transparent.webp" width="632" height="386" alt="Sonrisas Colombia" loading="lazy"></a>
     <p class="ftr__line">$footerLine</p>
     <nav aria-label="$menu">$nav</nav>
-  </div>
+  </div>$footerExtra
   <div class="wrap ftr__bottom">
     <span>© $year $copyright</span>
     <span><button type="button" class="ftr__link" data-privacy>$privacy</button><a class="ftr__link" href="$otherUrl" lang="$otherLocale" hreflang="$otherLocale" data-lang>$otherLabel</a></span>
@@ -51,7 +51,7 @@ $floating
 <div class="mbar">$mobileBar</div>
 <dialog class="dlg" id="privacy-dialog" aria-labelledby="privacy-title">
   <button type="button" class="dlg__x" data-close aria-label="$close">×</button>
-  <h2 id="privacy-title">$privacyTitle</h2>
+  <p class="dlg__title" id="privacy-title">$privacyTitle</p>
   <p>$privacyText</p>
   $privacyMore
   <button type="button" class="btn btn--ink" data-close>$close</button>

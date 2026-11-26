@@ -373,7 +373,7 @@ details[open] > summary .plus::after { transform: translate(-50%, -50%) rotate(0
 .ftr__top { display: grid; grid-template-columns: auto 1fr auto; gap: 32px 56px; align-items: center; }
 .ftr__brand img { width: 150px; }
 .ftr__line { max-width: 34em; color: #cfc4b2; }
-.ftr nav { display: grid; grid-template-columns: repeat(2, auto); gap: 8px 32px; }
+.ftr__top nav { display: grid; grid-template-columns: repeat(2, auto); gap: 8px 32px; }
 .ftr nav a:hover, .ftr__link:hover { color: var(--gold-hi); }
 .ftr__legal { margin-top: 28px; }
 .ftr__legal .ph--inline { margin-top: 0; max-width: 560px; }
@@ -555,4 +555,64 @@ details[open] > summary .plus::after { transform: translate(-50%, -50%) rotate(0
 @media (prefers-reduced-motion: reduce) {
   .btn[data-wa]::before, .fab::before { animation: none; --orbit: 30deg; }
   .btn[data-wa]::after, .fab::after, .fab:not(.is-hidden), .hero__glow, .hero::before { animation: none; }
+}
+
+/* =====================================================================
+   Páginas internas (ciudades y guía de precios) y pie de página ampliado
+   ===================================================================== */
+.dlg__title { font-family: var(--serif); font-size: 34px; line-height: 1.1; color: var(--ink); margin-bottom: 14px; }
+.hero--page { padding-bottom: clamp(64px, 8vw, 110px); }
+.hero__title--page { font-size: clamp(40px, 4.6vw, 74px); }
+.crumbs { margin-bottom: 22px; font-size: 13.5px; }
+.crumbs ol { display: flex; flex-wrap: wrap; gap: 6px; }
+.crumbs li { display: flex; align-items: center; gap: 6px; color: #b9ad9a; }
+.crumbs li + li::before { content: "/"; opacity: .5; }
+.crumbs a { color: #e3c48e; }
+.crumbs a:hover { text-decoration: underline; }
+.crumbs [aria-current] { color: #d9cfbf; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+.chips li { display: grid; gap: 2px; min-width: 160px; padding: 12px 18px; border: 1px solid var(--line-d); border-radius: 16px; background: rgba(255, 255, 255, .03); }
+.chips span { font-size: 13px; font-weight: 700; color: #e3c48e; }
+.chips strong { font-family: var(--serif); font-weight: 400; font-size: 28px; line-height: 1.1; }
+.chips small { font-size: 12.5px; color: #b9ad9a; }
+.updated { margin-top: 14px; font-size: 13px; color: #b9ad9a; }
+.page-photo { display: block; overflow: hidden; border-radius: 22px; border: 1px solid var(--line-d); }
+.page-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.hero--page .hero__visual .cmp { padding: 14px; border: 1px solid var(--line-d); border-radius: 22px; }
+.travel { display: grid; grid-template-columns: 1.2fr 1fr; gap: clamp(32px, 6vw, 96px); align-items: start; }
+.travel h2 { margin-bottom: 18px; }
+.travel__more { display: grid; gap: 14px; justify-items: start; padding: 28px; border-radius: 20px; background: var(--paper); }
+.travel__more h3 { font-size: 24px; }
+.travel__more ul { display: grid; gap: 8px; }
+.table-title { font-size: clamp(30px, 3.2vw, 48px); margin-bottom: 28px; }
+.price-table { overflow-x: auto; border-radius: 20px; background: var(--paper); box-shadow: 0 30px 60px -45px rgba(43, 30, 14, .5); }
+.price-table table { width: 100%; min-width: 600px; border-collapse: collapse; font-size: 16px; }
+.price-table th, .price-table td { padding: 18px 22px; text-align: left; border-bottom: 1px solid var(--line-l); }
+.price-table thead th { font-size: 14px; font-weight: 800; color: var(--gold-deep); }
+.price-table tbody tr:last-child > * { border-bottom: 0; }
+.price-table tbody th { font-weight: 700; }
+.price-table td { font-variant-numeric: tabular-nums; }
+.price-table td:nth-child(2) { font-weight: 800; color: var(--ink); background: rgba(212, 180, 131, .14); }
+.price-table td:nth-child(3), .price-table td:nth-child(4) { color: var(--ink-soft); }
+.table-note { margin-top: 12px; color: var(--ink-soft); opacity: 1; }
+.guide-cols { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 96px); margin-top: clamp(56px, 7vw, 96px); }
+.guide-cols h2 { font-size: clamp(28px, 2.8vw, 42px); margin-bottom: 24px; }
+.factors { display: grid; }
+.factors li { padding: 18px 0; border-top: 1px solid var(--line-l); }
+.factors h3 { font-size: 22px; margin-bottom: 4px; }
+.factors p { color: var(--ink-soft); }
+.checks--lg { gap: 16px; font-size: 17px; }
+.checks--lg li { align-items: flex-start; }
+.checks--lg .i-check { margin-top: 4px; }
+.city__more { display: inline-block; margin-top: 14px; font-size: 14.5px; color: var(--ink); }
+.ftr__cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--line-d); }
+.ftr__h { font-family: var(--sans); font-size: 13px; font-weight: 800; color: #e3c48e; margin-bottom: 12px; letter-spacing: .01em; }
+.ftr__phone { font-family: var(--serif); font-size: 26px; color: var(--ivory); }
+.ftr__phone:hover { color: var(--gold-hi); }
+.ftr__list { display: grid; gap: 8px; }
+.ftr__list a { color: #cfc4b2; }
+.ftr__list a:hover { color: var(--gold-hi); }
+@media (max-width: 1080px) {
+  .travel, .guide-cols { grid-template-columns: minmax(0, 1fr); }
+  .ftr__cols { grid-template-columns: 1fr; }
 }

@@ -4,8 +4,8 @@
     "otherLabel": "EN",
     "otherUrl": "/en/",
     "otherLocale": "en-US",
-    "title": "Carillas y diseño de sonrisa en Colombia | Sonrisas Colombia",
-    "description": "Carillas en resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Atención en Bogotá, Medellín, Cali y Pereira para pacientes de Puerto Rico y Estados Unidos. Valoración virtual gratis por WhatsApp.",
+    "title": "Carillas en Colombia desde USD {resin} | Pacientes de Puerto Rico",
+    "description": "Carillas en resina desde USD {resin} y porcelana desde USD {porcelain} por diente en Bogotá, Medellín, Cali y Pereira. Valoración virtual gratis por WhatsApp.",
     "skip": "Ir al contenido",
     "menu": "Menú",
     "close": "Cerrar",
@@ -32,7 +32,7 @@
     ],
     "heroVisualTitle": "Forma y proporción",
     "heroVisualHint": "Desliza para comparar",
-    "priceNote": "Precios de referencia en USD. Tu precio final se confirma en la valoración.",
+    "priceNote": "Precios de referencia en USD, actualizados en noviembre de 2026. Tu precio final se confirma en la valoración.",
     "cityStrip": "Te atendemos en",
     "resultsTitle": "Pequeños cambios.\nUna expresión distinta.",
     "resultsLead": "Forma, largo y color se planean contigo antes de tocar un solo diente. Así sabes qué esperar desde la primera videollamada.",
@@ -260,8 +260,16 @@
     "faqTitle": "Preguntas que\nnos hacen siempre.",
     "faqs": [
       [
-        "¿Cuánto cuesta un diseño de sonrisa?",
+        "¿Cuánto cuestan las carillas en Colombia?",
         "Como referencia, las carillas en resina empiezan en USD {resin} por diente y las de porcelana en USD {porcelain}. La mayoría de sonrisas usan de 8 a 10 carillas. Tu presupuesto exacto te lo damos por escrito después de la valoración."
+      ],
+      [
+        "¿Cuánto me ahorro frente a Puerto Rico?",
+        "Como referencia, 8 carillas en porcelana cuestan cerca de USD {prPorc8} en Puerto Rico y USD {coPorc8} en Colombia: unos USD {savePorc8Pr} menos. Frente a Estados Unidos la diferencia es mayor. Usa la calculadora con tu caso."
+      ],
+      [
+        "¿Es seguro hacerse carillas en Colombia?",
+        "Colombia es uno de los destinos de turismo dental más elegidos de América. Lo importante es saber con quién te atiendes: pide el registro profesional de tu odontóloga (ReTHUS), un presupuesto por escrito y un plan de seguimiento. Te damos los tres antes de que viajes."
       ],
       [
         "¿Cuántos días debo quedarme en Colombia?",
@@ -342,15 +350,17 @@
     "photoCtaTitle": "¿Ya las tienes?",
     "photoCtaText": "Abre WhatsApp, adjunta tus 5 fotos y cuéntanos qué te gustaría cambiar de tu sonrisa.",
     "photoCta": "Enviar mis fotos por WhatsApp",
-    "photosMessage": "¡Hola! Quiero mi valoración virtual gratis. Te envío mis 5 fotos de la sonrisa."
+    "photosMessage": "¡Hola! Quiero mi valoración virtual gratis. Te envío mis 5 fotos de la sonrisa.",
+    "phoneLabel": "WhatsApp y teléfono",
+    "cityPageLink": "Ver carillas en {city}"
   },
   "en": {
     "locale": "en-US",
     "otherLabel": "ES",
     "otherUrl": "/",
     "otherLocale": "es-PR",
-    "title": "Veneers and smile design in Colombia | Sonrisas Colombia",
-    "description": "Composite veneers from USD {resin} and porcelain veneers from USD {porcelain} per tooth. Care in Bogotá, Medellín, Cali and Pereira for patients from Puerto Rico and the U.S. Free virtual consultation on WhatsApp.",
+    "title": "Veneers in Colombia from USD {resin} | Sonrisas Colombia",
+    "description": "Composite veneers from USD {resin} and porcelain from USD {porcelain} per tooth in Bogotá, Medellín, Cali and Pereira. Free virtual consultation on WhatsApp.",
     "skip": "Skip to content",
     "menu": "Menu",
     "close": "Close",
@@ -377,7 +387,7 @@
     ],
     "heroVisualTitle": "Shape and proportion",
     "heroVisualHint": "Slide to compare",
-    "priceNote": "Reference prices in USD. Your consultation confirms your final price.",
+    "priceNote": "Reference prices in USD, updated November 2026. Your consultation confirms your final price.",
     "cityStrip": "We see patients in",
     "resultsTitle": "Small changes.\nA different expression.",
     "resultsLead": "Shape, length and shade are planned with you before a single tooth is touched, so you know what to expect from the first video call.",
@@ -605,8 +615,16 @@
     "faqTitle": "Questions we\nget all the time.",
     "faqs": [
       [
-        "How much does a smile makeover cost?",
+        "How much do veneers cost in Colombia?",
         "As a reference, composite veneers start at USD {resin} per tooth and porcelain at USD {porcelain}. Most smiles use 8 to 10 veneers. We send your exact quote in writing after your consultation."
+      ],
+      [
+        "How much do I save compared with Puerto Rico?",
+        "As a reference, 8 porcelain veneers cost about USD {prPorc8} in Puerto Rico and USD {coPorc8} in Colombia: around USD {savePorc8Pr} less. Compared with the U.S. the gap is larger. Try the calculator with your case."
+      ],
+      [
+        "Is it safe to get veneers in Colombia?",
+        "Colombia is one of the most popular dental travel destinations in the Americas. What matters is who treats you: ask for your dentist's professional registration (ReTHUS), a written quote and a follow-up plan. We give you all three before you travel."
       ],
       [
         "How many days should I stay in Colombia?",
@@ -687,6 +705,8 @@
     "photoCtaTitle": "Got them?",
     "photoCtaText": "Open WhatsApp, attach your 5 photos and tell us what you'd like to change about your smile.",
     "photoCta": "Send my photos on WhatsApp",
-    "photosMessage": "Hi! I'd like my free virtual consultation. Here are my 5 smile photos."
+    "photosMessage": "Hi! I'd like my free virtual consultation. Here are my 5 smile photos.",
+    "phoneLabel": "WhatsApp and phone",
+    "cityPageLink": "See veneers in {city}"
   }
 }

@@ -50,3 +50,12 @@ Confirma también los días de referencia en Colombia (hoy: resina 3–5 días, 
 - "Te respondemos con un estimado": confirma que el equipo puede contestar rápido por WhatsApp.
 - "Vuelos desde San Juan" (Bogotá): verifica las rutas vigentes antes de pautar.
 - Cuando no queden recuadros pendientes, activa la indexación en Google con `ENABLE_INDEXING=true`.
+
+## 6. SEO, GEO y AEO (fuera del código)
+
+- **Activar la indexación:** `ENABLE_INDEXING=true` en Coolify cuando el contenido esté listo. Hasta entonces Google y las IAs no ven el sitio.
+- **Google Business Profile:** un perfil por sede (Bogotá, Medellín, Cali, Pereira) con dirección, horario, fotos y el enlace a su página (`/carillas-<ciudad>/`).
+- **Google Search Console:** verificar el dominio y enviar `https://sonrisascolombia.com/sitemap.xml`.
+- **Reseñas reales** en Google de pacientes de Puerto Rico y EE. UU.; luego llevarlas al sitio.
+- **Redes sociales:** cuando existan, agregar sus enlaces en `sameAs` (datos estructurados) para que Google y las IAs conecten la marca.
+- **Credenciales de las doctoras** (ReTHUS, universidad): al tenerlas, se agregan a la página y a los datos estructurados de cada doctora.

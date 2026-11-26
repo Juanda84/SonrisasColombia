@@ -1,0 +1,454 @@
+{
+  "es": {
+    "home": "Inicio",
+    "breadcrumbLabel": "Ruta de navegación",
+    "pricesFromTitle": "Precios de referencia",
+    "perTooth": "por diente",
+    "otherCitiesTitle": "Otras ciudades donde te atendemos",
+    "seeCity": "Carillas en {city}",
+    "seePrices": "Ver la guía de precios",
+    "cityFaqTitle": "Preguntas sobre {city}",
+    "whyTitle": "Por qué hacerlo en {city}",
+    "travelTitle": "Cómo llegar y qué hacer",
+    "footerCities": "Carillas por ciudad",
+    "footerGuides": "Guías",
+    "updatedLabel": "Actualizado:",
+    "cities": {
+      "bogota": {
+        "slug": "carillas-bogota",
+        "title": "Carillas en Bogotá desde USD {resin} | Sonrisas Colombia",
+        "description": "Diseño de sonrisa en Bogotá para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
+        "h1": "Carillas en Bogotá,\ncon todo coordinado.",
+        "lead": "Bogotá es la puerta de entrada a Colombia. Llegas al aeropuerto El Dorado, te atendemos con un plan y fechas confirmadas antes de viajar, y aprovechas los días entre citas para conocer la capital.",
+        "why": [
+          [
+            "La ciudad mejor conectada",
+            "El Dorado es el aeropuerto con más rutas internacionales del país, así que suele ser fácil encontrar vuelo desde Puerto Rico o EE. UU."
+          ],
+          [
+            "Clima fresco todo el año",
+            "A unos 2.600 metros de altura, la temperatura ronda los 14 °C. Ideal para recuperarte sin calor."
+          ],
+          [
+            "Mucho por hacer entre citas",
+            "Museo del Oro, La Candelaria y la vista desde Monserrate quedan a pocos minutos."
+          ]
+        ],
+        "travel": "Llegas por El Dorado (BOG). Por la altura, el primer día conviene tomar mucha agua y no exigirte. Trae una chaqueta liviana: las tardes son frescas.",
+        "faqs": [
+          [
+            "¿Cuántos días debo quedarme en Bogotá?",
+            "Como referencia, de 3 a 5 días para carillas en resina y de 7 a 10 días para porcelana. Te confirmamos las fechas exactas antes de que compres el vuelo."
+          ],
+          [
+            "¿La altura de Bogotá afecta el tratamiento?",
+            "No afecta el tratamiento. Algunas personas sienten cansancio el primer día por la altura, por eso recomendamos llegar con un día de margen antes de la primera cita."
+          ],
+          [
+            "¿Cuánto cuestan las carillas en Bogotá?",
+            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. El precio final depende de tu valoración."
+          ]
+        ]
+      },
+      "medellin": {
+        "slug": "carillas-medellin",
+        "title": "Carillas en Medellín desde USD {resin} | Sonrisas Colombia",
+        "description": "Diseño de sonrisa en Medellín para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
+        "h1": "Carillas en Medellín,\nla ciudad de la eterna primavera.",
+        "lead": "Medellín combina buen clima todo el año con una de las ofertas turísticas más completas del país. Haces tu tratamiento con fechas claras y, entre citas, conoces la ciudad y sus alrededores.",
+        "why": [
+          [
+            "Clima templado todo el año",
+            "Entre 22 y 28 °C casi todos los días. Cómodo para moverte y descansar."
+          ],
+          [
+            "Fácil de recorrer",
+            "El Metro y el Metrocable conectan buena parte de la ciudad, con vistas sobre las montañas."
+          ],
+          [
+            "Paseos de un día",
+            "Guatapé y la Piedra del Peñol están a unas dos horas por carretera."
+          ]
+        ],
+        "travel": "Llegas al aeropuerto José María Córdova (MDE), en Rionegro, a unos 45 minutos de la ciudad. Te recomendamos hospedarte cerca de la sede para llegar a tiempo a cada cita.",
+        "faqs": [
+          [
+            "¿Cuántos días debo quedarme en Medellín?",
+            "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
+          ],
+          [
+            "¿Puedo ir a Guatapé durante el tratamiento?",
+            "Sí, en un día sin citas. Te recomendamos dejar el paseo para después de la primera cita y no comer nada muy duro si ya tienes provisionales."
+          ],
+          [
+            "¿Cuánto cuestan las carillas en Medellín?",
+            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
+          ]
+        ]
+      },
+      "cali": {
+        "slug": "carillas-cali",
+        "title": "Carillas en Cali desde USD {resin} | Sonrisas Colombia",
+        "description": "Diseño de sonrisa en Cali para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
+        "h1": "Carillas en Cali,\ncon sabor y buen clima.",
+        "lead": "Cali es cálida, alegre y a un paso del Pacífico. Te atendemos con el mismo plan y el mismo cuidado, y entre citas disfrutas la capital mundial de la salsa.",
+        "why": [
+          [
+            "Clima cálido",
+            "Temperaturas cercanas a 25 °C, parecido a lo que conoces en el Caribe."
+          ],
+          [
+            "Ambiente para disfrutar",
+            "Barrio San Antonio, el Cristo Rey y la música en vivo hacen fáciles los días libres."
+          ],
+          [
+            "Ritmo tranquilo",
+            "Una ciudad grande pero fácil de recorrer, ideal para ir y volver de tus citas sin estrés."
+          ]
+        ],
+        "travel": "Llegas al aeropuerto Alfonso Bonilla Aragón (CLO), en Palmira, a unos 30 minutos de la ciudad. Lleva ropa fresca y bloqueador solar.",
+        "faqs": [
+          [
+            "¿Cuántos días debo quedarme en Cali?",
+            "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te confirmamos las fechas antes de que compres el vuelo."
+          ],
+          [
+            "¿Puedo salir a bailar después de las citas?",
+            "Claro. Solo evita alimentos o bebidas muy frías o muy duras los días que te indique tu odontóloga."
+          ],
+          [
+            "¿Cuánto cuestan las carillas en Cali?",
+            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. El precio final se confirma en la valoración."
+          ]
+        ]
+      },
+      "pereira": {
+        "slug": "carillas-pereira",
+        "title": "Carillas en Pereira desde USD {resin} | Sonrisas Colombia",
+        "description": "Diseño de sonrisa en Pereira, en el Eje Cafetero, para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain}.",
+        "h1": "Carillas en Pereira,\nen el corazón del Eje Cafetero.",
+        "lead": "Pereira es tranquila, cercana y rodeada de paisajes cafeteros. Es una gran opción si quieres un tratamiento sin prisas y unos días de descanso entre montañas.",
+        "why": [
+          [
+            "Aeropuerto a minutos",
+            "El aeropuerto Matecaña queda dentro de la ciudad: llegas rápido a tu hospedaje y a tus citas."
+          ],
+          [
+            "Descanso de verdad",
+            "Una ciudad más pequeña y tranquila, ideal para recuperarte sin el ritmo de una capital."
+          ],
+          [
+            "Paisaje Cultural Cafetero",
+            "El Valle del Cocora, las fincas de café y los termales de Santa Rosa de Cabal están cerca."
+          ]
+        ],
+        "travel": "Llegas al aeropuerto Matecaña (PEI), a pocos minutos del centro. Desde Pereira el Valle del Cocora queda a cerca de una hora por carretera.",
+        "faqs": [
+          [
+            "¿Cuántos días debo quedarme en Pereira?",
+            "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
+          ],
+          [
+            "¿Hay vuelos directos a Pereira desde Puerto Rico?",
+            "Normalmente se llega con una conexión, casi siempre por Bogotá. Te ayudamos a ajustar las citas a los horarios de tu vuelo."
+          ],
+          [
+            "¿Cuánto cuestan las carillas en Pereira?",
+            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
+          ]
+        ]
+      }
+    },
+    "pricePage": {
+      "slug": "precio-carillas-colombia",
+      "title": "Precio de carillas en Colombia 2026: guía para Puerto Rico",
+      "description": "Cuánto cuestan las carillas en Colombia en 2026: resina desde USD {resin} y porcelana desde USD {porcelain} por diente, comparado con Puerto Rico y EE. UU.",
+      "h1": "¿Cuánto cuestan las carillas\nen Colombia en 2026?",
+      "lead": "Respuesta corta: en Colombia las carillas en resina empiezan en USD {resin} por diente y las de porcelana en USD {porcelain}. Una sonrisa de 8 carillas en porcelana cuesta cerca de USD {coPorc8}, frente a unos USD {prPorc8} en Puerto Rico y USD {usPorc8} en Estados Unidos.",
+      "tableTitle": "Precio por diente: Colombia, Puerto Rico y EE. UU.",
+      "tableHeaders": [
+        "",
+        "Colombia",
+        "Puerto Rico",
+        "Estados Unidos"
+      ],
+      "tableRowResin": "Carilla en resina",
+      "tableRowPorcelain": "Carilla en porcelana",
+      "tableRowResin8": "8 carillas en resina",
+      "tableRowPorcelain8": "8 carillas en porcelana",
+      "tableNote": "Valores de referencia en USD, recopilados en noviembre de 2026 a partir de rangos publicados del mercado. No incluyen vuelos ni hospedaje.",
+      "factorsTitle": "Qué hace que el precio cambie",
+      "factors": [
+        [
+          "El material",
+          "La porcelana cuesta más porque se fabrica a medida en laboratorio y dura más. La resina se modela directamente sobre el diente."
+        ],
+        [
+          "Cuántos dientes",
+          "La mayoría de sonrisas usan de 8 a 10 carillas: las que se ven al sonreír."
+        ],
+        [
+          "Tu salud dental",
+          "Si hace falta limpieza, resinas o tratamiento de encías antes de las carillas, se suma al presupuesto."
+        ],
+        [
+          "La experiencia del equipo",
+          "Un diseño bien planeado evita retoques y reemplazos antes de tiempo."
+        ]
+      ],
+      "tipsTitle": "Cómo ahorrar sin arriesgarte",
+      "tips": [
+        "Pide un presupuesto por escrito y desglosado antes de comprar el vuelo.",
+        "Compara el mismo material y el mismo número de carillas en cada cotización.",
+        "Verifica el registro profesional de tu odontóloga en ReTHUS.",
+        "Acuerda el plan de seguimiento para cuando vuelvas a casa."
+      ],
+      "calcIntro": "Calcula tu caso",
+      "faqs": [
+        [
+          "¿Cuánto cuesta una carilla de porcelana en Colombia?",
+          "Como referencia, desde USD {porcelain} por diente. En Puerto Rico ronda los USD {prPorcelain} y en Estados Unidos los USD {usPorcelain}."
+        ],
+        [
+          "¿Cuánto cuesta una carilla de resina en Colombia?",
+          "Como referencia, desde USD {resin} por diente, frente a unos USD {prResin} en Puerto Rico y USD {usResin} en Estados Unidos."
+        ],
+        [
+          "¿Vale la pena viajar a Colombia por carillas?",
+          "Para la mayoría de sonrisas de 8 o más carillas, el ahorro cubre el vuelo y la estadía. Usa la calculadora con tu caso y compáralo con tu cotización local."
+        ],
+        [
+          "¿El precio incluye la valoración?",
+          "La valoración virtual es gratis. El presupuesto que te enviamos por escrito detalla qué incluye el tratamiento."
+        ]
+      ]
+    },
+    "updatedText": "noviembre de 2026"
+  },
+  "en": {
+    "home": "Home",
+    "breadcrumbLabel": "Breadcrumb",
+    "pricesFromTitle": "Reference prices",
+    "perTooth": "per tooth",
+    "otherCitiesTitle": "Other cities where we see patients",
+    "seeCity": "Veneers in {city}",
+    "seePrices": "See the price guide",
+    "cityFaqTitle": "Questions about {city}",
+    "whyTitle": "Why get it done in {city}",
+    "travelTitle": "Getting there and what to do",
+    "footerCities": "Veneers by city",
+    "footerGuides": "Guides",
+    "updatedLabel": "Updated:",
+    "cities": {
+      "bogota": {
+        "slug": "veneers-bogota",
+        "title": "Veneers in Bogotá from USD {resin} | Sonrisas Colombia",
+        "description": "Smile design in Bogotá for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
+        "h1": "Veneers in Bogotá,\nwith everything coordinated.",
+        "lead": "Bogotá is Colombia's main gateway. You land at El Dorado, we see you with a plan and dates confirmed before you fly, and you enjoy the capital between appointments.",
+        "why": [
+          [
+            "The best-connected city",
+            "El Dorado has the most international routes in the country, so flights from Puerto Rico or the U.S. are usually easy to find."
+          ],
+          [
+            "Cool weather all year",
+            "At about 2,600 meters, temperatures hover around 14 °C. Great for recovering without the heat."
+          ],
+          [
+            "Plenty to do between visits",
+            "The Gold Museum, La Candelaria and the view from Monserrate are minutes away."
+          ]
+        ],
+        "travel": "You arrive at El Dorado (BOG). Because of the altitude, drink plenty of water and take it easy on day one. Bring a light jacket: evenings are cool.",
+        "faqs": [
+          [
+            "How many days should I stay in Bogotá?",
+            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We confirm exact dates before you buy your flight."
+          ],
+          [
+            "Does Bogotá's altitude affect treatment?",
+            "It doesn't affect treatment. Some people feel tired on day one, so we suggest arriving a day before your first appointment."
+          ],
+          [
+            "How much do veneers cost in Bogotá?",
+            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. Your final price depends on your consultation."
+          ]
+        ]
+      },
+      "medellin": {
+        "slug": "veneers-medellin",
+        "title": "Veneers in Medellín from USD {resin} | Sonrisas Colombia",
+        "description": "Smile design in Medellín for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
+        "h1": "Veneers in Medellín,\nthe city of eternal spring.",
+        "lead": "Medellín pairs great weather all year with one of the country's best travel scenes. Get your treatment with clear dates and explore the city and its surroundings between appointments.",
+        "why": [
+          [
+            "Mild weather all year",
+            "Between 22 and 28 °C most days. Comfortable for getting around and resting."
+          ],
+          [
+            "Easy to explore",
+            "The Metro and Metrocable connect much of the city, with views over the mountains."
+          ],
+          [
+            "Day trips",
+            "Guatapé and the Peñol Rock are about two hours away by road."
+          ]
+        ],
+        "travel": "You arrive at José María Córdova airport (MDE) in Rionegro, about 45 minutes from the city. We suggest staying close to the clinic so you're on time for every visit.",
+        "faqs": [
+          [
+            "How many days should I stay in Medellín?",
+            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
+          ],
+          [
+            "Can I visit Guatapé during treatment?",
+            "Yes, on a day without appointments. Plan it after your first visit and avoid very hard foods if you already have temporaries."
+          ],
+          [
+            "How much do veneers cost in Medellín?",
+            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
+          ]
+        ]
+      },
+      "cali": {
+        "slug": "veneers-cali",
+        "title": "Veneers in Cali from USD {resin} | Sonrisas Colombia",
+        "description": "Smile design in Cali for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
+        "h1": "Veneers in Cali,\nwith warm weather and rhythm.",
+        "lead": "Cali is warm, joyful and close to the Pacific. Same plan, same care, and between appointments you enjoy the world capital of salsa.",
+        "why": [
+          [
+            "Warm weather",
+            "Temperatures around 25 °C, much like what you know from the Caribbean."
+          ],
+          [
+            "Easy days off",
+            "San Antonio, Cristo Rey and live music make free days easy to fill."
+          ],
+          [
+            "Relaxed pace",
+            "A big city that is easy to get around, so going to and from your visits is stress-free."
+          ]
+        ],
+        "travel": "You arrive at Alfonso Bonilla Aragón airport (CLO) in Palmira, about 30 minutes from the city. Pack light clothes and sunscreen.",
+        "faqs": [
+          [
+            "How many days should I stay in Cali?",
+            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We confirm dates before you buy your flight."
+          ],
+          [
+            "Can I go dancing after my appointments?",
+            "Of course. Just avoid very cold or very hard foods and drinks on the days your dentist tells you."
+          ],
+          [
+            "How much do veneers cost in Cali?",
+            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. Your consultation confirms the final price."
+          ]
+        ]
+      },
+      "pereira": {
+        "slug": "veneers-pereira",
+        "title": "Veneers in Pereira from USD {resin} | Sonrisas Colombia",
+        "description": "Smile design in Pereira, in Colombia's Coffee Region, for patients from Puerto Rico and the U.S. Composite from USD {resin}, porcelain from USD {porcelain}.",
+        "h1": "Veneers in Pereira,\nin the heart of the Coffee Region.",
+        "lead": "Pereira is calm, friendly and surrounded by coffee country. A great choice if you want an unhurried treatment and a few restful days in the mountains.",
+        "why": [
+          [
+            "Airport minutes away",
+            "Matecaña airport is inside the city, so you reach your lodging and appointments quickly."
+          ],
+          [
+            "Real rest",
+            "A smaller, calmer city, ideal for recovering away from big-city pace."
+          ],
+          [
+            "Coffee Cultural Landscape",
+            "Cocora Valley, coffee farms and the Santa Rosa de Cabal hot springs are close by."
+          ]
+        ],
+        "travel": "You arrive at Matecaña airport (PEI), minutes from downtown. Cocora Valley is about an hour's drive from Pereira.",
+        "faqs": [
+          [
+            "How many days should I stay in Pereira?",
+            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
+          ],
+          [
+            "Are there direct flights to Pereira from Puerto Rico?",
+            "You usually arrive with one connection, most often through Bogotá. We help you fit appointments around your flight times."
+          ],
+          [
+            "How much do veneers cost in Pereira?",
+            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
+          ]
+        ]
+      }
+    },
+    "pricePage": {
+      "slug": "veneers-colombia-cost",
+      "title": "Veneers Cost in Colombia 2026: Guide for Puerto Rico & U.S.",
+      "description": "How much veneers cost in Colombia in 2026: composite from USD {resin} and porcelain from USD {porcelain} per tooth, compared with Puerto Rico and the U.S.",
+      "h1": "How much do veneers\ncost in Colombia in 2026?",
+      "lead": "Short answer: in Colombia, composite veneers start at USD {resin} per tooth and porcelain at USD {porcelain}. An 8-veneer porcelain smile costs about USD {coPorc8}, versus roughly USD {prPorc8} in Puerto Rico and USD {usPorc8} in the U.S.",
+      "tableTitle": "Price per tooth: Colombia, Puerto Rico and the U.S.",
+      "tableHeaders": [
+        "",
+        "Colombia",
+        "Puerto Rico",
+        "United States"
+      ],
+      "tableRowResin": "Composite veneer",
+      "tableRowPorcelain": "Porcelain veneer",
+      "tableRowResin8": "8 composite veneers",
+      "tableRowPorcelain8": "8 porcelain veneers",
+      "tableNote": "Reference values in USD, compiled in November 2026 from published market ranges. Flights and lodging not included.",
+      "factorsTitle": "What changes the price",
+      "factors": [
+        [
+          "The material",
+          "Porcelain costs more because it is custom-made in a lab and lasts longer. Composite is shaped directly on the tooth."
+        ],
+        [
+          "How many teeth",
+          "Most smiles use 8 to 10 veneers: the ones that show when you smile."
+        ],
+        [
+          "Your dental health",
+          "If you need a cleaning, fillings or gum treatment first, it is added to the quote."
+        ],
+        [
+          "The team's experience",
+          "A well-planned design avoids touch-ups and early replacements."
+        ]
+      ],
+      "tipsTitle": "How to save without taking risks",
+      "tips": [
+        "Ask for an itemized written quote before buying your flight.",
+        "Compare the same material and number of veneers in every quote.",
+        "Check your dentist's professional registration in Colombia (ReTHUS).",
+        "Agree on a follow-up plan for when you are back home."
+      ],
+      "calcIntro": "Estimate your case",
+      "faqs": [
+        [
+          "How much is a porcelain veneer in Colombia?",
+          "As a reference, from USD {porcelain} per tooth. In Puerto Rico it is around USD {prPorcelain} and in the U.S. around USD {usPorcelain}."
+        ],
+        [
+          "How much is a composite veneer in Colombia?",
+          "As a reference, from USD {resin} per tooth, versus about USD {prResin} in Puerto Rico and USD {usResin} in the U.S."
+        ],
+        [
+          "Is it worth traveling to Colombia for veneers?",
+          "For most smiles of 8 or more veneers, the savings cover the flight and stay. Use the calculator with your case and compare it with your local quote."
+        ],
+        [
+          "Does the price include the consultation?",
+          "The virtual consultation is free. The written quote we send details what your treatment includes."
+        ]
+      ]
+    },
+    "updatedText": "November 2026"
+  }
+}
