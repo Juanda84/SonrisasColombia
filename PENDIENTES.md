@@ -27,6 +27,8 @@ Confirma también los días de referencia en Colombia (hoy: resina 3–5 días, 
 | Ciudades (opcional) | Fotos reales de las 4 sedes (hoy se ven fotos de cada ciudad) | Horizontal, 1600×1000 |
 | Doctoras | Foto profesional de la Dra. Vanessa Pulgarin, mismo estilo que las de Katherine | Vertical 3:4, 1200×1600 |
 
+- Navidad en Armenia: no hay fotos libres del alumbrado de Armenia. Por ahora se muestran fotos del Quindío (faroles de Quimbaya, la plaza de Salento y faroles de la Noche de Velitas). Si tienes fotos propias del alumbrado de Armenia, cámbialas por `site/assets/xmas-armenia-*`.
+
 ## 3. Video
 
 | Dónde | Qué necesitas | Formato |

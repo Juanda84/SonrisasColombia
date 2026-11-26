@@ -82,6 +82,7 @@ Cada referencia a `/assets/...` sale en el HTML con una huella de su contenido (
 - `destination-bogota-*` y `destination-cali-*`: fotos de Unsplash (licencia libre, uso comercial permitido). Bogotá: Random Institute. Cali, iglesia La Ermita: Juan Manuel Gonzalez Restrepo.
 - `destination-pereira-*`: Pereira de noche con el viaducto (Wikimedia Commons, Norbey, CC BY-SA 4.0). Armenia usa `destination-cocora-*`.
 - `place-*`: 20 fotos de sitios turísticos (4 por ciudad) de Wikimedia Commons con licencias CC0, CC BY o CC BY-SA. Autor, licencia y enlace de cada una están en `src/photo-credits.json` y se muestran debajo de cada foto, como piden esas licencias. Los textos de cada sitio están en `src/pages.json` (`cities.<ciudad>.places`).
+- `xmas-*`: 15 fotos de Navidad de temporadas anteriores (3 por ciudad) para la sección «Navidad en…» de cada ciudad, de Wikimedia Commons y Flickr con licencias CC BY o CC BY-SA. Créditos en `src/photo-credits.json`; pies de foto en `src/pages.json` (`xmas.photos.<ciudad>`). Desaparecen solas con la sección después de `SEASON_END`.
 - `katherine-*`: fotos reales de la Dra. Katherine Peña.
 - `logo-transparent.webp`: el logo con fondo transparente, generado a partir de `logo-onix.webp`.
 - Fuentes: Bodoni Moda y Manrope (licencia OFL) en `site/assets/fonts`.

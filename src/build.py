@@ -681,6 +681,25 @@ def render_xmas_home(d, P, home):
 </section>'''
 
 
+def xmas_gallery(P, X, city_id, city_name):
+    shots = []
+    for ph in X.get('photos', {}).get(city_id, []):
+        key = 'xmas-' + ph['photo']
+        credit = CREDITS.get(key, {})
+        img = picture(f'/assets/{key}', ph['caption'], '(max-width: 760px) 92vw, (max-width: 1080px) 46vw, 30vw',
+                      widths=[480, 840], w=840, h=560, klass='xgal__img')
+        by = ''
+        if credit:
+            by = (f'<span class="xgal__credit">{e(P["photoBy"])} <a href="{e(credit["source"])}" rel="noopener" target="_blank">'
+                  f'{e(credit["author"])}</a>, <a href="{e(credit["licenseUrl"])}" rel="noopener license" target="_blank">{e(credit["license"])}</a></span>')
+        shots.append(f'<li class="xgal__item"><figure>{img}<figcaption><strong>{e(ph["caption"])}</strong>'
+                     f'<span class="xgal__when">{e(ph["when"])}</span>{by}</figcaption></figure></li>')
+    if not shots:
+        return ''
+    return (f'<div class="xgal" data-reveal><div class="xgal__head"><h3>{e(X["galleryTitle"].replace("{city}", city_name))}</h3>'
+            f'<p>{e(X["galleryNote"])}</p></div><ul class="xgal__grid">{"".join(shots)}</ul></div>')
+
+
 def render_xmas_city(P, city_id, city_name):
     if not season_on():
         return ''
@@ -697,6 +716,7 @@ def render_xmas_city(P, city_id, city_name):
       <p class="lead">{e(X['cityLead'])}</p>
     </div>
     <ul class="xmas__list" data-reveal>{items}</ul>
+    {xmas_gallery(P, X, city_id, city_name)}
     <div class="xmas__foot">
       {wa_button(X['cta'], 'btn btn--gold btn--lg', f'data-wa-text="{e(X["message"])}"')}
       <p class="fine">{e(X['note'])}</p>

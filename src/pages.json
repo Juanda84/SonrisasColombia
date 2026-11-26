@@ -1,1080 +1,1258 @@
 {
-  "es": {
-    "home": "Inicio",
-    "breadcrumbLabel": "Ruta de navegación",
-    "pricesFromTitle": "Precios de referencia",
-    "perTooth": "por diente",
-    "otherCitiesTitle": "Otras ciudades donde te atendemos",
-    "seeCity": "Carillas en {city}",
-    "seePrices": "Ver la guía de precios",
-    "cityFaqTitle": "Preguntas sobre {city}",
-    "whyTitle": "Por qué hacerlo en {city}",
-    "travelTitle": "Cómo llegar y qué hacer",
-    "footerCities": "Carillas por ciudad",
-    "footerGuides": "Guías",
-    "updatedLabel": "Actualizado:",
-    "cities": {
-      "bogota": {
-        "slug": "carillas-bogota",
-        "title": "Carillas en Bogotá desde USD {resin} | Sonrisas Colombia",
-        "description": "Diseño de sonrisa en Bogotá para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
-        "h1": "Carillas en Bogotá,\ncon todo coordinado.",
-        "lead": "Bogotá es la puerta de entrada a Colombia. Llegas al aeropuerto El Dorado, te atendemos con un plan y fechas confirmadas antes de viajar, y aprovechas los días entre citas para conocer la capital.",
-        "why": [
-          [
-            "La ciudad mejor conectada",
-            "El Dorado es el aeropuerto con más rutas internacionales del país, así que suele ser fácil encontrar vuelo desde Puerto Rico o EE. UU."
-          ],
-          [
-            "Clima fresco todo el año",
-            "A unos 2.600 metros de altura, la temperatura ronda los 14 °C. Ideal para recuperarte sin calor."
-          ],
-          [
-            "Mucho por hacer entre citas",
-            "Museo del Oro, La Candelaria y la vista desde Monserrate quedan a pocos minutos."
-          ]
-        ],
-        "travel": "Llegas por El Dorado (BOG). Por la altura, el primer día conviene tomar mucha agua y no exigirte. Trae una chaqueta liviana: las tardes son frescas.",
-        "faqs": [
-          [
-            "¿Cuántos días debo quedarme en Bogotá?",
-            "Como referencia, de 3 a 5 días para carillas en resina y de 7 a 10 días para porcelana. Te confirmamos las fechas exactas antes de que compres el vuelo."
-          ],
-          [
-            "¿La altura de Bogotá afecta el tratamiento?",
-            "No afecta el tratamiento. Algunas personas sienten cansancio el primer día por la altura, por eso recomendamos llegar con un día de margen antes de la primera cita."
-          ],
-          [
-            "¿Cuánto cuestan las carillas en Bogotá?",
-            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. El precio final depende de tu valoración."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "bogota-monserrate",
-            "name": "Cerro de Monserrate",
-            "text": "El santuario sobre la ciudad, a más de 3.000 metros. Se sube en teleférico o funicular.",
-            "cop": 35000,
-            "costNote": "ida y regreso en teleférico o funicular; a pie es gratis",
-            "where": "En la ciudad",
-            "time": "2 a 3 horas"
-          },
-          {
-            "photo": "bogota-candelaria",
-            "name": "La Candelaria",
-            "text": "El centro histórico: casas coloniales, arte urbano, museos y cafés.",
-            "cop": 0,
-            "costNote": "",
-            "where": "En la ciudad",
-            "time": "Medio día"
-          },
-          {
-            "photo": "bogota-museo-oro",
-            "name": "Museo del Oro",
-            "text": "Una de las colecciones de orfebrería prehispánica más grandes del mundo.",
-            "cop": 5000,
-            "costNote": "gratis los domingos",
-            "where": "En la ciudad",
-            "time": "2 horas"
-          },
-          {
-            "photo": "bogota-zipaquira",
-            "name": "Catedral de Sal de Zipaquirá",
-            "text": "Una catedral construida dentro de una mina de sal, a cerca de una hora de Bogotá.",
-            "cop": 125000,
-            "costNote": "tarifa para extranjeros",
-            "where": "A 1 h de Bogotá",
-            "time": "Medio día"
-          }
-        ]
-      },
-      "medellin": {
-        "slug": "carillas-medellin",
-        "title": "Carillas en Medellín desde USD {resin} | Sonrisas Colombia",
-        "description": "Diseño de sonrisa en Medellín para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
-        "h1": "Carillas en Medellín,\nla ciudad de la eterna primavera.",
-        "lead": "Medellín combina buen clima todo el año con una de las ofertas turísticas más completas del país. Haces tu tratamiento con fechas claras y, entre citas, conoces la ciudad y sus alrededores.",
-        "why": [
-          [
-            "Clima templado todo el año",
-            "Entre 22 y 28 °C casi todos los días. Cómodo para moverte y descansar."
-          ],
-          [
-            "Fácil de recorrer",
-            "El Metro y el Metrocable conectan buena parte de la ciudad, con vistas sobre las montañas."
-          ],
-          [
-            "Paseos de un día",
-            "Guatapé y la Piedra del Peñol están a unas dos horas por carretera."
-          ]
-        ],
-        "travel": "Llegas al aeropuerto José María Córdova (MDE), en Rionegro, a unos 45 minutos de la ciudad. Te recomendamos hospedarte cerca de la sede para llegar a tiempo a cada cita.",
-        "faqs": [
-          [
-            "¿Cuántos días debo quedarme en Medellín?",
-            "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
-          ],
-          [
-            "¿Puedo ir a Guatapé durante el tratamiento?",
-            "Sí, en un día sin citas. Te recomendamos dejar el paseo para después de la primera cita y no comer nada muy duro si ya tienes provisionales."
-          ],
-          [
-            "¿Cuánto cuestan las carillas en Medellín?",
-            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "medellin-penol",
-            "name": "Piedra del Peñol, Guatapé",
-            "text": "Unos 700 escalones hasta una vista única del embalse.",
-            "cop": 35000,
-            "costNote": "para subir a la piedra",
-            "where": "A 2 h de Medellín",
-            "time": "Día completo"
-          },
-          {
-            "photo": "medellin-comuna13",
-            "name": "Comuna 13",
-            "text": "Grafitis, escaleras eléctricas al aire libre y la historia de transformación de la ciudad.",
-            "cop": 0,
-            "costNote": "tours guiados opcionales",
-            "where": "En la ciudad",
-            "time": "Medio día"
-          },
-          {
-            "photo": "medellin-metrocable",
-            "name": "Metrocable",
-            "text": "Teleféricos que suben por las laderas, con vistas de todo el valle.",
-            "cop": 4400,
-            "costNote": "por trayecto; el cable a Parque Arví se paga aparte",
-            "where": "En la ciudad",
-            "time": "2 horas"
-          },
-          {
-            "photo": "medellin-pueblito",
-            "name": "Pueblito Paisa",
-            "text": "Réplica de un pueblo antioqueño en el cerro Nutibara, con mirador sobre la ciudad.",
-            "cop": 0,
-            "costNote": "",
-            "where": "En la ciudad",
-            "time": "1 a 2 horas"
-          }
-        ]
-      },
-      "cali": {
-        "slug": "carillas-cali",
-        "title": "Carillas en Cali desde USD {resin} | Sonrisas Colombia",
-        "description": "Diseño de sonrisa en Cali para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
-        "h1": "Carillas en Cali,\ncon sabor y buen clima.",
-        "lead": "Cali es cálida, alegre y a un paso del Pacífico. Te atendemos con el mismo plan y el mismo cuidado, y entre citas disfrutas la capital mundial de la salsa.",
-        "why": [
-          [
-            "Clima cálido",
-            "Temperaturas cercanas a 25 °C, parecido a lo que conoces en el Caribe."
-          ],
-          [
-            "Ambiente para disfrutar",
-            "Barrio San Antonio, el Cristo Rey y la música en vivo hacen fáciles los días libres."
-          ],
-          [
-            "Ritmo tranquilo",
-            "Una ciudad grande pero fácil de recorrer, ideal para ir y volver de tus citas sin estrés."
-          ]
-        ],
-        "travel": "Llegas al aeropuerto Alfonso Bonilla Aragón (CLO), en Palmira, a unos 30 minutos de la ciudad. Lleva ropa fresca y bloqueador solar.",
-        "faqs": [
-          [
-            "¿Cuántos días debo quedarme en Cali?",
-            "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te confirmamos las fechas antes de que compres el vuelo."
-          ],
-          [
-            "¿Puedo salir a bailar después de las citas?",
-            "Claro. Solo evita alimentos o bebidas muy frías o muy duras los días que te indique tu odontóloga."
-          ],
-          [
-            "¿Cuánto cuestan las carillas en Cali?",
-            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. El precio final se confirma en la valoración."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "cali-cristo-rey",
-            "name": "Cristo Rey",
-            "text": "Mirador en lo alto de los cerros, con vista a toda la ciudad.",
-            "cop": 0,
-            "costNote": "se llega en taxi o tour",
-            "where": "Afueras de la ciudad",
-            "time": "2 horas"
-          },
-          {
-            "photo": "cali-san-antonio",
-            "name": "Barrio San Antonio",
-            "text": "Casas coloniales, la capilla de San Antonio y atardeceres con música.",
-            "cop": 0,
-            "costNote": "",
-            "where": "En la ciudad",
-            "time": "Una tarde"
-          },
-          {
-            "photo": "cali-gato",
-            "name": "El Gato del Río",
-            "text": "La escultura de Hernando Tejada, ícono de la ciudad, junto al río Cali.",
-            "cop": 0,
-            "costNote": "",
-            "where": "En la ciudad",
-            "time": "30 minutos"
-          },
-          {
-            "photo": "cali-bulevar",
-            "name": "Bulevar del Río",
-            "text": "Paseo peatonal a orillas del río Cali, ideal para caminar al final de la tarde.",
-            "cop": 0,
-            "costNote": "",
-            "where": "En la ciudad",
-            "time": "1 hora"
-          }
-        ]
-      },
-      "pereira": {
-        "slug": "carillas-pereira",
-        "title": "Carillas en Pereira desde USD {resin} | Sonrisas Colombia",
-        "description": "Diseño de sonrisa en Pereira, en el Eje Cafetero, para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain}.",
-        "h1": "Carillas en Pereira,\nen el corazón del Eje Cafetero.",
-        "lead": "Pereira es tranquila, cercana y rodeada de paisajes cafeteros. Es una gran opción si quieres un tratamiento sin prisas y unos días de descanso entre montañas.",
-        "why": [
-          [
-            "Aeropuerto a minutos",
-            "El aeropuerto Matecaña queda dentro de la ciudad: llegas rápido a tu hospedaje y a tus citas."
-          ],
-          [
-            "Descanso de verdad",
-            "Una ciudad más pequeña y tranquila, ideal para recuperarte sin el ritmo de una capital."
-          ],
-          [
-            "Termales y naturaleza",
-            "Los termales de Santa Rosa de Cabal y el Bioparque Ukumarí están cerca de la ciudad."
-          ]
-        ],
-        "travel": "Llegas al aeropuerto Matecaña (PEI), a pocos minutos del centro. Los termales de Santa Rosa de Cabal quedan a cerca de 40 minutos por carretera.",
-        "faqs": [
-          [
-            "¿Cuántos días debo quedarme en Pereira?",
-            "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
-          ],
-          [
-            "¿Hay vuelos directos a Pereira desde Puerto Rico?",
-            "Normalmente se llega con una conexión, casi siempre por Bogotá. Te ayudamos a ajustar las citas a los horarios de tu vuelo."
-          ],
-          [
-            "¿Cuánto cuestan las carillas en Pereira?",
-            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "pereira-termales",
-            "name": "Termales de Santa Rosa de Cabal",
-            "text": "Piscinas de agua caliente al pie de una cascada, a unos 40 minutos.",
-            "cop": 60000,
-            "costNote": "Pasaporte Termal; hasta COP 106.000 según la fecha",
-            "where": "A 40 min de Pereira",
-            "time": "Medio día"
-          },
-          {
-            "photo": "pereira-ukumari",
-            "name": "Bioparque Ukumarí",
-            "text": "Un gran bioparque con animales de varios continentes, en las afueras de la ciudad.",
-            "cop": 35000,
-            "costNote": "pasaporte general",
-            "where": "Afueras de Pereira",
-            "time": "Medio día"
-          },
-          {
-            "photo": "pereira-viaducto",
-            "name": "Viaducto César Gaviria Trujillo",
-            "text": "El puente atirantado que une Pereira y Dosquebradas, símbolo de la ciudad.",
-            "cop": 0,
-            "costNote": "",
-            "where": "En la ciudad",
-            "time": "30 minutos"
-          },
-          {
-            "photo": "pereira-bolivar",
-            "name": "Bolívar Desnudo",
-            "text": "La escultura de Rodrigo Arenas Betancourt en la Plaza de Bolívar.",
-            "cop": 0,
-            "costNote": "",
-            "where": "En la ciudad",
-            "time": "30 minutos"
-          }
-        ]
-      },
-      "armenia": {
-        "slug": "carillas-armenia",
-        "title": "Carillas en Armenia desde USD {resin} | Sonrisas Colombia",
-        "description": "Diseño de sonrisa en Armenia, Quindío, para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente.",
-        "h1": "Carillas en Armenia,\nentre cafetales y palmas de cera.",
-        "lead": "Armenia, capital del Quindío, es una ciudad amable rodeada de fincas cafeteras, parques temáticos y pueblos llenos de color. Ideal para combinar tu tratamiento con unos días en familia.",
-        "why": [
-          [
-            "Aeropuerto cerca",
-            "El aeropuerto El Edén queda a pocos minutos de la ciudad."
-          ],
-          [
-            "Planes para toda la familia",
-            "El Parque del Café y Panaca están muy cerca, perfectos para los días sin citas."
-          ],
-          [
-            "Pueblos de postal",
-            "Salento, Filandia y el Valle del Cocora quedan a menos de una hora."
-          ]
-        ],
-        "travel": "Llegas al aeropuerto El Edén (AXM), a pocos minutos de la ciudad. Desde Armenia, Salento y el Valle del Cocora quedan a cerca de una hora por carretera.",
-        "faqs": [
-          [
-            "¿Cuántos días debo quedarme en Armenia?",
-            "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
-          ],
-          [
-            "¿Puedo ir al Parque del Café entre citas?",
-            "Sí, en un día sin citas. Es un buen plan para ir en familia mientras avanza tu tratamiento."
-          ],
-          [
-            "¿Cuánto cuestan las carillas en Armenia?",
-            "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "armenia-parque-cafe",
-            "name": "Parque del Café",
-            "text": "Atracciones, shows y cultura cafetera en Montenegro, muy cerca de Armenia.",
-            "cop": 75000,
-            "costNote": "Pasaporte Múltiple con atracciones ilimitadas",
-            "where": "A 20 min de Armenia",
-            "time": "Día completo"
-          },
-          {
-            "photo": "armenia-panaca",
-            "name": "Panaca",
-            "text": "Parque agropecuario en Quimbaya para convivir con animales de granja.",
-            "cop": 85000,
-            "costNote": "Pasaporte Terra",
-            "where": "A 40 min de Armenia",
-            "time": "Día completo"
-          },
-          {
-            "photo": "armenia-cocora",
-            "name": "Valle del Cocora",
-            "text": "Las palmas de cera, árbol nacional de Colombia, entre montañas y neblina.",
-            "cop": 25000,
-            "costNote": "aporte aproximado en las fincas privadas del sendero",
-            "where": "A 1 h de Armenia",
-            "time": "Medio día"
-          },
-          {
-            "photo": "armenia-filandia",
-            "name": "Filandia",
-            "text": "Pueblo de balcones coloridos y mirador sobre el paisaje cafetero.",
-            "cop": 0,
-            "costNote": "",
-            "where": "A 40 min de Armenia",
-            "time": "Medio día"
-          }
-        ]
-      }
-    },
-    "pricePage": {
-      "slug": "precio-carillas-colombia",
-      "title": "Precio de carillas en Colombia 2026: guía para Puerto Rico",
-      "description": "Cuánto cuestan las carillas en Colombia en 2026: resina desde USD {resin} y porcelana desde USD {porcelain} por diente, comparado con Puerto Rico y EE. UU.",
-      "h1": "¿Cuánto cuestan las carillas\nen Colombia en 2026?",
-      "lead": "Respuesta corta: en Colombia las carillas en resina empiezan en USD {resin} por diente y las de porcelana en USD {porcelain}. Una sonrisa de 8 carillas en porcelana cuesta cerca de USD {coPorc8}, frente a unos USD {prPorc8} en Puerto Rico y USD {usPorc8} en Estados Unidos.",
-      "tableTitle": "Precio por diente: Colombia, Puerto Rico y EE. UU.",
-      "tableHeaders": [
-        "",
-        "Colombia",
-        "Puerto Rico",
-        "Estados Unidos"
-      ],
-      "tableRowResin": "Carilla en resina",
-      "tableRowPorcelain": "Carilla en porcelana",
-      "tableRowResin8": "8 carillas en resina",
-      "tableRowPorcelain8": "8 carillas en porcelana",
-      "tableNote": "Valores de referencia en USD, recopilados en noviembre de 2026 a partir de rangos publicados del mercado. No incluyen vuelos ni hospedaje.",
-      "factorsTitle": "Qué hace que el precio cambie",
-      "factors": [
-        [
-          "El material",
-          "La porcelana cuesta más porque se fabrica a medida en laboratorio y dura más. La resina se modela directamente sobre el diente."
-        ],
-        [
-          "Cuántos dientes",
-          "La mayoría de sonrisas usan de 8 a 10 carillas: las que se ven al sonreír."
-        ],
-        [
-          "Tu salud dental",
-          "Si hace falta limpieza, resinas o tratamiento de encías antes de las carillas, se suma al presupuesto."
-        ],
-        [
-          "La experiencia del equipo",
-          "Un diseño bien planeado evita retoques y reemplazos antes de tiempo."
-        ]
-      ],
-      "tipsTitle": "Cómo ahorrar sin arriesgarte",
-      "tips": [
-        "Pide un presupuesto por escrito y desglosado antes de comprar el vuelo.",
-        "Compara el mismo material y el mismo número de carillas en cada cotización.",
-        "Verifica el registro profesional de tu odontóloga en ReTHUS.",
-        "Acuerda el plan de seguimiento para cuando vuelvas a casa."
-      ],
-      "calcIntro": "Calcula tu caso",
-      "faqs": [
-        [
-          "¿Cuánto cuesta una carilla de porcelana en Colombia?",
-          "Como referencia, desde USD {porcelain} por diente. En Puerto Rico ronda los USD {prPorcelain} y en Estados Unidos los USD {usPorcelain}."
-        ],
-        [
-          "¿Cuánto cuesta una carilla de resina en Colombia?",
-          "Como referencia, desde USD {resin} por diente, frente a unos USD {prResin} en Puerto Rico y USD {usResin} en Estados Unidos."
-        ],
-        [
-          "¿Vale la pena viajar a Colombia por carillas?",
-          "Para la mayoría de sonrisas de 8 o más carillas, el ahorro cubre el vuelo y la estadía. Usa la calculadora con tu caso y compáralo con tu cotización local."
-        ],
-        [
-          "¿El precio incluye la valoración?",
-          "La valoración virtual es gratis. El presupuesto que te enviamos por escrito detalla qué incluye el tratamiento."
-        ]
-      ]
-    },
-    "updatedText": "noviembre de 2026",
-    "menuPriceGuide": "¿Cuánto cuestan las carillas?",
-    "menuFaq": "Preguntas frecuentes",
-    "menuAllCities": "Ver las 5 ciudades",
-    "menuMore": "Ver opciones de",
-    "placesTitle": "Qué visitar en {city}",
-    "placesLead": "Lugares reconocidos para aprovechar los días libres entre citas.",
-    "photoBy": "Foto:",
-    "factEntry": "Entrada",
-    "factWhere": "Dónde",
-    "factTime": "Tiempo",
-    "free": "Gratis",
-    "fromLabel": "Desde",
-    "placesNote": "Valores aproximados por adulto, consultados en noviembre de 2026 (1 USD ≈ {rate} COP). Pueden cambiar por temporada o día de la semana: confirma en el sitio oficial antes de ir. El transporte va aparte.",
-    "xmas": {
-      "kicker": "Temporada de Navidad 2026",
-      "homeTitle": "Esta Navidad,\nestrena sonrisa\ny vive los alumbrados.",
-      "homeLead": "Diciembre es el mes más bonito para viajar a Colombia: ciudades iluminadas, novenas, ferias y familia. Haz tu tratamiento y aprovecha las noches para recorrer los alumbrados.",
-      "homeTip": "Diciembre es temporada alta. Si quieres viajar en esas fechas, escríbenos pronto para coordinar tus citas antes de comprar el vuelo.",
-      "cta": "Quiero viajar en diciembre",
-      "message": "¡Hola! Quiero hacer mi tratamiento en diciembre y aprovechar la Navidad en Colombia. ¿Qué fechas tienen disponibles?",
-      "cityTitle": "Navidad en {city}",
-      "cityLead": "Si viajas en diciembre, esto es lo que no te puedes perder después de tus citas.",
-      "note": "Fechas tomadas de anuncios oficiales y de la temporada anterior. Pueden cambiar: confírmalas en la alcaldía de cada ciudad antes de viajar.",
-      "seeCity": "Ver Navidad en {city}",
-      "cities": {
-        "bogota": [
-          [
-            "Alumbrado de Monserrate",
-            "En la temporada 2025 estuvo del 28 de noviembre al 12 de enero",
-            "El cerro se ilumina de noche y se sube en teleférico o funicular. Una de las vistas más lindas de Bogotá en diciembre."
-          ],
-          [
-            "Ruta de la Navidad en el centro",
-            "Diciembre",
-            "La carrera Séptima, el Parque Santander y la Plaza de Bolívar se llenan de luces y actividades gratuitas."
-          ]
-        ],
-        "medellin": [
-          [
-            "Alumbrados EPM en el río Medellín",
-            "Presentados el 20 de noviembre de 2026",
-            "Millones de luces y figuras gigantes a lo largo de Parques del Río. En la temporada pasada se podían ver de 6:00 p. m. a medianoche hasta el 12 de enero."
-          ],
-          [
-            "Plaza Botero y Pueblito Paisa",
-            "Diciembre",
-            "Otros dos puntos decorados para recorrer de noche, con vista sobre la ciudad iluminada desde el cerro Nutibara."
-          ]
-        ],
-        "cali": [
-          [
-            "Alumbrado del Bulevar del Río",
-            "Encendido previsto el 7 de diciembre, Día de las Velitas",
-            "El gran recorrido de luces de la ciudad, con 22 pesebres comunitarios en sus comunas este año."
-          ],
-          [
-            "Feria de Cali",
-            "Tradicionalmente del 25 al 30 de diciembre",
-            "Salsódromo, conciertos y casetas: la fiesta más grande de la salsa para cerrar el año."
-          ]
-        ],
-        "pereira": [
-          [
-            "Alumbrado navideño de Pereira",
-            "En la temporada 2025 se encendió el 15 de noviembre y duró hasta el 12 de enero",
-            "Avenidas, parques y barrios como Chipre se llenan de luces. Ideal para caminar después de tus citas."
-          ],
-          [
-            "Navidad en el Eje Cafetero",
-            "Diciembre",
-            "Los pueblos cercanos encienden sus parques principales: una salida tranquila con chocolate y buñuelos."
-          ]
-        ],
-        "armenia": [
-          [
-            "Alumbrado de Armenia",
-            "Se enciende a comienzos de diciembre",
-            "Recorrido a pie desde la Plaza de Bolívar, pasando por el Parque Sucre, hasta el Parque Los Fundadores."
-          ],
-          [
-            "Parque de la Vida",
-            "Diciembre",
-            "Un alumbrado en el corazón verde de la ciudad, con juegos, espectáculos y comida."
-          ]
-        ]
-      }
-    }
+ "es": {
+  "home": "Inicio",
+  "breadcrumbLabel": "Ruta de navegación",
+  "pricesFromTitle": "Precios de referencia",
+  "perTooth": "por diente",
+  "otherCitiesTitle": "Otras ciudades donde te atendemos",
+  "seeCity": "Carillas en {city}",
+  "seePrices": "Ver la guía de precios",
+  "cityFaqTitle": "Preguntas sobre {city}",
+  "whyTitle": "Por qué hacerlo en {city}",
+  "travelTitle": "Cómo llegar y qué hacer",
+  "footerCities": "Carillas por ciudad",
+  "footerGuides": "Guías",
+  "updatedLabel": "Actualizado:",
+  "cities": {
+   "bogota": {
+    "slug": "carillas-bogota",
+    "title": "Carillas en Bogotá desde USD {resin} | Sonrisas Colombia",
+    "description": "Diseño de sonrisa en Bogotá para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
+    "h1": "Carillas en Bogotá,\ncon todo coordinado.",
+    "lead": "Bogotá es la puerta de entrada a Colombia. Llegas al aeropuerto El Dorado, te atendemos con un plan y fechas confirmadas antes de viajar, y aprovechas los días entre citas para conocer la capital.",
+    "why": [
+     [
+      "La ciudad mejor conectada",
+      "El Dorado es el aeropuerto con más rutas internacionales del país, así que suele ser fácil encontrar vuelo desde Puerto Rico o EE. UU."
+     ],
+     [
+      "Clima fresco todo el año",
+      "A unos 2.600 metros de altura, la temperatura ronda los 14 °C. Ideal para recuperarte sin calor."
+     ],
+     [
+      "Mucho por hacer entre citas",
+      "Museo del Oro, La Candelaria y la vista desde Monserrate quedan a pocos minutos."
+     ]
+    ],
+    "travel": "Llegas por El Dorado (BOG). Por la altura, el primer día conviene tomar mucha agua y no exigirte. Trae una chaqueta liviana: las tardes son frescas.",
+    "faqs": [
+     [
+      "¿Cuántos días debo quedarme en Bogotá?",
+      "Como referencia, de 3 a 5 días para carillas en resina y de 7 a 10 días para porcelana. Te confirmamos las fechas exactas antes de que compres el vuelo."
+     ],
+     [
+      "¿La altura de Bogotá afecta el tratamiento?",
+      "No afecta el tratamiento. Algunas personas sienten cansancio el primer día por la altura, por eso recomendamos llegar con un día de margen antes de la primera cita."
+     ],
+     [
+      "¿Cuánto cuestan las carillas en Bogotá?",
+      "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. El precio final depende de tu valoración."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "bogota-monserrate",
+      "name": "Cerro de Monserrate",
+      "text": "El santuario sobre la ciudad, a más de 3.000 metros. Se sube en teleférico o funicular.",
+      "cop": 35000,
+      "costNote": "ida y regreso en teleférico o funicular; a pie es gratis",
+      "where": "En la ciudad",
+      "time": "2 a 3 horas"
+     },
+     {
+      "photo": "bogota-candelaria",
+      "name": "La Candelaria",
+      "text": "El centro histórico: casas coloniales, arte urbano, museos y cafés.",
+      "cop": 0,
+      "costNote": "",
+      "where": "En la ciudad",
+      "time": "Medio día"
+     },
+     {
+      "photo": "bogota-museo-oro",
+      "name": "Museo del Oro",
+      "text": "Una de las colecciones de orfebrería prehispánica más grandes del mundo.",
+      "cop": 5000,
+      "costNote": "gratis los domingos",
+      "where": "En la ciudad",
+      "time": "2 horas"
+     },
+     {
+      "photo": "bogota-zipaquira",
+      "name": "Catedral de Sal de Zipaquirá",
+      "text": "Una catedral construida dentro de una mina de sal, a cerca de una hora de Bogotá.",
+      "cop": 125000,
+      "costNote": "tarifa para extranjeros",
+      "where": "A 1 h de Bogotá",
+      "time": "Medio día"
+     }
+    ]
+   },
+   "medellin": {
+    "slug": "carillas-medellin",
+    "title": "Carillas en Medellín desde USD {resin} | Sonrisas Colombia",
+    "description": "Diseño de sonrisa en Medellín para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
+    "h1": "Carillas en Medellín,\nla ciudad de la eterna primavera.",
+    "lead": "Medellín combina buen clima todo el año con una de las ofertas turísticas más completas del país. Haces tu tratamiento con fechas claras y, entre citas, conoces la ciudad y sus alrededores.",
+    "why": [
+     [
+      "Clima templado todo el año",
+      "Entre 22 y 28 °C casi todos los días. Cómodo para moverte y descansar."
+     ],
+     [
+      "Fácil de recorrer",
+      "El Metro y el Metrocable conectan buena parte de la ciudad, con vistas sobre las montañas."
+     ],
+     [
+      "Paseos de un día",
+      "Guatapé y la Piedra del Peñol están a unas dos horas por carretera."
+     ]
+    ],
+    "travel": "Llegas al aeropuerto José María Córdova (MDE), en Rionegro, a unos 45 minutos de la ciudad. Te recomendamos hospedarte cerca de la sede para llegar a tiempo a cada cita.",
+    "faqs": [
+     [
+      "¿Cuántos días debo quedarme en Medellín?",
+      "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
+     ],
+     [
+      "¿Puedo ir a Guatapé durante el tratamiento?",
+      "Sí, en un día sin citas. Te recomendamos dejar el paseo para después de la primera cita y no comer nada muy duro si ya tienes provisionales."
+     ],
+     [
+      "¿Cuánto cuestan las carillas en Medellín?",
+      "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "medellin-penol",
+      "name": "Piedra del Peñol, Guatapé",
+      "text": "Unos 700 escalones hasta una vista única del embalse.",
+      "cop": 35000,
+      "costNote": "para subir a la piedra",
+      "where": "A 2 h de Medellín",
+      "time": "Día completo"
+     },
+     {
+      "photo": "medellin-comuna13",
+      "name": "Comuna 13",
+      "text": "Grafitis, escaleras eléctricas al aire libre y la historia de transformación de la ciudad.",
+      "cop": 0,
+      "costNote": "tours guiados opcionales",
+      "where": "En la ciudad",
+      "time": "Medio día"
+     },
+     {
+      "photo": "medellin-metrocable",
+      "name": "Metrocable",
+      "text": "Teleféricos que suben por las laderas, con vistas de todo el valle.",
+      "cop": 4400,
+      "costNote": "por trayecto; el cable a Parque Arví se paga aparte",
+      "where": "En la ciudad",
+      "time": "2 horas"
+     },
+     {
+      "photo": "medellin-pueblito",
+      "name": "Pueblito Paisa",
+      "text": "Réplica de un pueblo antioqueño en el cerro Nutibara, con mirador sobre la ciudad.",
+      "cop": 0,
+      "costNote": "",
+      "where": "En la ciudad",
+      "time": "1 a 2 horas"
+     }
+    ]
+   },
+   "cali": {
+    "slug": "carillas-cali",
+    "title": "Carillas en Cali desde USD {resin} | Sonrisas Colombia",
+    "description": "Diseño de sonrisa en Cali para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente. Valoración gratis.",
+    "h1": "Carillas en Cali,\ncon sabor y buen clima.",
+    "lead": "Cali es cálida, alegre y a un paso del Pacífico. Te atendemos con el mismo plan y el mismo cuidado, y entre citas disfrutas la capital mundial de la salsa.",
+    "why": [
+     [
+      "Clima cálido",
+      "Temperaturas cercanas a 25 °C, parecido a lo que conoces en el Caribe."
+     ],
+     [
+      "Ambiente para disfrutar",
+      "Barrio San Antonio, el Cristo Rey y la música en vivo hacen fáciles los días libres."
+     ],
+     [
+      "Ritmo tranquilo",
+      "Una ciudad grande pero fácil de recorrer, ideal para ir y volver de tus citas sin estrés."
+     ]
+    ],
+    "travel": "Llegas al aeropuerto Alfonso Bonilla Aragón (CLO), en Palmira, a unos 30 minutos de la ciudad. Lleva ropa fresca y bloqueador solar.",
+    "faqs": [
+     [
+      "¿Cuántos días debo quedarme en Cali?",
+      "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te confirmamos las fechas antes de que compres el vuelo."
+     ],
+     [
+      "¿Puedo salir a bailar después de las citas?",
+      "Claro. Solo evita alimentos o bebidas muy frías o muy duras los días que te indique tu odontóloga."
+     ],
+     [
+      "¿Cuánto cuestan las carillas en Cali?",
+      "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. El precio final se confirma en la valoración."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "cali-cristo-rey",
+      "name": "Cristo Rey",
+      "text": "Mirador en lo alto de los cerros, con vista a toda la ciudad.",
+      "cop": 0,
+      "costNote": "se llega en taxi o tour",
+      "where": "Afueras de la ciudad",
+      "time": "2 horas"
+     },
+     {
+      "photo": "cali-san-antonio",
+      "name": "Barrio San Antonio",
+      "text": "Casas coloniales, la capilla de San Antonio y atardeceres con música.",
+      "cop": 0,
+      "costNote": "",
+      "where": "En la ciudad",
+      "time": "Una tarde"
+     },
+     {
+      "photo": "cali-gato",
+      "name": "El Gato del Río",
+      "text": "La escultura de Hernando Tejada, ícono de la ciudad, junto al río Cali.",
+      "cop": 0,
+      "costNote": "",
+      "where": "En la ciudad",
+      "time": "30 minutos"
+     },
+     {
+      "photo": "cali-bulevar",
+      "name": "Bulevar del Río",
+      "text": "Paseo peatonal a orillas del río Cali, ideal para caminar al final de la tarde.",
+      "cop": 0,
+      "costNote": "",
+      "where": "En la ciudad",
+      "time": "1 hora"
+     }
+    ]
+   },
+   "pereira": {
+    "slug": "carillas-pereira",
+    "title": "Carillas en Pereira desde USD {resin} | Sonrisas Colombia",
+    "description": "Diseño de sonrisa en Pereira, en el Eje Cafetero, para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain}.",
+    "h1": "Carillas en Pereira,\nen el corazón del Eje Cafetero.",
+    "lead": "Pereira es tranquila, cercana y rodeada de paisajes cafeteros. Es una gran opción si quieres un tratamiento sin prisas y unos días de descanso entre montañas.",
+    "why": [
+     [
+      "Aeropuerto a minutos",
+      "El aeropuerto Matecaña queda dentro de la ciudad: llegas rápido a tu hospedaje y a tus citas."
+     ],
+     [
+      "Descanso de verdad",
+      "Una ciudad más pequeña y tranquila, ideal para recuperarte sin el ritmo de una capital."
+     ],
+     [
+      "Termales y naturaleza",
+      "Los termales de Santa Rosa de Cabal y el Bioparque Ukumarí están cerca de la ciudad."
+     ]
+    ],
+    "travel": "Llegas al aeropuerto Matecaña (PEI), a pocos minutos del centro. Los termales de Santa Rosa de Cabal quedan a cerca de 40 minutos por carretera.",
+    "faqs": [
+     [
+      "¿Cuántos días debo quedarme en Pereira?",
+      "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
+     ],
+     [
+      "¿Hay vuelos directos a Pereira desde Puerto Rico?",
+      "Normalmente se llega con una conexión, casi siempre por Bogotá. Te ayudamos a ajustar las citas a los horarios de tu vuelo."
+     ],
+     [
+      "¿Cuánto cuestan las carillas en Pereira?",
+      "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "pereira-termales",
+      "name": "Termales de Santa Rosa de Cabal",
+      "text": "Piscinas de agua caliente al pie de una cascada, a unos 40 minutos.",
+      "cop": 60000,
+      "costNote": "Pasaporte Termal; hasta COP 106.000 según la fecha",
+      "where": "A 40 min de Pereira",
+      "time": "Medio día"
+     },
+     {
+      "photo": "pereira-ukumari",
+      "name": "Bioparque Ukumarí",
+      "text": "Un gran bioparque con animales de varios continentes, en las afueras de la ciudad.",
+      "cop": 35000,
+      "costNote": "pasaporte general",
+      "where": "Afueras de Pereira",
+      "time": "Medio día"
+     },
+     {
+      "photo": "pereira-viaducto",
+      "name": "Viaducto César Gaviria Trujillo",
+      "text": "El puente atirantado que une Pereira y Dosquebradas, símbolo de la ciudad.",
+      "cop": 0,
+      "costNote": "",
+      "where": "En la ciudad",
+      "time": "30 minutos"
+     },
+     {
+      "photo": "pereira-bolivar",
+      "name": "Bolívar Desnudo",
+      "text": "La escultura de Rodrigo Arenas Betancourt en la Plaza de Bolívar.",
+      "cop": 0,
+      "costNote": "",
+      "where": "En la ciudad",
+      "time": "30 minutos"
+     }
+    ]
+   },
+   "armenia": {
+    "slug": "carillas-armenia",
+    "title": "Carillas en Armenia desde USD {resin} | Sonrisas Colombia",
+    "description": "Diseño de sonrisa en Armenia, Quindío, para pacientes de Puerto Rico y EE. UU. Resina desde USD {resin} y porcelana desde USD {porcelain} por diente.",
+    "h1": "Carillas en Armenia,\nentre cafetales y palmas de cera.",
+    "lead": "Armenia, capital del Quindío, es una ciudad amable rodeada de fincas cafeteras, parques temáticos y pueblos llenos de color. Ideal para combinar tu tratamiento con unos días en familia.",
+    "why": [
+     [
+      "Aeropuerto cerca",
+      "El aeropuerto El Edén queda a pocos minutos de la ciudad."
+     ],
+     [
+      "Planes para toda la familia",
+      "El Parque del Café y Panaca están muy cerca, perfectos para los días sin citas."
+     ],
+     [
+      "Pueblos de postal",
+      "Salento, Filandia y el Valle del Cocora quedan a menos de una hora."
+     ]
+    ],
+    "travel": "Llegas al aeropuerto El Edén (AXM), a pocos minutos de la ciudad. Desde Armenia, Salento y el Valle del Cocora quedan a cerca de una hora por carretera.",
+    "faqs": [
+     [
+      "¿Cuántos días debo quedarme en Armenia?",
+      "Como referencia, de 3 a 5 días para resina y de 7 a 10 días para porcelana. Te damos las fechas de las citas antes de que reserves."
+     ],
+     [
+      "¿Puedo ir al Parque del Café entre citas?",
+      "Sí, en un día sin citas. Es un buen plan para ir en familia mientras avanza tu tratamiento."
+     ],
+     [
+      "¿Cuánto cuestan las carillas en Armenia?",
+      "Como referencia, desde USD {resin} por diente en resina y desde USD {porcelain} en porcelana. Tu presupuesto exacto te lo enviamos por escrito."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "armenia-parque-cafe",
+      "name": "Parque del Café",
+      "text": "Atracciones, shows y cultura cafetera en Montenegro, muy cerca de Armenia.",
+      "cop": 75000,
+      "costNote": "Pasaporte Múltiple con atracciones ilimitadas",
+      "where": "A 20 min de Armenia",
+      "time": "Día completo"
+     },
+     {
+      "photo": "armenia-panaca",
+      "name": "Panaca",
+      "text": "Parque agropecuario en Quimbaya para convivir con animales de granja.",
+      "cop": 85000,
+      "costNote": "Pasaporte Terra",
+      "where": "A 40 min de Armenia",
+      "time": "Día completo"
+     },
+     {
+      "photo": "armenia-cocora",
+      "name": "Valle del Cocora",
+      "text": "Las palmas de cera, árbol nacional de Colombia, entre montañas y neblina.",
+      "cop": 25000,
+      "costNote": "aporte aproximado en las fincas privadas del sendero",
+      "where": "A 1 h de Armenia",
+      "time": "Medio día"
+     },
+     {
+      "photo": "armenia-filandia",
+      "name": "Filandia",
+      "text": "Pueblo de balcones coloridos y mirador sobre el paisaje cafetero.",
+      "cop": 0,
+      "costNote": "",
+      "where": "A 40 min de Armenia",
+      "time": "Medio día"
+     }
+    ]
+   }
   },
-  "en": {
-    "home": "Home",
-    "breadcrumbLabel": "Breadcrumb",
-    "pricesFromTitle": "Reference prices",
-    "perTooth": "per tooth",
-    "otherCitiesTitle": "Other cities where we see patients",
-    "seeCity": "Veneers in {city}",
-    "seePrices": "See the price guide",
-    "cityFaqTitle": "Questions about {city}",
-    "whyTitle": "Why get it done in {city}",
-    "travelTitle": "Getting there and what to do",
-    "footerCities": "Veneers by city",
-    "footerGuides": "Guides",
-    "updatedLabel": "Updated:",
-    "cities": {
-      "bogota": {
-        "slug": "veneers-bogota",
-        "title": "Veneers in Bogotá from USD {resin} | Sonrisas Colombia",
-        "description": "Smile design in Bogotá for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
-        "h1": "Veneers in Bogotá,\nwith everything coordinated.",
-        "lead": "Bogotá is Colombia's main gateway. You land at El Dorado, we see you with a plan and dates confirmed before you fly, and you enjoy the capital between appointments.",
-        "why": [
-          [
-            "The best-connected city",
-            "El Dorado has the most international routes in the country, so flights from Puerto Rico or the U.S. are usually easy to find."
-          ],
-          [
-            "Cool weather all year",
-            "At about 2,600 meters, temperatures hover around 14 °C. Great for recovering without the heat."
-          ],
-          [
-            "Plenty to do between visits",
-            "The Gold Museum, La Candelaria and the view from Monserrate are minutes away."
-          ]
-        ],
-        "travel": "You arrive at El Dorado (BOG). Because of the altitude, drink plenty of water and take it easy on day one. Bring a light jacket: evenings are cool.",
-        "faqs": [
-          [
-            "How many days should I stay in Bogotá?",
-            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We confirm exact dates before you buy your flight."
-          ],
-          [
-            "Does Bogotá's altitude affect treatment?",
-            "It doesn't affect treatment. Some people feel tired on day one, so we suggest arriving a day before your first appointment."
-          ],
-          [
-            "How much do veneers cost in Bogotá?",
-            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. Your final price depends on your consultation."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "bogota-monserrate",
-            "name": "Monserrate Hill",
-            "text": "The sanctuary above the city, over 3,000 meters up. Ride the cable car or the funicular.",
-            "cop": 35000,
-            "costNote": "round trip by cable car or funicular; hiking up is free",
-            "where": "In the city",
-            "time": "2 to 3 hours"
-          },
-          {
-            "photo": "bogota-candelaria",
-            "name": "La Candelaria",
-            "text": "The historic center: colonial houses, street art, museums and cafés.",
-            "cop": 0,
-            "costNote": "",
-            "where": "In the city",
-            "time": "Half a day"
-          },
-          {
-            "photo": "bogota-museo-oro",
-            "name": "Gold Museum",
-            "text": "One of the world's largest collections of pre-Hispanic goldwork.",
-            "cop": 5000,
-            "costNote": "free on Sundays",
-            "where": "In the city",
-            "time": "2 hours"
-          },
-          {
-            "photo": "bogota-zipaquira",
-            "name": "Zipaquirá Salt Cathedral",
-            "text": "A cathedral built inside a salt mine, about an hour from Bogotá.",
-            "cop": 125000,
-            "costNote": "rate for foreign visitors",
-            "where": "1 h from Bogotá",
-            "time": "Half a day"
-          }
-        ]
-      },
-      "medellin": {
-        "slug": "veneers-medellin",
-        "title": "Veneers in Medellín from USD {resin} | Sonrisas Colombia",
-        "description": "Smile design in Medellín for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
-        "h1": "Veneers in Medellín,\nthe city of eternal spring.",
-        "lead": "Medellín pairs great weather all year with one of the country's best travel scenes. Get your treatment with clear dates and explore the city and its surroundings between appointments.",
-        "why": [
-          [
-            "Mild weather all year",
-            "Between 22 and 28 °C most days. Comfortable for getting around and resting."
-          ],
-          [
-            "Easy to explore",
-            "The Metro and Metrocable connect much of the city, with views over the mountains."
-          ],
-          [
-            "Day trips",
-            "Guatapé and the Peñol Rock are about two hours away by road."
-          ]
-        ],
-        "travel": "You arrive at José María Córdova airport (MDE) in Rionegro, about 45 minutes from the city. We suggest staying close to the clinic so you're on time for every visit.",
-        "faqs": [
-          [
-            "How many days should I stay in Medellín?",
-            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
-          ],
-          [
-            "Can I visit Guatapé during treatment?",
-            "Yes, on a day without appointments. Plan it after your first visit and avoid very hard foods if you already have temporaries."
-          ],
-          [
-            "How much do veneers cost in Medellín?",
-            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "medellin-penol",
-            "name": "Peñol Rock, Guatapé",
-            "text": "About 700 steps to a one-of-a-kind view of the reservoir.",
-            "cop": 35000,
-            "costNote": "to climb the rock",
-            "where": "2 h from Medellín",
-            "time": "Full day"
-          },
-          {
-            "photo": "medellin-comuna13",
-            "name": "Comuna 13",
-            "text": "Street art, outdoor escalators and the city's story of transformation.",
-            "cop": 0,
-            "costNote": "guided tours optional",
-            "where": "In the city",
-            "time": "Half a day"
-          },
-          {
-            "photo": "medellin-metrocable",
-            "name": "Metrocable",
-            "text": "Cable cars climbing the hillsides, with views of the whole valley.",
-            "cop": 4400,
-            "costNote": "per ride; the Parque Arví line is extra",
-            "where": "In the city",
-            "time": "2 hours"
-          },
-          {
-            "photo": "medellin-pueblito",
-            "name": "Pueblito Paisa",
-            "text": "A replica Antioquian village on Nutibara Hill, with a lookout over the city.",
-            "cop": 0,
-            "costNote": "",
-            "where": "In the city",
-            "time": "1 to 2 hours"
-          }
-        ]
-      },
-      "cali": {
-        "slug": "veneers-cali",
-        "title": "Veneers in Cali from USD {resin} | Sonrisas Colombia",
-        "description": "Smile design in Cali for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
-        "h1": "Veneers in Cali,\nwith warm weather and rhythm.",
-        "lead": "Cali is warm, joyful and close to the Pacific. Same plan, same care, and between appointments you enjoy the world capital of salsa.",
-        "why": [
-          [
-            "Warm weather",
-            "Temperatures around 25 °C, much like what you know from the Caribbean."
-          ],
-          [
-            "Easy days off",
-            "San Antonio, Cristo Rey and live music make free days easy to fill."
-          ],
-          [
-            "Relaxed pace",
-            "A big city that is easy to get around, so going to and from your visits is stress-free."
-          ]
-        ],
-        "travel": "You arrive at Alfonso Bonilla Aragón airport (CLO) in Palmira, about 30 minutes from the city. Pack light clothes and sunscreen.",
-        "faqs": [
-          [
-            "How many days should I stay in Cali?",
-            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We confirm dates before you buy your flight."
-          ],
-          [
-            "Can I go dancing after my appointments?",
-            "Of course. Just avoid very cold or very hard foods and drinks on the days your dentist tells you."
-          ],
-          [
-            "How much do veneers cost in Cali?",
-            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. Your consultation confirms the final price."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "cali-cristo-rey",
-            "name": "Cristo Rey",
-            "text": "A lookout high in the hills, with views over the whole city.",
-            "cop": 0,
-            "costNote": "reach it by taxi or tour",
-            "where": "Outskirts of the city",
-            "time": "2 hours"
-          },
-          {
-            "photo": "cali-san-antonio",
-            "name": "San Antonio neighborhood",
-            "text": "Colonial houses, the San Antonio chapel and sunsets with music.",
-            "cop": 0,
-            "costNote": "",
-            "where": "In the city",
-            "time": "An afternoon"
-          },
-          {
-            "photo": "cali-gato",
-            "name": "El Gato del Río",
-            "text": "Hernando Tejada's sculpture, a city icon by the Cali River.",
-            "cop": 0,
-            "costNote": "",
-            "where": "In the city",
-            "time": "30 minutes"
-          },
-          {
-            "photo": "cali-bulevar",
-            "name": "Bulevar del Río",
-            "text": "A riverside promenade along the Cali River, perfect for an evening walk.",
-            "cop": 0,
-            "costNote": "",
-            "where": "In the city",
-            "time": "1 hour"
-          }
-        ]
-      },
-      "pereira": {
-        "slug": "veneers-pereira",
-        "title": "Veneers in Pereira from USD {resin} | Sonrisas Colombia",
-        "description": "Smile design in Pereira, in Colombia's Coffee Region, for patients from Puerto Rico and the U.S. Composite from USD {resin}, porcelain from USD {porcelain}.",
-        "h1": "Veneers in Pereira,\nin the heart of the Coffee Region.",
-        "lead": "Pereira is calm, friendly and surrounded by coffee country. A great choice if you want an unhurried treatment and a few restful days in the mountains.",
-        "why": [
-          [
-            "Airport minutes away",
-            "Matecaña airport is inside the city, so you reach your lodging and appointments quickly."
-          ],
-          [
-            "Real rest",
-            "A smaller, calmer city, ideal for recovering away from big-city pace."
-          ],
-          [
-            "Hot springs and nature",
-            "The Santa Rosa de Cabal hot springs and Ukumarí Biopark are close to the city."
-          ]
-        ],
-        "travel": "You arrive at Matecaña airport (PEI), minutes from downtown. The Santa Rosa de Cabal hot springs are about 40 minutes away by road.",
-        "faqs": [
-          [
-            "How many days should I stay in Pereira?",
-            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
-          ],
-          [
-            "Are there direct flights to Pereira from Puerto Rico?",
-            "You usually arrive with one connection, most often through Bogotá. We help you fit appointments around your flight times."
-          ],
-          [
-            "How much do veneers cost in Pereira?",
-            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "pereira-termales",
-            "name": "Santa Rosa de Cabal hot springs",
-            "text": "Hot pools at the foot of a waterfall, about 40 minutes away.",
-            "cop": 60000,
-            "costNote": "thermal pass; up to COP 106,000 depending on the date",
-            "where": "40 min from Pereira",
-            "time": "Half a day"
-          },
-          {
-            "photo": "pereira-ukumari",
-            "name": "Ukumarí Biopark",
-            "text": "A large biopark with animals from several continents, on the outskirts of the city.",
-            "cop": 35000,
-            "costNote": "general pass",
-            "where": "Outskirts of Pereira",
-            "time": "Half a day"
-          },
-          {
-            "photo": "pereira-viaducto",
-            "name": "César Gaviria Trujillo Viaduct",
-            "text": "The cable-stayed bridge linking Pereira and Dosquebradas, a city symbol.",
-            "cop": 0,
-            "costNote": "",
-            "where": "In the city",
-            "time": "30 minutes"
-          },
-          {
-            "photo": "pereira-bolivar",
-            "name": "Bolívar Desnudo",
-            "text": "Rodrigo Arenas Betancourt's sculpture in Plaza de Bolívar.",
-            "cop": 0,
-            "costNote": "",
-            "where": "In the city",
-            "time": "30 minutes"
-          }
-        ]
-      },
-      "armenia": {
-        "slug": "veneers-armenia",
-        "title": "Veneers in Armenia from USD {resin} | Sonrisas Colombia",
-        "description": "Smile design in Armenia, Quindío, for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth.",
-        "h1": "Veneers in Armenia,\namong coffee farms and wax palms.",
-        "lead": "Armenia, capital of Quindío, is a friendly city surrounded by coffee farms, theme parks and colorful towns. Ideal for pairing your treatment with a few family days.",
-        "why": [
-          [
-            "Airport nearby",
-            "El Edén airport is just minutes from the city."
-          ],
-          [
-            "Plans for the whole family",
-            "The Coffee Park and Panaca are very close, perfect for days without appointments."
-          ],
-          [
-            "Postcard towns",
-            "Salento, Filandia and Cocora Valley are less than an hour away."
-          ]
-        ],
-        "travel": "You arrive at El Edén airport (AXM), minutes from the city. From Armenia, Salento and Cocora Valley are about an hour's drive.",
-        "faqs": [
-          [
-            "How many days should I stay in Armenia?",
-            "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
-          ],
-          [
-            "Can I visit the Coffee Park between appointments?",
-            "Yes, on a day without appointments. It's a great family plan while your treatment moves forward."
-          ],
-          [
-            "How much do veneers cost in Armenia?",
-            "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
-          ]
-        ],
-        "places": [
-          {
-            "photo": "armenia-parque-cafe",
-            "name": "Coffee Park",
-            "text": "Rides, shows and coffee culture in Montenegro, close to Armenia.",
-            "cop": 75000,
-            "costNote": "Multiple Pass with unlimited rides",
-            "where": "20 min from Armenia",
-            "time": "Full day"
-          },
-          {
-            "photo": "armenia-panaca",
-            "name": "Panaca",
-            "text": "A farm theme park in Quimbaya to get close to farm animals.",
-            "cop": 85000,
-            "costNote": "Terra Pass",
-            "where": "40 min from Armenia",
-            "time": "Full day"
-          },
-          {
-            "photo": "armenia-cocora",
-            "name": "Cocora Valley",
-            "text": "Wax palms, Colombia's national tree, among mountains and mist.",
-            "cop": 25000,
-            "costNote": "approximate fee at the private farms along the trail",
-            "where": "1 h from Armenia",
-            "time": "Half a day"
-          },
-          {
-            "photo": "armenia-filandia",
-            "name": "Filandia",
-            "text": "A town of colorful balconies with a lookout over coffee country.",
-            "cop": 0,
-            "costNote": "",
-            "where": "40 min from Armenia",
-            "time": "Half a day"
-          }
-        ]
-      }
-    },
-    "pricePage": {
-      "slug": "veneers-colombia-cost",
-      "title": "Veneers Cost in Colombia 2026: Guide for Puerto Rico & U.S.",
-      "description": "How much veneers cost in Colombia in 2026: composite from USD {resin} and porcelain from USD {porcelain} per tooth, compared with Puerto Rico and the U.S.",
-      "h1": "How much do veneers\ncost in Colombia in 2026?",
-      "lead": "Short answer: in Colombia, composite veneers start at USD {resin} per tooth and porcelain at USD {porcelain}. An 8-veneer porcelain smile costs about USD {coPorc8}, versus roughly USD {prPorc8} in Puerto Rico and USD {usPorc8} in the U.S.",
-      "tableTitle": "Price per tooth: Colombia, Puerto Rico and the U.S.",
-      "tableHeaders": [
-        "",
-        "Colombia",
-        "Puerto Rico",
-        "United States"
-      ],
-      "tableRowResin": "Composite veneer",
-      "tableRowPorcelain": "Porcelain veneer",
-      "tableRowResin8": "8 composite veneers",
-      "tableRowPorcelain8": "8 porcelain veneers",
-      "tableNote": "Reference values in USD, compiled in November 2026 from published market ranges. Flights and lodging not included.",
-      "factorsTitle": "What changes the price",
-      "factors": [
-        [
-          "The material",
-          "Porcelain costs more because it is custom-made in a lab and lasts longer. Composite is shaped directly on the tooth."
-        ],
-        [
-          "How many teeth",
-          "Most smiles use 8 to 10 veneers: the ones that show when you smile."
-        ],
-        [
-          "Your dental health",
-          "If you need a cleaning, fillings or gum treatment first, it is added to the quote."
-        ],
-        [
-          "The team's experience",
-          "A well-planned design avoids touch-ups and early replacements."
-        ]
-      ],
-      "tipsTitle": "How to save without taking risks",
-      "tips": [
-        "Ask for an itemized written quote before buying your flight.",
-        "Compare the same material and number of veneers in every quote.",
-        "Check your dentist's professional registration in Colombia (ReTHUS).",
-        "Agree on a follow-up plan for when you are back home."
-      ],
-      "calcIntro": "Estimate your case",
-      "faqs": [
-        [
-          "How much is a porcelain veneer in Colombia?",
-          "As a reference, from USD {porcelain} per tooth. In Puerto Rico it is around USD {prPorcelain} and in the U.S. around USD {usPorcelain}."
-        ],
-        [
-          "How much is a composite veneer in Colombia?",
-          "As a reference, from USD {resin} per tooth, versus about USD {prResin} in Puerto Rico and USD {usResin} in the U.S."
-        ],
-        [
-          "Is it worth traveling to Colombia for veneers?",
-          "For most smiles of 8 or more veneers, the savings cover the flight and stay. Use the calculator with your case and compare it with your local quote."
-        ],
-        [
-          "Does the price include the consultation?",
-          "The virtual consultation is free. The written quote we send details what your treatment includes."
-        ]
-      ]
-    },
-    "updatedText": "November 2026",
-    "menuPriceGuide": "How much do veneers cost?",
-    "menuFaq": "Frequently asked questions",
-    "menuAllCities": "See all 5 cities",
-    "menuMore": "Show options for",
-    "placesTitle": "What to see in {city}",
-    "placesLead": "Well-known places to enjoy your free days between appointments.",
-    "photoBy": "Photo:",
-    "factEntry": "Admission",
-    "factWhere": "Where",
-    "factTime": "Time",
-    "free": "Free",
-    "fromLabel": "From",
-    "placesNote": "Approximate prices per adult, checked in November 2026 (1 USD ≈ {rate} COP). They may change by season or day of the week: confirm on the official site before you go. Transportation is extra.",
-    "xmas": {
-      "kicker": "Christmas season 2026",
-      "homeTitle": "This Christmas,\nshow off a new smile\nunder the lights.",
-      "homeLead": "December is the most beautiful month to visit Colombia: illuminated cities, novenas, fairs and family. Get your treatment done and spend your evenings walking the Christmas lights.",
-      "homeTip": "December is high season. If you want to travel then, message us soon so we can set your appointments before you buy your flight.",
-      "cta": "I want to travel in December",
-      "message": "Hi! I'd like to do my treatment in December and enjoy Christmas in Colombia. Which dates do you have available?",
-      "cityTitle": "Christmas in {city}",
-      "cityLead": "If you travel in December, here's what you can't miss after your appointments.",
-      "note": "Dates come from official announcements and last season. They may change: confirm them with each city's government before you travel.",
-      "seeCity": "See Christmas in {city}",
-      "cities": {
-        "bogota": [
-          [
-            "Monserrate Christmas lights",
-            "Last season they ran from November 28 to January 12",
-            "The hill lights up at night and you ride up by cable car or funicular. One of Bogotá's best December views."
-          ],
-          [
-            "Christmas route downtown",
-            "December",
-            "Carrera Séptima, Parque Santander and Plaza de Bolívar fill with lights and free activities."
-          ]
-        ],
-        "medellin": [
-          [
-            "EPM Christmas lights on the Medellín River",
-            "Unveiled on November 20, 2026",
-            "Millions of lights and giant figures along Parques del Río. Last season they were on from 6 p.m. to midnight until January 12."
-          ],
-          [
-            "Plaza Botero and Pueblito Paisa",
-            "December",
-            "Two more decorated spots to walk at night, with a view of the lit-up city from Nutibara Hill."
-          ]
-        ],
-        "cali": [
-          [
-            "Bulevar del Río Christmas lights",
-            "Lighting planned for December 7, Day of the Little Candles",
-            "The city's big light trail, with 22 community nativity scenes across its neighborhoods this year."
-          ],
-          [
-            "Cali Fair",
-            "Traditionally December 25 to 30",
-            "Salsódromo parade, concerts and dance halls: the biggest salsa party to close the year."
-          ]
-        ],
-        "pereira": [
-          [
-            "Pereira Christmas lights",
-            "Last season they were lit on November 15 and stayed on until January 12",
-            "Avenues, parks and neighborhoods like Chipre fill with lights. Perfect for a walk after your appointments."
-          ],
-          [
-            "Christmas in the Coffee Region",
-            "December",
-            "Nearby towns light up their main squares: a calm outing with hot chocolate and buñuelos."
-          ]
-        ],
-        "armenia": [
-          [
-            "Armenia Christmas lights",
-            "Lit in early December",
-            "A walking route from Plaza de Bolívar through Parque Sucre to Parque Los Fundadores."
-          ],
-          [
-            "Parque de la Vida",
-            "December",
-            "Christmas lights in the city's green heart, with games, shows and food."
-          ]
-        ]
-      }
-    }
+  "pricePage": {
+   "slug": "precio-carillas-colombia",
+   "title": "Precio de carillas en Colombia 2026: guía para Puerto Rico",
+   "description": "Cuánto cuestan las carillas en Colombia en 2026: resina desde USD {resin} y porcelana desde USD {porcelain} por diente, comparado con Puerto Rico y EE. UU.",
+   "h1": "¿Cuánto cuestan las carillas\nen Colombia en 2026?",
+   "lead": "Respuesta corta: en Colombia las carillas en resina empiezan en USD {resin} por diente y las de porcelana en USD {porcelain}. Una sonrisa de 8 carillas en porcelana cuesta cerca de USD {coPorc8}, frente a unos USD {prPorc8} en Puerto Rico y USD {usPorc8} en Estados Unidos.",
+   "tableTitle": "Precio por diente: Colombia, Puerto Rico y EE. UU.",
+   "tableHeaders": [
+    "",
+    "Colombia",
+    "Puerto Rico",
+    "Estados Unidos"
+   ],
+   "tableRowResin": "Carilla en resina",
+   "tableRowPorcelain": "Carilla en porcelana",
+   "tableRowResin8": "8 carillas en resina",
+   "tableRowPorcelain8": "8 carillas en porcelana",
+   "tableNote": "Valores de referencia en USD, recopilados en noviembre de 2026 a partir de rangos publicados del mercado. No incluyen vuelos ni hospedaje.",
+   "factorsTitle": "Qué hace que el precio cambie",
+   "factors": [
+    [
+     "El material",
+     "La porcelana cuesta más porque se fabrica a medida en laboratorio y dura más. La resina se modela directamente sobre el diente."
+    ],
+    [
+     "Cuántos dientes",
+     "La mayoría de sonrisas usan de 8 a 10 carillas: las que se ven al sonreír."
+    ],
+    [
+     "Tu salud dental",
+     "Si hace falta limpieza, resinas o tratamiento de encías antes de las carillas, se suma al presupuesto."
+    ],
+    [
+     "La experiencia del equipo",
+     "Un diseño bien planeado evita retoques y reemplazos antes de tiempo."
+    ]
+   ],
+   "tipsTitle": "Cómo ahorrar sin arriesgarte",
+   "tips": [
+    "Pide un presupuesto por escrito y desglosado antes de comprar el vuelo.",
+    "Compara el mismo material y el mismo número de carillas en cada cotización.",
+    "Verifica el registro profesional de tu odontóloga en ReTHUS.",
+    "Acuerda el plan de seguimiento para cuando vuelvas a casa."
+   ],
+   "calcIntro": "Calcula tu caso",
+   "faqs": [
+    [
+     "¿Cuánto cuesta una carilla de porcelana en Colombia?",
+     "Como referencia, desde USD {porcelain} por diente. En Puerto Rico ronda los USD {prPorcelain} y en Estados Unidos los USD {usPorcelain}."
+    ],
+    [
+     "¿Cuánto cuesta una carilla de resina en Colombia?",
+     "Como referencia, desde USD {resin} por diente, frente a unos USD {prResin} en Puerto Rico y USD {usResin} en Estados Unidos."
+    ],
+    [
+     "¿Vale la pena viajar a Colombia por carillas?",
+     "Para la mayoría de sonrisas de 8 o más carillas, el ahorro cubre el vuelo y la estadía. Usa la calculadora con tu caso y compáralo con tu cotización local."
+    ],
+    [
+     "¿El precio incluye la valoración?",
+     "La valoración virtual es gratis. El presupuesto que te enviamos por escrito detalla qué incluye el tratamiento."
+    ]
+   ]
+  },
+  "updatedText": "noviembre de 2026",
+  "menuPriceGuide": "¿Cuánto cuestan las carillas?",
+  "menuFaq": "Preguntas frecuentes",
+  "menuAllCities": "Ver las 5 ciudades",
+  "menuMore": "Ver opciones de",
+  "placesTitle": "Qué visitar en {city}",
+  "placesLead": "Lugares reconocidos para aprovechar los días libres entre citas.",
+  "photoBy": "Foto:",
+  "factEntry": "Entrada",
+  "factWhere": "Dónde",
+  "factTime": "Tiempo",
+  "free": "Gratis",
+  "fromLabel": "Desde",
+  "placesNote": "Valores aproximados por adulto, consultados en noviembre de 2026 (1 USD ≈ {rate} COP). Pueden cambiar por temporada o día de la semana: confirma en el sitio oficial antes de ir. El transporte va aparte.",
+  "xmas": {
+   "kicker": "Temporada de Navidad 2026",
+   "homeTitle": "Esta Navidad,\nestrena sonrisa\ny vive los alumbrados.",
+   "homeLead": "Diciembre es el mes más bonito para viajar a Colombia: ciudades iluminadas, novenas, ferias y familia. Haz tu tratamiento y aprovecha las noches para recorrer los alumbrados.",
+   "homeTip": "Diciembre es temporada alta. Si quieres viajar en esas fechas, escríbenos pronto para coordinar tus citas antes de comprar el vuelo.",
+   "cta": "Quiero viajar en diciembre",
+   "message": "¡Hola! Quiero hacer mi tratamiento en diciembre y aprovechar la Navidad en Colombia. ¿Qué fechas tienen disponibles?",
+   "cityTitle": "Navidad en {city}",
+   "cityLead": "Si viajas en diciembre, esto es lo que no te puedes perder después de tus citas.",
+   "note": "Fechas tomadas de anuncios oficiales y de la temporada anterior. Pueden cambiar: confírmalas en la alcaldía de cada ciudad antes de viajar.",
+   "seeCity": "Ver Navidad en {city}",
+   "cities": {
+    "bogota": [
+     [
+      "Alumbrado de Monserrate",
+      "En la temporada 2025 estuvo del 28 de noviembre al 12 de enero",
+      "El cerro se ilumina de noche y se sube en teleférico o funicular. Una de las vistas más lindas de Bogotá en diciembre."
+     ],
+     [
+      "Ruta de la Navidad en el centro",
+      "Diciembre",
+      "La carrera Séptima, el Parque Santander y la Plaza de Bolívar se llenan de luces y actividades gratuitas."
+     ]
+    ],
+    "medellin": [
+     [
+      "Alumbrados EPM en el río Medellín",
+      "Presentados el 20 de noviembre de 2026",
+      "Millones de luces y figuras gigantes a lo largo de Parques del Río. En la temporada pasada se podían ver de 6:00 p. m. a medianoche hasta el 12 de enero."
+     ],
+     [
+      "Plaza Botero y Pueblito Paisa",
+      "Diciembre",
+      "Otros dos puntos decorados para recorrer de noche, con vista sobre la ciudad iluminada desde el cerro Nutibara."
+     ]
+    ],
+    "cali": [
+     [
+      "Alumbrado del Bulevar del Río",
+      "Encendido previsto el 7 de diciembre, Día de las Velitas",
+      "El gran recorrido de luces de la ciudad, con 22 pesebres comunitarios en sus comunas este año."
+     ],
+     [
+      "Feria de Cali",
+      "Tradicionalmente del 25 al 30 de diciembre",
+      "Salsódromo, conciertos y casetas: la fiesta más grande de la salsa para cerrar el año."
+     ]
+    ],
+    "pereira": [
+     [
+      "Alumbrado navideño de Pereira",
+      "En la temporada 2025 se encendió el 15 de noviembre y duró hasta el 12 de enero",
+      "Avenidas, parques y barrios como Chipre se llenan de luces. Ideal para caminar después de tus citas."
+     ],
+     [
+      "Navidad en el Eje Cafetero",
+      "Diciembre",
+      "Los pueblos cercanos encienden sus parques principales: una salida tranquila con chocolate y buñuelos."
+     ]
+    ],
+    "armenia": [
+     [
+      "Alumbrado de Armenia",
+      "Se enciende a comienzos de diciembre",
+      "Recorrido a pie desde la Plaza de Bolívar, pasando por el Parque Sucre, hasta el Parque Los Fundadores."
+     ],
+     [
+      "Parque de la Vida",
+      "Diciembre",
+      "Un alumbrado en el corazón verde de la ciudad, con juegos, espectáculos y comida."
+     ]
+    ]
+   },
+   "galleryTitle": "Así se ha vivido la Navidad en {city}",
+   "galleryNote": "Fotos de temporadas anteriores, como referencia: los diseños cambian cada año.",
+   "photos": {
+    "medellin": [
+     {
+      "photo": "medellin-rio",
+      "caption": "Alumbrado del río Medellín",
+      "when": "Navidad 2004"
+     },
+     {
+      "photo": "medellin-parque",
+      "caption": "Alumbrados de Medellín",
+      "when": "Navidad 2015"
+     },
+     {
+      "photo": "medellin-arco",
+      "caption": "Alumbrados de Medellín",
+      "when": "Navidad 2015"
+     }
+    ],
+    "bogota": [
+     {
+      "photo": "bogota-monserrate",
+      "caption": "Santuario de Monserrate iluminado",
+      "when": "Navidad 2010"
+     },
+     {
+      "photo": "bogota-bolivar",
+      "caption": "Plaza de Bolívar en diciembre",
+      "when": "Navidad 2008"
+     },
+     {
+      "photo": "bogota-virrey",
+      "caption": "Parque El Virrey iluminado",
+      "when": "Temporada navideña"
+     }
+    ],
+    "cali": [
+     {
+      "photo": "cali-tunel",
+      "caption": "Alumbrado navideño de Cali",
+      "when": "Navidad 2018"
+     },
+     {
+      "photo": "cali-rio",
+      "caption": "Alumbrado del río Cali",
+      "when": "Navidad 2015"
+     },
+     {
+      "photo": "cali-tranvia",
+      "caption": "El tranvía del alumbrado",
+      "when": "Navidad 2009"
+     }
+    ],
+    "pereira": [
+     {
+      "photo": "pereira-victoria",
+      "caption": "Plaza Cívica Ciudad Victoria",
+      "when": "Navidad 2018"
+     },
+     {
+      "photo": "pereira-viaducto",
+      "caption": "Viaducto iluminado",
+      "when": "Navidad 2017"
+     },
+     {
+      "photo": "pereira-lago",
+      "caption": "Parque El Lago",
+      "when": "Navidad 2018"
+     }
+    ],
+    "armenia": [
+     {
+      "photo": "armenia-quimbaya",
+      "caption": "Faroles del 7 de diciembre en Quimbaya, a 30 min de Armenia",
+      "when": "Navidad 2004"
+     },
+     {
+      "photo": "armenia-salento",
+      "caption": "Árbol y pesebre en la plaza de Salento",
+      "when": "Temporada navideña"
+     },
+     {
+      "photo": "armenia-faroles",
+      "caption": "Faroles de la Noche de Velitas en el Quindío",
+      "when": "Temporada navideña"
+     }
+    ]
+   }
   }
+ },
+ "en": {
+  "home": "Home",
+  "breadcrumbLabel": "Breadcrumb",
+  "pricesFromTitle": "Reference prices",
+  "perTooth": "per tooth",
+  "otherCitiesTitle": "Other cities where we see patients",
+  "seeCity": "Veneers in {city}",
+  "seePrices": "See the price guide",
+  "cityFaqTitle": "Questions about {city}",
+  "whyTitle": "Why get it done in {city}",
+  "travelTitle": "Getting there and what to do",
+  "footerCities": "Veneers by city",
+  "footerGuides": "Guides",
+  "updatedLabel": "Updated:",
+  "cities": {
+   "bogota": {
+    "slug": "veneers-bogota",
+    "title": "Veneers in Bogotá from USD {resin} | Sonrisas Colombia",
+    "description": "Smile design in Bogotá for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
+    "h1": "Veneers in Bogotá,\nwith everything coordinated.",
+    "lead": "Bogotá is Colombia's main gateway. You land at El Dorado, we see you with a plan and dates confirmed before you fly, and you enjoy the capital between appointments.",
+    "why": [
+     [
+      "The best-connected city",
+      "El Dorado has the most international routes in the country, so flights from Puerto Rico or the U.S. are usually easy to find."
+     ],
+     [
+      "Cool weather all year",
+      "At about 2,600 meters, temperatures hover around 14 °C. Great for recovering without the heat."
+     ],
+     [
+      "Plenty to do between visits",
+      "The Gold Museum, La Candelaria and the view from Monserrate are minutes away."
+     ]
+    ],
+    "travel": "You arrive at El Dorado (BOG). Because of the altitude, drink plenty of water and take it easy on day one. Bring a light jacket: evenings are cool.",
+    "faqs": [
+     [
+      "How many days should I stay in Bogotá?",
+      "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We confirm exact dates before you buy your flight."
+     ],
+     [
+      "Does Bogotá's altitude affect treatment?",
+      "It doesn't affect treatment. Some people feel tired on day one, so we suggest arriving a day before your first appointment."
+     ],
+     [
+      "How much do veneers cost in Bogotá?",
+      "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. Your final price depends on your consultation."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "bogota-monserrate",
+      "name": "Monserrate Hill",
+      "text": "The sanctuary above the city, over 3,000 meters up. Ride the cable car or the funicular.",
+      "cop": 35000,
+      "costNote": "round trip by cable car or funicular; hiking up is free",
+      "where": "In the city",
+      "time": "2 to 3 hours"
+     },
+     {
+      "photo": "bogota-candelaria",
+      "name": "La Candelaria",
+      "text": "The historic center: colonial houses, street art, museums and cafés.",
+      "cop": 0,
+      "costNote": "",
+      "where": "In the city",
+      "time": "Half a day"
+     },
+     {
+      "photo": "bogota-museo-oro",
+      "name": "Gold Museum",
+      "text": "One of the world's largest collections of pre-Hispanic goldwork.",
+      "cop": 5000,
+      "costNote": "free on Sundays",
+      "where": "In the city",
+      "time": "2 hours"
+     },
+     {
+      "photo": "bogota-zipaquira",
+      "name": "Zipaquirá Salt Cathedral",
+      "text": "A cathedral built inside a salt mine, about an hour from Bogotá.",
+      "cop": 125000,
+      "costNote": "rate for foreign visitors",
+      "where": "1 h from Bogotá",
+      "time": "Half a day"
+     }
+    ]
+   },
+   "medellin": {
+    "slug": "veneers-medellin",
+    "title": "Veneers in Medellín from USD {resin} | Sonrisas Colombia",
+    "description": "Smile design in Medellín for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
+    "h1": "Veneers in Medellín,\nthe city of eternal spring.",
+    "lead": "Medellín pairs great weather all year with one of the country's best travel scenes. Get your treatment with clear dates and explore the city and its surroundings between appointments.",
+    "why": [
+     [
+      "Mild weather all year",
+      "Between 22 and 28 °C most days. Comfortable for getting around and resting."
+     ],
+     [
+      "Easy to explore",
+      "The Metro and Metrocable connect much of the city, with views over the mountains."
+     ],
+     [
+      "Day trips",
+      "Guatapé and the Peñol Rock are about two hours away by road."
+     ]
+    ],
+    "travel": "You arrive at José María Córdova airport (MDE) in Rionegro, about 45 minutes from the city. We suggest staying close to the clinic so you're on time for every visit.",
+    "faqs": [
+     [
+      "How many days should I stay in Medellín?",
+      "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
+     ],
+     [
+      "Can I visit Guatapé during treatment?",
+      "Yes, on a day without appointments. Plan it after your first visit and avoid very hard foods if you already have temporaries."
+     ],
+     [
+      "How much do veneers cost in Medellín?",
+      "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "medellin-penol",
+      "name": "Peñol Rock, Guatapé",
+      "text": "About 700 steps to a one-of-a-kind view of the reservoir.",
+      "cop": 35000,
+      "costNote": "to climb the rock",
+      "where": "2 h from Medellín",
+      "time": "Full day"
+     },
+     {
+      "photo": "medellin-comuna13",
+      "name": "Comuna 13",
+      "text": "Street art, outdoor escalators and the city's story of transformation.",
+      "cop": 0,
+      "costNote": "guided tours optional",
+      "where": "In the city",
+      "time": "Half a day"
+     },
+     {
+      "photo": "medellin-metrocable",
+      "name": "Metrocable",
+      "text": "Cable cars climbing the hillsides, with views of the whole valley.",
+      "cop": 4400,
+      "costNote": "per ride; the Parque Arví line is extra",
+      "where": "In the city",
+      "time": "2 hours"
+     },
+     {
+      "photo": "medellin-pueblito",
+      "name": "Pueblito Paisa",
+      "text": "A replica Antioquian village on Nutibara Hill, with a lookout over the city.",
+      "cop": 0,
+      "costNote": "",
+      "where": "In the city",
+      "time": "1 to 2 hours"
+     }
+    ]
+   },
+   "cali": {
+    "slug": "veneers-cali",
+    "title": "Veneers in Cali from USD {resin} | Sonrisas Colombia",
+    "description": "Smile design in Cali for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth. Free consultation.",
+    "h1": "Veneers in Cali,\nwith warm weather and rhythm.",
+    "lead": "Cali is warm, joyful and close to the Pacific. Same plan, same care, and between appointments you enjoy the world capital of salsa.",
+    "why": [
+     [
+      "Warm weather",
+      "Temperatures around 25 °C, much like what you know from the Caribbean."
+     ],
+     [
+      "Easy days off",
+      "San Antonio, Cristo Rey and live music make free days easy to fill."
+     ],
+     [
+      "Relaxed pace",
+      "A big city that is easy to get around, so going to and from your visits is stress-free."
+     ]
+    ],
+    "travel": "You arrive at Alfonso Bonilla Aragón airport (CLO) in Palmira, about 30 minutes from the city. Pack light clothes and sunscreen.",
+    "faqs": [
+     [
+      "How many days should I stay in Cali?",
+      "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We confirm dates before you buy your flight."
+     ],
+     [
+      "Can I go dancing after my appointments?",
+      "Of course. Just avoid very cold or very hard foods and drinks on the days your dentist tells you."
+     ],
+     [
+      "How much do veneers cost in Cali?",
+      "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. Your consultation confirms the final price."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "cali-cristo-rey",
+      "name": "Cristo Rey",
+      "text": "A lookout high in the hills, with views over the whole city.",
+      "cop": 0,
+      "costNote": "reach it by taxi or tour",
+      "where": "Outskirts of the city",
+      "time": "2 hours"
+     },
+     {
+      "photo": "cali-san-antonio",
+      "name": "San Antonio neighborhood",
+      "text": "Colonial houses, the San Antonio chapel and sunsets with music.",
+      "cop": 0,
+      "costNote": "",
+      "where": "In the city",
+      "time": "An afternoon"
+     },
+     {
+      "photo": "cali-gato",
+      "name": "El Gato del Río",
+      "text": "Hernando Tejada's sculpture, a city icon by the Cali River.",
+      "cop": 0,
+      "costNote": "",
+      "where": "In the city",
+      "time": "30 minutes"
+     },
+     {
+      "photo": "cali-bulevar",
+      "name": "Bulevar del Río",
+      "text": "A riverside promenade along the Cali River, perfect for an evening walk.",
+      "cop": 0,
+      "costNote": "",
+      "where": "In the city",
+      "time": "1 hour"
+     }
+    ]
+   },
+   "pereira": {
+    "slug": "veneers-pereira",
+    "title": "Veneers in Pereira from USD {resin} | Sonrisas Colombia",
+    "description": "Smile design in Pereira, in Colombia's Coffee Region, for patients from Puerto Rico and the U.S. Composite from USD {resin}, porcelain from USD {porcelain}.",
+    "h1": "Veneers in Pereira,\nin the heart of the Coffee Region.",
+    "lead": "Pereira is calm, friendly and surrounded by coffee country. A great choice if you want an unhurried treatment and a few restful days in the mountains.",
+    "why": [
+     [
+      "Airport minutes away",
+      "Matecaña airport is inside the city, so you reach your lodging and appointments quickly."
+     ],
+     [
+      "Real rest",
+      "A smaller, calmer city, ideal for recovering away from big-city pace."
+     ],
+     [
+      "Hot springs and nature",
+      "The Santa Rosa de Cabal hot springs and Ukumarí Biopark are close to the city."
+     ]
+    ],
+    "travel": "You arrive at Matecaña airport (PEI), minutes from downtown. The Santa Rosa de Cabal hot springs are about 40 minutes away by road.",
+    "faqs": [
+     [
+      "How many days should I stay in Pereira?",
+      "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
+     ],
+     [
+      "Are there direct flights to Pereira from Puerto Rico?",
+      "You usually arrive with one connection, most often through Bogotá. We help you fit appointments around your flight times."
+     ],
+     [
+      "How much do veneers cost in Pereira?",
+      "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "pereira-termales",
+      "name": "Santa Rosa de Cabal hot springs",
+      "text": "Hot pools at the foot of a waterfall, about 40 minutes away.",
+      "cop": 60000,
+      "costNote": "thermal pass; up to COP 106,000 depending on the date",
+      "where": "40 min from Pereira",
+      "time": "Half a day"
+     },
+     {
+      "photo": "pereira-ukumari",
+      "name": "Ukumarí Biopark",
+      "text": "A large biopark with animals from several continents, on the outskirts of the city.",
+      "cop": 35000,
+      "costNote": "general pass",
+      "where": "Outskirts of Pereira",
+      "time": "Half a day"
+     },
+     {
+      "photo": "pereira-viaducto",
+      "name": "César Gaviria Trujillo Viaduct",
+      "text": "The cable-stayed bridge linking Pereira and Dosquebradas, a city symbol.",
+      "cop": 0,
+      "costNote": "",
+      "where": "In the city",
+      "time": "30 minutes"
+     },
+     {
+      "photo": "pereira-bolivar",
+      "name": "Bolívar Desnudo",
+      "text": "Rodrigo Arenas Betancourt's sculpture in Plaza de Bolívar.",
+      "cop": 0,
+      "costNote": "",
+      "where": "In the city",
+      "time": "30 minutes"
+     }
+    ]
+   },
+   "armenia": {
+    "slug": "veneers-armenia",
+    "title": "Veneers in Armenia from USD {resin} | Sonrisas Colombia",
+    "description": "Smile design in Armenia, Quindío, for patients from Puerto Rico and the U.S. Composite from USD {resin} and porcelain from USD {porcelain} per tooth.",
+    "h1": "Veneers in Armenia,\namong coffee farms and wax palms.",
+    "lead": "Armenia, capital of Quindío, is a friendly city surrounded by coffee farms, theme parks and colorful towns. Ideal for pairing your treatment with a few family days.",
+    "why": [
+     [
+      "Airport nearby",
+      "El Edén airport is just minutes from the city."
+     ],
+     [
+      "Plans for the whole family",
+      "The Coffee Park and Panaca are very close, perfect for days without appointments."
+     ],
+     [
+      "Postcard towns",
+      "Salento, Filandia and Cocora Valley are less than an hour away."
+     ]
+    ],
+    "travel": "You arrive at El Edén airport (AXM), minutes from the city. From Armenia, Salento and Cocora Valley are about an hour's drive.",
+    "faqs": [
+     [
+      "How many days should I stay in Armenia?",
+      "As a reference, 3 to 5 days for composite and 7 to 10 days for porcelain. We give you appointment dates before you book."
+     ],
+     [
+      "Can I visit the Coffee Park between appointments?",
+      "Yes, on a day without appointments. It's a great family plan while your treatment moves forward."
+     ],
+     [
+      "How much do veneers cost in Armenia?",
+      "As a reference, from USD {resin} per tooth in composite and from USD {porcelain} in porcelain. We send your exact quote in writing."
+     ]
+    ],
+    "places": [
+     {
+      "photo": "armenia-parque-cafe",
+      "name": "Coffee Park",
+      "text": "Rides, shows and coffee culture in Montenegro, close to Armenia.",
+      "cop": 75000,
+      "costNote": "Multiple Pass with unlimited rides",
+      "where": "20 min from Armenia",
+      "time": "Full day"
+     },
+     {
+      "photo": "armenia-panaca",
+      "name": "Panaca",
+      "text": "A farm theme park in Quimbaya to get close to farm animals.",
+      "cop": 85000,
+      "costNote": "Terra Pass",
+      "where": "40 min from Armenia",
+      "time": "Full day"
+     },
+     {
+      "photo": "armenia-cocora",
+      "name": "Cocora Valley",
+      "text": "Wax palms, Colombia's national tree, among mountains and mist.",
+      "cop": 25000,
+      "costNote": "approximate fee at the private farms along the trail",
+      "where": "1 h from Armenia",
+      "time": "Half a day"
+     },
+     {
+      "photo": "armenia-filandia",
+      "name": "Filandia",
+      "text": "A town of colorful balconies with a lookout over coffee country.",
+      "cop": 0,
+      "costNote": "",
+      "where": "40 min from Armenia",
+      "time": "Half a day"
+     }
+    ]
+   }
+  },
+  "pricePage": {
+   "slug": "veneers-colombia-cost",
+   "title": "Veneers Cost in Colombia 2026: Guide for Puerto Rico & U.S.",
+   "description": "How much veneers cost in Colombia in 2026: composite from USD {resin} and porcelain from USD {porcelain} per tooth, compared with Puerto Rico and the U.S.",
+   "h1": "How much do veneers\ncost in Colombia in 2026?",
+   "lead": "Short answer: in Colombia, composite veneers start at USD {resin} per tooth and porcelain at USD {porcelain}. An 8-veneer porcelain smile costs about USD {coPorc8}, versus roughly USD {prPorc8} in Puerto Rico and USD {usPorc8} in the U.S.",
+   "tableTitle": "Price per tooth: Colombia, Puerto Rico and the U.S.",
+   "tableHeaders": [
+    "",
+    "Colombia",
+    "Puerto Rico",
+    "United States"
+   ],
+   "tableRowResin": "Composite veneer",
+   "tableRowPorcelain": "Porcelain veneer",
+   "tableRowResin8": "8 composite veneers",
+   "tableRowPorcelain8": "8 porcelain veneers",
+   "tableNote": "Reference values in USD, compiled in November 2026 from published market ranges. Flights and lodging not included.",
+   "factorsTitle": "What changes the price",
+   "factors": [
+    [
+     "The material",
+     "Porcelain costs more because it is custom-made in a lab and lasts longer. Composite is shaped directly on the tooth."
+    ],
+    [
+     "How many teeth",
+     "Most smiles use 8 to 10 veneers: the ones that show when you smile."
+    ],
+    [
+     "Your dental health",
+     "If you need a cleaning, fillings or gum treatment first, it is added to the quote."
+    ],
+    [
+     "The team's experience",
+     "A well-planned design avoids touch-ups and early replacements."
+    ]
+   ],
+   "tipsTitle": "How to save without taking risks",
+   "tips": [
+    "Ask for an itemized written quote before buying your flight.",
+    "Compare the same material and number of veneers in every quote.",
+    "Check your dentist's professional registration in Colombia (ReTHUS).",
+    "Agree on a follow-up plan for when you are back home."
+   ],
+   "calcIntro": "Estimate your case",
+   "faqs": [
+    [
+     "How much is a porcelain veneer in Colombia?",
+     "As a reference, from USD {porcelain} per tooth. In Puerto Rico it is around USD {prPorcelain} and in the U.S. around USD {usPorcelain}."
+    ],
+    [
+     "How much is a composite veneer in Colombia?",
+     "As a reference, from USD {resin} per tooth, versus about USD {prResin} in Puerto Rico and USD {usResin} in the U.S."
+    ],
+    [
+     "Is it worth traveling to Colombia for veneers?",
+     "For most smiles of 8 or more veneers, the savings cover the flight and stay. Use the calculator with your case and compare it with your local quote."
+    ],
+    [
+     "Does the price include the consultation?",
+     "The virtual consultation is free. The written quote we send details what your treatment includes."
+    ]
+   ]
+  },
+  "updatedText": "November 2026",
+  "menuPriceGuide": "How much do veneers cost?",
+  "menuFaq": "Frequently asked questions",
+  "menuAllCities": "See all 5 cities",
+  "menuMore": "Show options for",
+  "placesTitle": "What to see in {city}",
+  "placesLead": "Well-known places to enjoy your free days between appointments.",
+  "photoBy": "Photo:",
+  "factEntry": "Admission",
+  "factWhere": "Where",
+  "factTime": "Time",
+  "free": "Free",
+  "fromLabel": "From",
+  "placesNote": "Approximate prices per adult, checked in November 2026 (1 USD ≈ {rate} COP). They may change by season or day of the week: confirm on the official site before you go. Transportation is extra.",
+  "xmas": {
+   "kicker": "Christmas season 2026",
+   "homeTitle": "This Christmas,\nshow off a new smile\nunder the lights.",
+   "homeLead": "December is the most beautiful month to visit Colombia: illuminated cities, novenas, fairs and family. Get your treatment done and spend your evenings walking the Christmas lights.",
+   "homeTip": "December is high season. If you want to travel then, message us soon so we can set your appointments before you buy your flight.",
+   "cta": "I want to travel in December",
+   "message": "Hi! I'd like to do my treatment in December and enjoy Christmas in Colombia. Which dates do you have available?",
+   "cityTitle": "Christmas in {city}",
+   "cityLead": "If you travel in December, here's what you can't miss after your appointments.",
+   "note": "Dates come from official announcements and last season. They may change: confirm them with each city's government before you travel.",
+   "seeCity": "See Christmas in {city}",
+   "cities": {
+    "bogota": [
+     [
+      "Monserrate Christmas lights",
+      "Last season they ran from November 28 to January 12",
+      "The hill lights up at night and you ride up by cable car or funicular. One of Bogotá's best December views."
+     ],
+     [
+      "Christmas route downtown",
+      "December",
+      "Carrera Séptima, Parque Santander and Plaza de Bolívar fill with lights and free activities."
+     ]
+    ],
+    "medellin": [
+     [
+      "EPM Christmas lights on the Medellín River",
+      "Unveiled on November 20, 2026",
+      "Millions of lights and giant figures along Parques del Río. Last season they were on from 6 p.m. to midnight until January 12."
+     ],
+     [
+      "Plaza Botero and Pueblito Paisa",
+      "December",
+      "Two more decorated spots to walk at night, with a view of the lit-up city from Nutibara Hill."
+     ]
+    ],
+    "cali": [
+     [
+      "Bulevar del Río Christmas lights",
+      "Lighting planned for December 7, Day of the Little Candles",
+      "The city's big light trail, with 22 community nativity scenes across its neighborhoods this year."
+     ],
+     [
+      "Cali Fair",
+      "Traditionally December 25 to 30",
+      "Salsódromo parade, concerts and dance halls: the biggest salsa party to close the year."
+     ]
+    ],
+    "pereira": [
+     [
+      "Pereira Christmas lights",
+      "Last season they were lit on November 15 and stayed on until January 12",
+      "Avenues, parks and neighborhoods like Chipre fill with lights. Perfect for a walk after your appointments."
+     ],
+     [
+      "Christmas in the Coffee Region",
+      "December",
+      "Nearby towns light up their main squares: a calm outing with hot chocolate and buñuelos."
+     ]
+    ],
+    "armenia": [
+     [
+      "Armenia Christmas lights",
+      "Lit in early December",
+      "A walking route from Plaza de Bolívar through Parque Sucre to Parque Los Fundadores."
+     ],
+     [
+      "Parque de la Vida",
+      "December",
+      "Christmas lights in the city's green heart, with games, shows and food."
+     ]
+    ]
+   },
+   "galleryTitle": "What Christmas has looked like in {city}",
+   "galleryNote": "Photos from past seasons, for reference only: the designs change every year.",
+   "photos": {
+    "medellin": [
+     {
+      "photo": "medellin-rio",
+      "caption": "Medellín River Christmas lights",
+      "when": "Christmas 2004"
+     },
+     {
+      "photo": "medellin-parque",
+      "caption": "Medellín Christmas lights",
+      "when": "Christmas 2015"
+     },
+     {
+      "photo": "medellin-arco",
+      "caption": "Medellín Christmas lights",
+      "when": "Christmas 2015"
+     }
+    ],
+    "bogota": [
+     {
+      "photo": "bogota-monserrate",
+      "caption": "Monserrate sanctuary lit up",
+      "when": "Christmas 2010"
+     },
+     {
+      "photo": "bogota-bolivar",
+      "caption": "Plaza de Bolívar in December",
+      "when": "Christmas 2008"
+     },
+     {
+      "photo": "bogota-virrey",
+      "caption": "El Virrey park lit up",
+      "when": "Holiday season"
+     }
+    ],
+    "cali": [
+     {
+      "photo": "cali-tunel",
+      "caption": "Cali Christmas lights",
+      "when": "Christmas 2018"
+     },
+     {
+      "photo": "cali-rio",
+      "caption": "Cali River lights",
+      "when": "Christmas 2015"
+     },
+     {
+      "photo": "cali-tranvia",
+      "caption": "The lights tram",
+      "when": "Christmas 2009"
+     }
+    ],
+    "pereira": [
+     {
+      "photo": "pereira-victoria",
+      "caption": "Plaza Cívica Ciudad Victoria",
+      "when": "Christmas 2018"
+     },
+     {
+      "photo": "pereira-viaducto",
+      "caption": "The viaduct lit up",
+      "when": "Christmas 2017"
+     },
+     {
+      "photo": "pereira-lago",
+      "caption": "El Lago park",
+      "when": "Christmas 2018"
+     }
+    ],
+    "armenia": [
+     {
+      "photo": "armenia-quimbaya",
+      "caption": "December 7 lanterns in Quimbaya, 30 min from Armenia",
+      "when": "Christmas 2004"
+     },
+     {
+      "photo": "armenia-salento",
+      "caption": "Tree and nativity scene on Salento’s main square",
+      "when": "Holiday season"
+     },
+     {
+      "photo": "armenia-faroles",
+      "caption": "Little Candles Night lanterns in Quindío",
+      "when": "Holiday season"
+     }
+    ]
+   }
+  }
+ }
 }
