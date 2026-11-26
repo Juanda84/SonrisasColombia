@@ -15,6 +15,7 @@
   /* ---------- WhatsApp con contexto */
   function waMessage(button) {
     if (button.hasAttribute('data-wa-quote') && state.quote) return state.quote;
+    if (button.hasAttribute('data-wa-photos')) return text.photosMessage + (state.city ? text.contactCity.replace('{city}', state.city) : '');
     let msg = button.dataset.waTreatment
       ? text.contactTreatment.replace('{treatment}', button.dataset.waTreatment)
       : text.contactMessage;

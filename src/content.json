@@ -170,7 +170,7 @@
     "steps": [
       [
         "Escríbenos",
-        "Mándanos 3 fotos de tu sonrisa por WhatsApp: de frente, sonriendo y de perfil."
+        "Mándanos 5 fotos de tu sonrisa por WhatsApp. Abajo te mostramos cómo tomarlas."
       ],
       [
         "Recibe tu plan",
@@ -292,14 +292,35 @@
         "No siempre. Depende de la salud de tus dientes y encías. Si hace falta otro tratamiento antes, te lo decimos con claridad."
       ]
     ],
-    "closingTitle": "Tu sonrisa empieza\ncon 3 fotos.",
-    "closingLead": "Mándanos tus fotos por WhatsApp y te respondemos con un estimado y los próximos pasos.",
+    "closingTitle": "Tu sonrisa empieza\ncon 5 fotos.",
+    "closingLead": "Tómalas con tu celular en 2 minutos y envíalas por WhatsApp. Las doctoras las revisan y te respondemos con el tratamiento sugerido, un estimado y los próximos pasos.",
     "photoGuide": [
-      "De frente, sonriendo",
-      "De perfil, sonriendo",
-      "Primer plano de los dientes"
+      {
+        "id": "1-frente",
+        "title": "De frente, sonrisa amplia",
+        "text": "Mira a la cámara y sonríe grande, que se vean tus dientes de arriba y de abajo."
+      },
+      {
+        "id": "2-relajados",
+        "title": "De frente, labios relajados",
+        "text": "En la misma posición, sin forzar la sonrisa: labios sueltos y un poco separados."
+      },
+      {
+        "id": "3-perfil",
+        "title": "De perfil, sonriendo",
+        "text": "Gira la cabeza hacia un lado y sonríe. Si puedes, toma los dos lados."
+      },
+      {
+        "id": "4-superiores",
+        "title": "Dientes de arriba, de cerca",
+        "text": "Acerca el celular y sonríe para que tus dientes superiores se vean nítidos."
+      },
+      {
+        "id": "5-inferiores",
+        "title": "Dientes de abajo, de cerca",
+        "text": "Baja suavemente el labio inferior para mostrar tus dientes inferiores."
+      }
     ],
-    "closingSecondary": "Hablar con una asesora",
     "footerLine": "Diseño de sonrisa para pacientes de Puerto Rico y Estados Unidos, en Bogotá, Medellín, Cali y Pereira.",
     "footerLegal": "",
     "privacy": "Privacidad",
@@ -309,7 +330,19 @@
     "privacyMore": "Aquí pones: enlace a la política de tratamiento de datos completa",
     "contactMessage": "¡Hola! Quiero pedir mi valoración virtual gratis con Sonrisas Colombia.",
     "contactCity": " Me gustaría atenderme en {city}.",
-    "contactTreatment": "¡Hola! Me interesa: {treatment}. ¿Me ayudan con una valoración gratis?"
+    "contactTreatment": "¡Hola! Me interesa: {treatment}. ¿Me ayudan con una valoración gratis?",
+    "photoExample": "Ejemplo",
+    "photoTipsTitle": "Para que salgan bien",
+    "photoTips": [
+      "Luz natural, ideal frente a una ventana",
+      "Sin flash",
+      "Celular a la altura de la boca",
+      "Sin filtros ni modo belleza"
+    ],
+    "photoCtaTitle": "¿Ya las tienes?",
+    "photoCtaText": "Abre WhatsApp, adjunta tus 5 fotos y cuéntanos qué te gustaría cambiar de tu sonrisa.",
+    "photoCta": "Enviar mis fotos por WhatsApp",
+    "photosMessage": "¡Hola! Quiero mi valoración virtual gratis. Te envío mis 5 fotos de la sonrisa."
   },
   "en": {
     "locale": "en-US",
@@ -482,7 +515,7 @@
     "steps": [
       [
         "Message us",
-        "Send 3 photos of your smile on WhatsApp: front, smiling and profile."
+        "Send us 5 photos of your smile on WhatsApp. We show you how to take them below."
       ],
       [
         "Get your plan",
@@ -604,14 +637,35 @@
         "Not always. It depends on the health of your teeth and gums. If you need another treatment first, we tell you clearly."
       ]
     ],
-    "closingTitle": "Your smile starts\nwith 3 photos.",
-    "closingLead": "Send us your photos on WhatsApp and we reply with an estimate and your next steps.",
+    "closingTitle": "Your smile starts\nwith 5 photos.",
+    "closingLead": "Take them with your phone in 2 minutes and send them on WhatsApp. Our doctors review them and we reply with a suggested treatment, an estimate and your next steps.",
     "photoGuide": [
-      "Front, smiling",
-      "Profile, smiling",
-      "Close-up of your teeth"
+      {
+        "id": "1-frente",
+        "title": "Front, big smile",
+        "text": "Look at the camera and smile wide so your upper and lower teeth show."
+      },
+      {
+        "id": "2-relajados",
+        "title": "Front, relaxed lips",
+        "text": "Same position, no forced smile: lips loose and slightly apart."
+      },
+      {
+        "id": "3-perfil",
+        "title": "Profile, smiling",
+        "text": "Turn your head to one side and smile. If you can, take both sides."
+      },
+      {
+        "id": "4-superiores",
+        "title": "Upper teeth, close-up",
+        "text": "Bring the phone closer and smile so your upper teeth are sharp."
+      },
+      {
+        "id": "5-inferiores",
+        "title": "Lower teeth, close-up",
+        "text": "Gently pull your lower lip down to show your lower teeth."
+      }
     ],
-    "closingSecondary": "Talk to an advisor",
     "footerLine": "Smile design for patients from Puerto Rico and the U.S., in Bogotá, Medellín, Cali and Pereira.",
     "footerLegal": "",
     "privacy": "Privacy",
@@ -621,6 +675,18 @@
     "privacyMore": "Aquí pones: enlace a la política de tratamiento de datos completa",
     "contactMessage": "Hi! I'd like to request my free virtual consultation with Sonrisas Colombia.",
     "contactCity": " I'd like to be seen in {city}.",
-    "contactTreatment": "Hi! I'm interested in: {treatment}. Could you help me with a free consultation?"
+    "contactTreatment": "Hi! I'm interested in: {treatment}. Could you help me with a free consultation?",
+    "photoExample": "Example",
+    "photoTipsTitle": "For better photos",
+    "photoTips": [
+      "Natural light, ideally facing a window",
+      "No flash",
+      "Phone at mouth level",
+      "No filters or beauty mode"
+    ],
+    "photoCtaTitle": "Got them?",
+    "photoCtaText": "Open WhatsApp, attach your 5 photos and tell us what you'd like to change about your smile.",
+    "photoCta": "Send my photos on WhatsApp",
+    "photosMessage": "Hi! I'd like my free virtual consultation. Here are my 5 smile photos."
   }
 }

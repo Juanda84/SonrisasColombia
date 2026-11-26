@@ -434,23 +434,42 @@ def render_faq(d):
 </section>'''
 
 
-GUIDE_ICONS = [
-    '<svg viewBox="0 0 64 64"><circle cx="32" cy="27" r="15"/><path d="M24 31c2.5 4 13.5 4 16 0M26 23h.01M38 23h.01M18 58c2-9 8-13 14-13s12 4 14 13"/></svg>',
-    '<svg viewBox="0 0 64 64"><path d="M38 12c-9 0-15 7-15 15 0 3-3 6-4 8l4 1v6c0 3 2 4 5 4h3v8M38 12c7 0 12 6 12 14 0 6-3 10-6 13v15"/><path d="M27 36c2 1 5 1 7-1"/></svg>',
-    '<svg viewBox="0 0 64 64"><path d="M8 30c8-8 40-8 48 0-8 12-40 12-48 0Z"/><path d="M18 27v6M26 26v8M34 26v8M42 27v6M14 30h36"/></svg>',
-]
+TIP_ICONS = ["<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4\"/></svg>", "<svg viewBox=\"0 0 24 24\"><path d=\"M13 2 4 14h7l-1 8 9-12h-7z\"/><path d=\"M3 3l18 18\"/></svg>", "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"/><path d=\"M11 18h2\"/></svg>", "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M5.6 5.6l12.8 12.8\"/></svg>"]
 
 
 def render_closing(d):
-    guide = ''.join(f'<li><span class="guide__icon" aria-hidden="true">{icon}</span><span>{e(t)}</span></li>'
-                    for icon, t in zip(GUIDE_ICONS, d['photoGuide']))
+    cards = ''.join(f'''
+      <li class="shot" data-reveal>
+        <figure>
+          <div class="shot__img">
+            <picture><source type="image/avif" srcset="/assets/foto-guia-{g['id']}-360.avif 360w, /assets/foto-guia-{g['id']}-640.avif 640w" sizes="(max-width: 760px) 44vw, 18vw">
+            <img src="/assets/foto-guia-{g['id']}-640.webp" width="640" height="640" alt="{e(d['photoExample'])}: {e(g['title'])}" loading="lazy" decoding="async"></picture>
+            <span class="shot__n" aria-hidden="true">{i}</span>
+          </div>
+          <figcaption><h3>{e(g['title'])}</h3><p>{e(g['text'])}</p></figcaption>
+        </figure>
+      </li>''' for i, g in enumerate(d['photoGuide'], 1))
+    tips = ''.join(f'<li><span class="tip__icon" aria-hidden="true">{icon}</span>{e(t)}</li>'
+                   for icon, t in zip(TIP_ICONS, d['photoTips']))
     return f'''
 <section class="closing" id="contacto" aria-labelledby="closing-title">
-  <div class="wrap closing__in">
-    <h2 id="closing-title" data-reveal>{lines(d['closingTitle'])}</h2>
-    <p class="lead" data-reveal>{e(d['closingLead'])}</p>
-    <ul class="guide" data-reveal>{guide}</ul>
-    <div class="closing__ctas">{wa_button(d['cta'], 'btn btn--gold btn--lg')}</div>
+  <div class="wrap">
+    <div class="closing__head" data-reveal>
+      <h2 id="closing-title">{lines(d['closingTitle'])}</h2>
+      <p class="lead">{e(d['closingLead'])}</p>
+    </div>
+    <ol class="shots">{cards}</ol>
+    <div class="photo-foot">
+      <div class="tips" data-reveal>
+        <h3>{e(d['photoTipsTitle'])}</h3>
+        <ul>{tips}</ul>
+      </div>
+      <div class="photo-cta" data-reveal>
+        <h3>{e(d['photoCtaTitle'])}</h3>
+        <p>{e(d['photoCtaText'])}</p>
+        {wa_button(d['photoCta'], 'btn btn--gold btn--lg btn--block', 'data-wa-photos')}
+      </div>
+    </div>
   </div>
 </section>'''
 
@@ -473,7 +492,7 @@ for lang, d in CONTENT.items():
            f'<link rel="alternate" hreflang="x-default" href="{e(url)}/">'
            f'<meta property="og:url" content="{e(url + path)}"><meta property="og:image" content="{e(url)}/assets/editorial-smile.webp">'
            '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace('<', '\\u003c') + '</script>')
-    client = {k: fill(d[k]) for k in ('contactMessage', 'contactCity', 'contactTreatment')}
+    client = {k: fill(d[k]) for k in ('contactMessage', 'contactCity', 'contactTreatment', 'photosMessage')}
     sections = ''.join([
         render_hero(d, lang), render_results(d, lang), render_treatments(d), render_calculator(d),
         render_includes(d), render_steps(d), render_cities(d), render_team(d), render_reviews(d),
